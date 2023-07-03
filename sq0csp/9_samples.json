@@ -1,0 +1,1696 @@
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" data-color-mode="auto" data-light-theme="light" data-dark-theme="dark" data-a11y-animated-images="system">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://github.githubassets.com">
+  <link rel="dns-prefetch" href="https://avatars.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+  <link rel="preconnect" href="https://github.githubassets.com" crossorigin>
+  <link rel="preconnect" href="https://avatars.githubusercontent.com">
+
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/light-0946cdc16f15.css" /><link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/dark-3946c959759a.css" /><link data-color-theme="dark_dimmed" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_dimmed-9b9a8c91acc5.css" /><link data-color-theme="dark_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_high_contrast-11302a585e33.css" /><link data-color-theme="dark_colorblind" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_colorblind-1a4564ab0fbf.css" /><link data-color-theme="light_colorblind" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/light_colorblind-12a8b2aa9101.css" /><link data-color-theme="light_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/light_high_contrast-5924a648f3e7.css" /><link data-color-theme="light_tritanopia" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/light_tritanopia-05358496cb79.css" /><link data-color-theme="dark_tritanopia" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_tritanopia-aad6b801a158.css" />
+  
+  
+    <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/primer-489656187993.css" />
+    <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/global-8f2b2d4c7aff.css" />
+    <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/github-cec71f055b16.css" />
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/code-eb757dedf4a1.css" />
+
+    <meta name="optimizely-datafile" content="{&quot;groups&quot;: [], &quot;environmentKey&quot;: &quot;production&quot;, &quot;rollouts&quot;: [], &quot;typedAudiences&quot;: [], &quot;projectId&quot;: &quot;16737760170&quot;, &quot;variables&quot;: [], &quot;featureFlags&quot;: [], &quot;experiments&quot;: [], &quot;version&quot;: &quot;4&quot;, &quot;audiences&quot;: [{&quot;conditions&quot;: &quot;[\&quot;or\&quot;, {\&quot;match\&quot;: \&quot;exact\&quot;, \&quot;name\&quot;: \&quot;$opt_dummy_attribute\&quot;, \&quot;type\&quot;: \&quot;custom_attribute\&quot;, \&quot;value\&quot;: \&quot;$opt_dummy_value\&quot;}]&quot;, &quot;id&quot;: &quot;$opt_dummy_audience&quot;, &quot;name&quot;: &quot;Optimizely-Generated Audience for Backwards Compatibility&quot;}], &quot;anonymizeIP&quot;: true, &quot;sdkKey&quot;: &quot;WTc6awnGuYDdG98CYRban&quot;, &quot;attributes&quot;: [{&quot;id&quot;: &quot;16822470375&quot;, &quot;key&quot;: &quot;user_id&quot;}, {&quot;id&quot;: &quot;17143601254&quot;, &quot;key&quot;: &quot;spammy&quot;}, {&quot;id&quot;: &quot;18175660309&quot;, &quot;key&quot;: &quot;organization_plan&quot;}, {&quot;id&quot;: &quot;18813001570&quot;, &quot;key&quot;: &quot;is_logged_in&quot;}, {&quot;id&quot;: &quot;19073851829&quot;, &quot;key&quot;: &quot;geo&quot;}, {&quot;id&quot;: &quot;20175462351&quot;, &quot;key&quot;: &quot;requestedCurrency&quot;}, {&quot;id&quot;: &quot;20785470195&quot;, &quot;key&quot;: &quot;country_code&quot;}, {&quot;id&quot;: &quot;21656311196&quot;, &quot;key&quot;: &quot;opened_downgrade_dialog&quot;}], &quot;botFiltering&quot;: false, &quot;accountId&quot;: &quot;16737760170&quot;, &quot;events&quot;: [{&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;17911811441&quot;, &quot;key&quot;: &quot;hydro_click.dashboard.teacher_toolbox_cta&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18124116703&quot;, &quot;key&quot;: &quot;submit.organizations.complete_sign_up&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18145892387&quot;, &quot;key&quot;: &quot;no_metric.tracked_outside_of_optimizely&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18178755568&quot;, &quot;key&quot;: &quot;click.org_onboarding_checklist.add_repo&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18180553241&quot;, &quot;key&quot;: &quot;submit.repository_imports.create&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18186103728&quot;, &quot;key&quot;: &quot;click.help.learn_more_about_repository_creation&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18188530140&quot;, &quot;key&quot;: &quot;test_event&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18191963644&quot;, &quot;key&quot;: &quot;click.empty_org_repo_cta.transfer_repository&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18195612788&quot;, &quot;key&quot;: &quot;click.empty_org_repo_cta.import_repository&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18210945499&quot;, &quot;key&quot;: &quot;click.org_onboarding_checklist.invite_members&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18211063248&quot;, &quot;key&quot;: &quot;click.empty_org_repo_cta.create_repository&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18215721889&quot;, &quot;key&quot;: &quot;click.org_onboarding_checklist.update_profile&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18224360785&quot;, &quot;key&quot;: &quot;click.org_onboarding_checklist.dismiss&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18234832286&quot;, &quot;key&quot;: &quot;submit.organization_activation.complete&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18252392383&quot;, &quot;key&quot;: &quot;submit.org_repository.create&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18257551537&quot;, &quot;key&quot;: &quot;submit.org_member_invitation.create&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18259522260&quot;, &quot;key&quot;: &quot;submit.organization_profile.update&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18564603625&quot;, &quot;key&quot;: &quot;view.classroom_select_organization&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18568612016&quot;, &quot;key&quot;: &quot;click.classroom_sign_in_click&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18572592540&quot;, &quot;key&quot;: &quot;view.classroom_name&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18574203855&quot;, &quot;key&quot;: &quot;click.classroom_create_organization&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18582053415&quot;, &quot;key&quot;: &quot;click.classroom_select_organization&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18589463420&quot;, &quot;key&quot;: &quot;click.classroom_create_classroom&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18591323364&quot;, &quot;key&quot;: &quot;click.classroom_create_first_classroom&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18591652321&quot;, &quot;key&quot;: &quot;click.classroom_grant_access&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18607131425&quot;, &quot;key&quot;: &quot;view.classroom_creation&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18831680583&quot;, &quot;key&quot;: &quot;upgrade_account_plan&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19064064515&quot;, &quot;key&quot;: &quot;click.signup&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19075373687&quot;, &quot;key&quot;: &quot;click.view_account_billing_page&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19077355841&quot;, &quot;key&quot;: &quot;click.dismiss_signup_prompt&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19079713938&quot;, &quot;key&quot;: &quot;click.contact_sales&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19120963070&quot;, &quot;key&quot;: &quot;click.compare_account_plans&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19151690317&quot;, &quot;key&quot;: &quot;click.upgrade_account_cta&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19424193129&quot;, &quot;key&quot;: &quot;click.open_account_switcher&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19520330825&quot;, &quot;key&quot;: &quot;click.visit_account_profile&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19540970635&quot;, &quot;key&quot;: &quot;click.switch_account_context&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19730198868&quot;, &quot;key&quot;: &quot;submit.homepage_signup&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19820830627&quot;, &quot;key&quot;: &quot;click.homepage_signup&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19988571001&quot;, &quot;key&quot;: &quot;click.create_enterprise_trial&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20036538294&quot;, &quot;key&quot;: &quot;click.create_organization_team&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20040653299&quot;, &quot;key&quot;: &quot;click.input_enterprise_trial_form&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20062030003&quot;, &quot;key&quot;: &quot;click.continue_with_team&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20068947153&quot;, &quot;key&quot;: &quot;click.create_organization_free&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20086636658&quot;, &quot;key&quot;: &quot;click.signup_continue.username&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20091648988&quot;, &quot;key&quot;: &quot;click.signup_continue.create_account&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20103637615&quot;, &quot;key&quot;: &quot;click.signup_continue.email&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20111574253&quot;, &quot;key&quot;: &quot;click.signup_continue.password&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20120044111&quot;, &quot;key&quot;: &quot;view.pricing_page&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20152062109&quot;, &quot;key&quot;: &quot;submit.create_account&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20165800992&quot;, &quot;key&quot;: &quot;submit.upgrade_payment_form&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20171520319&quot;, &quot;key&quot;: &quot;submit.create_organization&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20222645674&quot;, &quot;key&quot;: &quot;click.recommended_plan_in_signup.discuss_your_needs&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20227443657&quot;, &quot;key&quot;: &quot;submit.verify_primary_user_email&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20234607160&quot;, &quot;key&quot;: &quot;click.recommended_plan_in_signup.try_enterprise&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20238175784&quot;, &quot;key&quot;: &quot;click.recommended_plan_in_signup.team&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20239847212&quot;, &quot;key&quot;: &quot;click.recommended_plan_in_signup.continue_free&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20251097193&quot;, &quot;key&quot;: &quot;recommended_plan&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20438619534&quot;, &quot;key&quot;: &quot;click.pricing_calculator.1_member&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20456699683&quot;, &quot;key&quot;: &quot;click.pricing_calculator.15_members&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20467868331&quot;, &quot;key&quot;: &quot;click.pricing_calculator.10_members&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20476267432&quot;, &quot;key&quot;: &quot;click.trial_days_remaining&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20476357660&quot;, &quot;key&quot;: &quot;click.discover_feature&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20479287901&quot;, &quot;key&quot;: &quot;click.pricing_calculator.custom_members&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20481107083&quot;, &quot;key&quot;: &quot;click.recommended_plan_in_signup.apply_teacher_benefits&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20483089392&quot;, &quot;key&quot;: &quot;click.pricing_calculator.5_members&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20484283944&quot;, &quot;key&quot;: &quot;click.onboarding_task&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20484996281&quot;, &quot;key&quot;: &quot;click.recommended_plan_in_signup.apply_student_benefits&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20486713726&quot;, &quot;key&quot;: &quot;click.onboarding_task_breadcrumb&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20490791319&quot;, &quot;key&quot;: &quot;click.upgrade_to_enterprise&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20491786766&quot;, &quot;key&quot;: &quot;click.talk_to_us&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20494144087&quot;, &quot;key&quot;: &quot;click.dismiss_enterprise_trial&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20499722759&quot;, &quot;key&quot;: &quot;completed_all_tasks&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20500710104&quot;, &quot;key&quot;: &quot;completed_onboarding_tasks&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20513160672&quot;, &quot;key&quot;: &quot;click.read_doc&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20516196762&quot;, &quot;key&quot;: &quot;actions_enabled&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20518980986&quot;, &quot;key&quot;: &quot;click.dismiss_trial_banner&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20535446721&quot;, &quot;key&quot;: &quot;click.issue_actions_prompt.dismiss_prompt&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20557002247&quot;, &quot;key&quot;: &quot;click.issue_actions_prompt.setup_workflow&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20595070227&quot;, &quot;key&quot;: &quot;click.pull_request_setup_workflow&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20626600314&quot;, &quot;key&quot;: &quot;click.seats_input&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20642310305&quot;, &quot;key&quot;: &quot;click.decrease_seats_number&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20662990045&quot;, &quot;key&quot;: &quot;click.increase_seats_number&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20679620969&quot;, &quot;key&quot;: &quot;click.public_product_roadmap&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20761240940&quot;, &quot;key&quot;: &quot;click.dismiss_survey_banner&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20767210721&quot;, &quot;key&quot;: &quot;click.take_survey&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20795281201&quot;, &quot;key&quot;: &quot;click.archive_list&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20966790249&quot;, &quot;key&quot;: &quot;contact_sales.submit&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20996500333&quot;, &quot;key&quot;: &quot;contact_sales.existing_customer&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20996890162&quot;, &quot;key&quot;: &quot;contact_sales.blank_message_field&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21000470317&quot;, &quot;key&quot;: &quot;contact_sales.personal_email&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21002790172&quot;, &quot;key&quot;: &quot;contact_sales.blank_phone_field&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21354412592&quot;, &quot;key&quot;: &quot;click.dismiss_create_readme&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21366102546&quot;, &quot;key&quot;: &quot;click.dismiss_zero_user_content&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21370252505&quot;, &quot;key&quot;: &quot;account_did_downgrade&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21370840408&quot;, &quot;key&quot;: &quot;click.cta_create_readme&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21375451068&quot;, &quot;key&quot;: &quot;click.cta_create_new_repository&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21385390948&quot;, &quot;key&quot;: &quot;click.zero_user_content&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21467712175&quot;, &quot;key&quot;: &quot;click.downgrade_keep&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21484112202&quot;, &quot;key&quot;: &quot;click.downgrade&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21495292213&quot;, &quot;key&quot;: &quot;click.downgrade_survey_exit&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21508241468&quot;, &quot;key&quot;: &quot;click.downgrade_survey_submit&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21512030356&quot;, &quot;key&quot;: &quot;click.downgrade_support&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21539090022&quot;, &quot;key&quot;: &quot;click.downgrade_exit&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21543640644&quot;, &quot;key&quot;: &quot;click_fetch_upstream&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21646510300&quot;, &quot;key&quot;: &quot;click.move_your_work&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21656151116&quot;, &quot;key&quot;: &quot;click.add_branch_protection_rule&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21663860599&quot;, &quot;key&quot;: &quot;click.downgrade_dialog_open&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21687860483&quot;, &quot;key&quot;: &quot;click.learn_about_protected_branches&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21689050333&quot;, &quot;key&quot;: &quot;click.dismiss_protect_this_branch&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21864370109&quot;, &quot;key&quot;: &quot;click.sign_in&quot;}], &quot;revision&quot;: &quot;1372&quot;}" />
+
+
+  <script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/wp-runtime-ab434e7f816d.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_stacktrace-parser_dist_stack-trace-parser_esm_js-node_modules_github_bro-327bbf-0aaeb22dd2a5.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/ui_packages_soft-nav_soft-nav_ts-de360abf3418.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/environment-9fa8265d4c66.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_selector-observer_dist_index_esm_js-2646a2c533e3.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_relative-time-element_dist_index_js-99e288659d4f.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_fzy_js_index_js-node_modules_github_markdown-toolbar-element_dist_index_js-e3de700a4c9d.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_filter-input-element_dist_index_js-node_modules_github_remote-inp-44ef1e-ff95e778f461.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_details-dialog-element_dist_index_js-node_modules_github_memoize_-8664b7-b1d9fac72bf3.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_delegated-events_dist_index_js-node_modules_github_details-menu-element_-bb7a4e-8ca5bb7b5e7e.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_file-attachment-element_dist_index_js-node_modules_github_text-ex-3415a8-7ecc10fb88d0.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_tab-container-element_dist_index_js-node_modules_github_auto-comp-bf192d-81631767a9f8.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_primer_view-components_app_components_primer_primer_js-node_modules_gith-6a1af4-68db00c62e33.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/github-elements-5f0209c98275.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/element-registry-232b7187141e.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_lit-html_lit-html_js-9d9fe1859ce5.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_mini-throttle_dist_index_js-node_modules_github_alive-client_dist-bf5aa2-424aa982deef.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_turbo_dist_turbo_es2017-esm_js-ba0e4d5b3207.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_delegated-events_dist_index_js-node_modules_github_hotkey_dist_index_js-b47a28757074.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_primer_behaviors_dist_esm_dimensions_js-node_modules_github_hydro-analyt-f69502-d8672aa6f36b.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_color-convert_index_js-35b3ae68c408.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_remote-form_dist_index_js-node_modules_github_template-parts_lib_-273494-0fb4f42e57f4.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_paste-markdown_dist_index_esm_js-node_modules_github_quote-select-1bdbba-dd6debfb8eb8.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/app_assets_modules_github_updatable-content_ts-37e0a97aa2ee.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/app_assets_modules_github_behaviors_keyboard-shortcuts-helper_ts-app_assets_modules_github_bl-1f24ae-60413f6f3a61.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/app_assets_modules_github_behaviors_task-list_ts-app_assets_modules_github_onfocus_ts-app_ass-dbc08c-c80bb6d2e713.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/app_assets_modules_github_sticky-scroll-into-view_ts-1d145b63ed56.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/app_assets_modules_github_behaviors_ajax-error_ts-app_assets_modules_github_behaviors_include-2e2258-dae7d38e0248.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/app_assets_modules_github_behaviors_commenting_edit_ts-app_assets_modules_github_behaviors_ht-83c235-80a9915bf75c.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/behaviors-af5598990b1f.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_delegated-events_dist_index_js-node_modules_github_catalyst_lib_index_js-06ff531-fe0b8ccc90a5.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/notifications-global-86e9ba7bffb7.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_optimizely_optimizely-sdk_dist_optimizely_browser_es_min_js-node_modules-3f2a9e-fc88059edf41.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/optimizely-88264c7905d8.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_morphdom_dist_morphdom-esm_js-node_modules_github_template-parts_lib_index_js-58417dae193c.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_virtualized-list_es_index_js-node_modules_github_memoize_dist_esm_index_js-8496b7c4b809.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_file-attachment-element_dist_index_js-node_modules_github_mini-th-34a24a-01ff22798072.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/app_assets_modules_github_ref-selector_ts-7bdefeb88a1a.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/repositories-1e8ac8fa769f.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_remote-form_dist_index_js-node_modules_delegated-events_dist_inde-414f05-4046b86b0100.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_clipboard-copy-element_dist_index_esm_js-node_modules_github_mini-17eb43-0e309b61f5f6.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/app_assets_modules_github_diffs_blob-lines_ts-app_assets_modules_github_diffs_linkable-line-n-f96c66-3aec21e0f76c.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/diffs-33e9e3a841ed.js"></script>
+  
+
+  <title>regen/samples.json at d41d6b9be6de450eeb3f21ca4bac0e8b1a88c645 · lvh/regen · GitHub</title>
+
+
+
+  <meta name="route-pattern" content="/:user_id/:repository/blob/*name(/*path)">
+
+    
+  <meta name="current-catalog-service-hash" content="581425c0eaaa5e5e53c5b736f58a14dbe5d38b0be425901738ad0670bd1d5a33">
+
+
+  <meta name="request-id" content="EFA6:2B7D:382387A:3CE0B24:64331C2A" data-turbo-transient="true" /><meta name="html-safe-nonce" content="23fe7d3237019516e8159813ab0ed197ad9f23e2e141aea35c4ae6f17eaffc6a" data-turbo-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6bnVsbCwicmVxdWVzdF9pZCI6IkVGQTY6MkI3RDozODIzODdBOjNDRTBCMjQ6NjQzMzFDMkEiLCJ2aXNpdG9yX2lkIjoiNzYyNjU1NDg5MjEwOTQyMTYxMCIsInJlZ2lvbl9lZGdlIjoic291dGhlYXN0YXNpYSIsInJlZ2lvbl9yZW5kZXIiOiJpYWQifQ==" data-turbo-transient="true" /><meta name="visitor-hmac" content="4c9c661ab663a6d79ead344d40765e74947101d33f9daed66929457ce7108bed" data-turbo-transient="true" />
+
+
+    <meta name="hovercard-subject-tag" content="repository:260369708" data-turbo-transient>
+
+
+  <meta name="github-keyboard-shortcuts" content="repository,source-code,file-tree" data-turbo-transient="true" />
+  
+
+  <meta name="selected-link" value="repo_source" data-turbo-transient>
+
+    <meta name="google-site-verification" content="c1kuD-K2HIVF635lypcsWPoD4kilo5-jA_wBFyT4uMY">
+  <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+  <meta name="google-site-verification" content="Apib7-x98H0j5cPqHWwSMm6dNU4GmODRoqxLiDzdx9I">
+
+<meta name="octolytics-url" content="https://collector.github.com/github/collect" />
+
+  <meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-turbo-transient="true" />
+
+  
+
+
+
+
+  
+
+    <meta name="user-login" content="">
+
+  
+
+    <meta name="viewport" content="width=device-width">
+    
+      <meta name="description" content="Contribute to lvh/regen development by creating an account on GitHub.">
+      <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+    <meta property="fb:app_id" content="1401488693436528">
+    <meta name="apple-itunes-app" content="app-id=1477376905" />
+      <meta name="twitter:image:src" content="https://opengraph.githubassets.com/f9470c51ebde500ad9c23f866af4aba593f336b5517dce7c758e3e16ee8bf2bb/lvh/regen" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="regen/samples.json at d41d6b9be6de450eeb3f21ca4bac0e8b1a88c645 · lvh/regen" /><meta name="twitter:description" content="Contribute to lvh/regen development by creating an account on GitHub." />
+      <meta property="og:image" content="https://opengraph.githubassets.com/f9470c51ebde500ad9c23f866af4aba593f336b5517dce7c758e3e16ee8bf2bb/lvh/regen" /><meta property="og:image:alt" content="Contribute to lvh/regen development by creating an account on GitHub." /><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="600" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="regen/samples.json at d41d6b9be6de450eeb3f21ca4bac0e8b1a88c645 · lvh/regen" /><meta property="og:url" content="https://github.com/lvh/regen" /><meta property="og:description" content="Contribute to lvh/regen development by creating an account on GitHub." />
+      
+    <link rel="assets" href="https://github.githubassets.com/">
+
+
+        <meta name="hostname" content="github.com">
+
+
+
+        <meta name="expected-hostname" content="github.com">
+
+    <meta name="enabled-features" content="TURBO_EXPERIMENT_RISKY,IMAGE_METRIC_TRACKING,GEOJSON_AZURE_MAPS,ENHANCED_ISSUE_SUGGESTER,ENHANCED_ISSUE_SUGGESTER_DARKSHIP,ACTIONS_SIGNALR_RECONNECT_JITTER">
+
+
+  <meta http-equiv="x-pjax-version" content="b6cb69b7c8d3586abaf06448f020aad86ba65790fa0a9af69f32c0f6d944f7d6" data-turbo-track="reload">
+  <meta http-equiv="x-pjax-csp-version" content="2a84822a832da97f1ea76cf989a357ec70c85713a2fd8f14c8421b76bbffe38c" data-turbo-track="reload">
+  <meta http-equiv="x-pjax-css-version" content="93cf473ce9f8e17a564b01f08ac7a87ba9a3db91ef5215fb86fde2f1a3eec381" data-turbo-track="reload">
+  <meta http-equiv="x-pjax-js-version" content="e9891cdce2dc237c74f39b9bcb4cd830823a2a5f895b4d3233db82d23f1a55aa" data-turbo-track="reload">
+
+  <meta name="turbo-cache-control" content="no-preview" data-turbo-transient="">
+
+        <meta data-hydrostats="publish">
+
+  <meta name="go-import" content="github.com/lvh/regen git https://github.com/lvh/regen.git">
+
+  <meta name="octolytics-dimension-user_id" content="97816" /><meta name="octolytics-dimension-user_login" content="lvh" /><meta name="octolytics-dimension-repository_id" content="260369708" /><meta name="octolytics-dimension-repository_nwo" content="lvh/regen" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="260369708" /><meta name="octolytics-dimension-repository_network_root_nwo" content="lvh/regen" />
+
+
+
+    <link rel="canonical" href="https://github.com/lvh/regen/blob/d41d6b9be6de450eeb3f21ca4bac0e8b1a88c645/dev-resources/samples.json" data-turbo-transient>
+  <meta name="turbo-body-classes" content="logged-out env-production page-responsive page-blob">
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <meta name="browser-optimizely-client-errors-url" content="https://api.github.com/_private/browser/optimizely_client/errors">
+
+  <link rel="mask-icon" href="https://github.githubassets.com/pinned-octocat.svg" color="#000000">
+  <link rel="alternate icon" class="js-site-favicon" type="image/png" href="https://github.githubassets.com/favicons/favicon.png">
+  <link rel="icon" class="js-site-favicon" type="image/svg+xml" href="https://github.githubassets.com/favicons/favicon.svg">
+
+<meta name="theme-color" content="#1e2327">
+<meta name="color-scheme" content="light dark" />
+
+
+  <link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-out env-production page-responsive page-blob" style="word-wrap: break-word;">
+    <div data-turbo-body class="logged-out env-production page-responsive page-blob" style="word-wrap: break-word;">
+      
+
+
+    <div class="position-relative js-header-wrapper ">
+      <a href="#start-of-content" class="px-2 py-4 color-bg-accent-emphasis color-fg-on-emphasis show-on-focus js-skip-to-content">Skip to content</a>
+      <span data-view-component="true" class="progress-pjax-loader Progress position-fixed width-full">
+    <span style="width: 0%;" data-view-component="true" class="Progress-item progress-pjax-loader-bar left-0 top-0 color-bg-accent-emphasis"></span>
+</span>      
+      
+
+
+        
+
+            <script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/sessions-4849c97a18f4.js"></script>
+<header class="Header-old header-logged-out js-details-container Details position-relative f4 py-3" role="banner">
+  <button type="button" class="Header-backdrop d-lg-none border-0 position-fixed top-0 left-0 width-full height-full js-details-target" aria-label="Toggle navigation">
+    <span class="d-none">Toggle navigation</span>
+  </button>
+
+  <div class="container-xl d-flex flex-column flex-lg-row flex-items-center p-responsive height-full position-relative z-1">
+    <div class="d-flex flex-justify-between flex-items-center width-full width-lg-auto">
+      <a class="mr-lg-3 color-fg-inherit flex-order-2" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+        <svg height="32" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="32" data-view-component="true" class="octicon octicon-mark-github">
+    <path d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"></path>
+</svg>
+      </a>
+
+        <div class="flex-1">
+          <a href="/signup?ref_cta=Sign+up&amp;ref_loc=header+logged+out&amp;ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Fblob%2Fshow&amp;source=header-repo"
+            class="d-inline-block d-lg-none flex-order-1 f5 no-underline border color-border-default rounded-2 px-2 py-1 color-fg-inherit"
+            data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/lvh/regen/blob/d41d6b9be6de450eeb3f21ca4bac0e8b1a88c645/dev-resources/samples.json&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="ce18f39e915207699b4c8bcda49a6cdd9742fabc4f79e5ea06c1740dc6c76e23"
+          >
+            Sign&nbsp;up
+          </a>
+        </div>
+
+      <div class="flex-1 flex-order-2 text-right">
+          <button aria-label="Toggle navigation" aria-expanded="false" type="button" data-view-component="true" class="js-details-target Button--link Button--medium Button d-lg-none color-fg-inherit p-1">    <span class="Button-content">
+      <span class="Button-label"><div class="HeaderMenu-toggle-bar rounded my-1"></div>
+            <div class="HeaderMenu-toggle-bar rounded my-1"></div>
+            <div class="HeaderMenu-toggle-bar rounded my-1"></div></span>
+    </span>
+</button>  
+      </div>
+    </div>
+
+
+    <div class="HeaderMenu--logged-out p-responsive height-fit position-lg-relative d-lg-flex flex-column flex-auto pt-7 pb-4 top-0">
+      <div class="header-menu-wrapper d-flex flex-column flex-self-end flex-lg-row flex-justify-between flex-auto p-3 p-lg-0 rounded rounded-lg-0 mt-3 mt-lg-0">
+          <nav class="mt-0 px-3 px-lg-0 mb-3 mb-lg-0" aria-label="Global">
+            <ul class="d-lg-flex list-style-none">
+                <li class="HeaderMenu-item position-relative flex-wrap flex-justify-between flex-items-center d-block d-lg-flex flex-lg-nowrap flex-lg-items-center js-details-container js-header-menu-item">
+      <button type="button" class="HeaderMenu-link border-0 width-full width-lg-auto px-0 px-lg-2 py-3 py-lg-2 no-wrap d-flex flex-items-center flex-justify-between js-details-target" aria-expanded="false">
+        Product
+        <svg opacity="0.5" aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-chevron-down HeaderMenu-icon ml-1">
+    <path d="M12.78 5.22a.749.749 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.06 0L3.22 6.28a.749.749 0 1 1 1.06-1.06L8 8.939l3.72-3.719a.749.749 0 0 1 1.06 0Z"></path>
+</svg>
+      </button>
+      <div class="HeaderMenu-dropdown dropdown-menu rounded m-0 p-0 py-2 py-lg-4 position-relative position-lg-absolute left-0 left-lg-n3 d-lg-flex dropdown-menu-wide">
+          <ul class="list-style-none f5 px-lg-4 border-lg-right mb-4 mb-lg-0 pr-lg-7">
+
+              <li>
+  <a class="HeaderMenu-dropdown-link lh-condensed d-block no-underline position-relative py-2 Link--secondary d-flex flex-items-center pb-lg-3" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Product&quot;,&quot;action&quot;:&quot;click to go to Actions&quot;,&quot;label&quot;:&quot;ref_cta:Actions;&quot;}" href="/features/actions">
+      <svg aria-hidden="true" height="24" viewBox="0 0 24 24" version="1.1" width="24" data-view-component="true" class="octicon octicon-workflow color-fg-subtle mr-3">
+    <path d="M1 3a2 2 0 0 1 2-2h6.5a2 2 0 0 1 2 2v6.5a2 2 0 0 1-2 2H7v4.063C7 16.355 7.644 17 8.438 17H12.5v-2.5a2 2 0 0 1 2-2H21a2 2 0 0 1 2 2V21a2 2 0 0 1-2 2h-6.5a2 2 0 0 1-2-2v-2.5H8.437A2.939 2.939 0 0 1 5.5 15.562V11.5H3a2 2 0 0 1-2-2Zm2-.5a.5.5 0 0 0-.5.5v6.5a.5.5 0 0 0 .5.5h6.5a.5.5 0 0 0 .5-.5V3a.5.5 0 0 0-.5-.5ZM14.5 14a.5.5 0 0 0-.5.5V21a.5.5 0 0 0 .5.5H21a.5.5 0 0 0 .5-.5v-6.5a.5.5 0 0 0-.5-.5Z"></path>
+</svg>
+      <div>
+        <div class="color-fg-default h4">Actions</div>
+        Automate any workflow
+      </div>
+
+    
+</a></li>
+
+              <li>
+  <a class="HeaderMenu-dropdown-link lh-condensed d-block no-underline position-relative py-2 Link--secondary d-flex flex-items-center pb-lg-3" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Product&quot;,&quot;action&quot;:&quot;click to go to Packages&quot;,&quot;label&quot;:&quot;ref_cta:Packages;&quot;}" href="/features/packages">
+      <svg aria-hidden="true" height="24" viewBox="0 0 24 24" version="1.1" width="24" data-view-component="true" class="octicon octicon-package color-fg-subtle mr-3">
+    <path d="M12.876.64V.639l8.25 4.763c.541.313.875.89.875 1.515v9.525a1.75 1.75 0 0 1-.875 1.516l-8.25 4.762a1.748 1.748 0 0 1-1.75 0l-8.25-4.763a1.75 1.75 0 0 1-.875-1.515V6.917c0-.625.334-1.202.875-1.515L11.126.64a1.748 1.748 0 0 1 1.75 0Zm-1 1.298L4.251 6.34l7.75 4.474 7.75-4.474-7.625-4.402a.248.248 0 0 0-.25 0Zm.875 19.123 7.625-4.402a.25.25 0 0 0 .125-.216V7.639l-7.75 4.474ZM3.501 7.64v8.803c0 .09.048.172.125.216l7.625 4.402v-8.947Z"></path>
+</svg>
+      <div>
+        <div class="color-fg-default h4">Packages</div>
+        Host and manage packages
+      </div>
+
+    
+</a></li>
+
+              <li>
+  <a class="HeaderMenu-dropdown-link lh-condensed d-block no-underline position-relative py-2 Link--secondary d-flex flex-items-center pb-lg-3" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Product&quot;,&quot;action&quot;:&quot;click to go to Security&quot;,&quot;label&quot;:&quot;ref_cta:Security;&quot;}" href="/features/security">
+      <svg aria-hidden="true" height="24" viewBox="0 0 24 24" version="1.1" width="24" data-view-component="true" class="octicon octicon-shield-check color-fg-subtle mr-3">
+    <path d="M16.53 9.78a.75.75 0 0 0-1.06-1.06L11 13.19l-1.97-1.97a.75.75 0 0 0-1.06 1.06l2.5 2.5a.75.75 0 0 0 1.06 0l5-5Z"></path><path d="m12.54.637 8.25 2.675A1.75 1.75 0 0 1 22 4.976V10c0 6.19-3.771 10.704-9.401 12.83a1.704 1.704 0 0 1-1.198 0C5.77 20.705 2 16.19 2 10V4.976c0-.758.489-1.43 1.21-1.664L11.46.637a1.748 1.748 0 0 1 1.08 0Zm-.617 1.426-8.25 2.676a.249.249 0 0 0-.173.237V10c0 5.46 3.28 9.483 8.43 11.426a.199.199 0 0 0 .14 0C17.22 19.483 20.5 15.461 20.5 10V4.976a.25.25 0 0 0-.173-.237l-8.25-2.676a.253.253 0 0 0-.154 0Z"></path>
+</svg>
+      <div>
+        <div class="color-fg-default h4">Security</div>
+        Find and fix vulnerabilities
+      </div>
+
+    
+</a></li>
+
+              <li>
+  <a class="HeaderMenu-dropdown-link lh-condensed d-block no-underline position-relative py-2 Link--secondary d-flex flex-items-center pb-lg-3" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Product&quot;,&quot;action&quot;:&quot;click to go to Codespaces&quot;,&quot;label&quot;:&quot;ref_cta:Codespaces;&quot;}" href="/features/codespaces">
+      <svg aria-hidden="true" height="24" viewBox="0 0 24 24" version="1.1" width="24" data-view-component="true" class="octicon octicon-codespaces color-fg-subtle mr-3">
+    <path d="M3.5 3.75C3.5 2.784 4.284 2 5.25 2h13.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 18.75 13H5.25a1.75 1.75 0 0 1-1.75-1.75Zm-2 12c0-.966.784-1.75 1.75-1.75h17.5c.966 0 1.75.784 1.75 1.75v4a1.75 1.75 0 0 1-1.75 1.75H3.25a1.75 1.75 0 0 1-1.75-1.75ZM5.25 3.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h13.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Zm-2 12a.25.25 0 0 0-.25.25v4c0 .138.112.25.25.25h17.5a.25.25 0 0 0 .25-.25v-4a.25.25 0 0 0-.25-.25Z"></path><path d="M10 17.75a.75.75 0 0 1 .75-.75h6.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1-.75-.75Zm-4 0a.75.75 0 0 1 .75-.75h.5a.75.75 0 0 1 0 1.5h-.5a.75.75 0 0 1-.75-.75Z"></path>
+</svg>
+      <div>
+        <div class="color-fg-default h4">Codespaces</div>
+        Instant dev environments
+      </div>
+
+    
+</a></li>
+
+              <li>
+  <a class="HeaderMenu-dropdown-link lh-condensed d-block no-underline position-relative py-2 Link--secondary d-flex flex-items-center pb-lg-3" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Product&quot;,&quot;action&quot;:&quot;click to go to Copilot&quot;,&quot;label&quot;:&quot;ref_cta:Copilot;&quot;}" href="/features/copilot">
+      <svg aria-hidden="true" height="24" viewBox="0 0 24 24" version="1.1" width="24" data-view-component="true" class="octicon octicon-copilot color-fg-subtle mr-3">
+    <path d="M9.75 14a.75.75 0 0 1 .75.75v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 .75-.75Zm4.5 0a.75.75 0 0 1 .75.75v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 .75-.75Z"></path><path d="M12 2c2.214 0 4.248.657 5.747 1.756.136.099.268.204.397.312.584.235 1.077.546 1.474.952.85.869 1.132 2.037 1.132 3.368 0 .368-.014.733-.052 1.086l.633 1.478.043.022A4.75 4.75 0 0 1 24 15.222v1.028c0 .529-.309.987-.565 1.293-.28.336-.636.653-.966.918a13.84 13.84 0 0 1-1.299.911l-.024.015-.006.004-.039.025c-.223.135-.45.264-.68.386-.46.245-1.122.571-1.941.895C16.845 21.344 14.561 22 12 22c-2.561 0-4.845-.656-6.479-1.303a19.046 19.046 0 0 1-1.942-.894 14.081 14.081 0 0 1-.535-.3l-.144-.087-.04-.025-.006-.004-.024-.015a13.16 13.16 0 0 1-1.299-.911 6.913 6.913 0 0 1-.967-.918C.31 17.237 0 16.779 0 16.25v-1.028a4.75 4.75 0 0 1 2.626-4.248l.043-.022.633-1.478a10.195 10.195 0 0 1-.052-1.086c0-1.331.282-2.498 1.132-3.368.397-.406.89-.717 1.474-.952.129-.108.261-.213.397-.312C7.752 2.657 9.786 2 12 2Zm-8 9.654v6.669a17.59 17.59 0 0 0 2.073.98C7.595 19.906 9.686 20.5 12 20.5c2.314 0 4.405-.594 5.927-1.197a17.59 17.59 0 0 0 2.073-.98v-6.669l-.038-.09c-.046.061-.095.12-.145.177-.793.9-2.057 1.259-3.782 1.259-1.59 0-2.738-.544-3.508-1.492a4.323 4.323 0 0 1-.355-.508h-.344a4.323 4.323 0 0 1-.355.508C10.704 12.456 9.555 13 7.965 13c-1.725 0-2.989-.359-3.782-1.259a3.026 3.026 0 0 1-.145-.177Zm6.309-1.092c.445-.547.708-1.334.851-2.301.057-.357.087-.718.09-1.079v-.031c-.001-.762-.166-1.26-.43-1.568l-.008-.01c-.341-.391-1.046-.689-2.533-.529-1.505.163-2.347.537-2.824 1.024-.462.473-.705 1.18-.705 2.32 0 .605.044 1.087.135 1.472.092.384.231.672.423.89.365.413 1.084.75 2.657.75.91 0 1.527-.223 1.964-.564.14-.11.268-.235.38-.374Zm2.504-2.497c.136 1.057.403 1.913.878 2.497.442.545 1.134.938 2.344.938 1.573 0 2.292-.337 2.657-.751.384-.435.558-1.151.558-2.361 0-1.14-.243-1.847-.705-2.319-.477-.488-1.318-.862-2.824-1.025-1.487-.161-2.192.139-2.533.529-.268.308-.437.808-.438 1.578v.02c.002.299.023.598.063.894Z"></path>
+</svg>
+      <div>
+        <div class="color-fg-default h4">Copilot</div>
+        Write better code with AI
+      </div>
+
+    
+</a></li>
+
+              <li>
+  <a class="HeaderMenu-dropdown-link lh-condensed d-block no-underline position-relative py-2 Link--secondary d-flex flex-items-center pb-lg-3" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Product&quot;,&quot;action&quot;:&quot;click to go to Code review&quot;,&quot;label&quot;:&quot;ref_cta:Code review;&quot;}" href="/features/code-review">
+      <svg aria-hidden="true" height="24" viewBox="0 0 24 24" version="1.1" width="24" data-view-component="true" class="octicon octicon-code-review color-fg-subtle mr-3">
+    <path d="M10.3 6.74a.75.75 0 0 1-.04 1.06l-2.908 2.7 2.908 2.7a.75.75 0 1 1-1.02 1.1l-3.5-3.25a.75.75 0 0 1 0-1.1l3.5-3.25a.75.75 0 0 1 1.06.04Zm3.44 1.06a.75.75 0 1 1 1.02-1.1l3.5 3.25a.75.75 0 0 1 0 1.1l-3.5 3.25a.75.75 0 1 1-1.02-1.1l2.908-2.7-2.908-2.7Z"></path><path d="M1.5 4.25c0-.966.784-1.75 1.75-1.75h17.5c.966 0 1.75.784 1.75 1.75v12.5a1.75 1.75 0 0 1-1.75 1.75h-9.69l-3.573 3.573A1.458 1.458 0 0 1 5 21.043V18.5H3.25a1.75 1.75 0 0 1-1.75-1.75ZM3.25 4a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h2.5a.75.75 0 0 1 .75.75v3.19l3.72-3.72a.749.749 0 0 1 .53-.22h10a.25.25 0 0 0 .25-.25V4.25a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <div>
+        <div class="color-fg-default h4">Code review</div>
+        Manage code changes
+      </div>
+
+    
+</a></li>
+
+              <li>
+  <a class="HeaderMenu-dropdown-link lh-condensed d-block no-underline position-relative py-2 Link--secondary d-flex flex-items-center pb-lg-3" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Product&quot;,&quot;action&quot;:&quot;click to go to Issues&quot;,&quot;label&quot;:&quot;ref_cta:Issues;&quot;}" href="/features/issues">
+      <svg aria-hidden="true" height="24" viewBox="0 0 24 24" version="1.1" width="24" data-view-component="true" class="octicon octicon-issue-opened color-fg-subtle mr-3">
+    <path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Zm9.5 2a2 2 0 1 1-.001-3.999A2 2 0 0 1 12 14Z"></path>
+</svg>
+      <div>
+        <div class="color-fg-default h4">Issues</div>
+        Plan and track work
+      </div>
+
+    
+</a></li>
+
+              <li>
+  <a class="HeaderMenu-dropdown-link lh-condensed d-block no-underline position-relative py-2 Link--secondary d-flex flex-items-center" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Product&quot;,&quot;action&quot;:&quot;click to go to Discussions&quot;,&quot;label&quot;:&quot;ref_cta:Discussions;&quot;}" href="/features/discussions">
+      <svg aria-hidden="true" height="24" viewBox="0 0 24 24" version="1.1" width="24" data-view-component="true" class="octicon octicon-comment-discussion color-fg-subtle mr-3">
+    <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"></path><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"></path>
+</svg>
+      <div>
+        <div class="color-fg-default h4">Discussions</div>
+        Collaborate outside of code
+      </div>
+
+    
+</a></li>
+
+          </ul>
+          <ul class="list-style-none f5 px-lg-4">
+              <li class="h4 color-fg-default my-1">Explore</li>
+
+              <li>
+  <a class="HeaderMenu-dropdown-link lh-condensed d-block no-underline position-relative py-2 Link--secondary" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Product&quot;,&quot;action&quot;:&quot;click to go to All features&quot;,&quot;label&quot;:&quot;ref_cta:All features;&quot;}" href="/features">
+      All features
+
+    
+</a></li>
+
+              <li>
+  <a class="HeaderMenu-dropdown-link lh-condensed d-block no-underline position-relative py-2 Link--secondary" target="_blank" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Product&quot;,&quot;action&quot;:&quot;click to go to Documentation&quot;,&quot;label&quot;:&quot;ref_cta:Documentation;&quot;}" href="https://docs.github.com">
+      Documentation
+
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-link-external HeaderMenu-external-icon color-fg-subtle">
+    <path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"></path>
+</svg>
+</a></li>
+
+              <li>
+  <a class="HeaderMenu-dropdown-link lh-condensed d-block no-underline position-relative py-2 Link--secondary" target="_blank" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Product&quot;,&quot;action&quot;:&quot;click to go to GitHub Skills&quot;,&quot;label&quot;:&quot;ref_cta:GitHub Skills;&quot;}" href="https://skills.github.com/">
+      GitHub Skills
+
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-link-external HeaderMenu-external-icon color-fg-subtle">
+    <path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"></path>
+</svg>
+</a></li>
+
+              <li>
+  <a class="HeaderMenu-dropdown-link lh-condensed d-block no-underline position-relative py-2 Link--secondary" target="_blank" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Product&quot;,&quot;action&quot;:&quot;click to go to Blog&quot;,&quot;label&quot;:&quot;ref_cta:Blog;&quot;}" href="https://github.blog">
+      Blog
+
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-link-external HeaderMenu-external-icon color-fg-subtle">
+    <path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"></path>
+</svg>
+</a></li>
+
+          </ul>
+      </div>
+</li>
+
+
+                <li class="HeaderMenu-item position-relative flex-wrap flex-justify-between flex-items-center d-block d-lg-flex flex-lg-nowrap flex-lg-items-center js-details-container js-header-menu-item">
+      <button type="button" class="HeaderMenu-link border-0 width-full width-lg-auto px-0 px-lg-2 py-3 py-lg-2 no-wrap d-flex flex-items-center flex-justify-between js-details-target" aria-expanded="false">
+        Solutions
+        <svg opacity="0.5" aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-chevron-down HeaderMenu-icon ml-1">
+    <path d="M12.78 5.22a.749.749 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.06 0L3.22 6.28a.749.749 0 1 1 1.06-1.06L8 8.939l3.72-3.719a.749.749 0 0 1 1.06 0Z"></path>
+</svg>
+      </button>
+      <div class="HeaderMenu-dropdown dropdown-menu rounded m-0 p-0 py-2 py-lg-4 position-relative position-lg-absolute left-0 left-lg-n3 px-lg-4">
+          <ul class="list-style-none f5 border-bottom pb-3 mb-3">
+              <li class="h4 color-fg-default my-1">For</li>
+
+              <li>
+  <a class="HeaderMenu-dropdown-link lh-condensed d-block no-underline position-relative py-2 Link--secondary" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Solutions&quot;,&quot;action&quot;:&quot;click to go to Enterprise&quot;,&quot;label&quot;:&quot;ref_cta:Enterprise;&quot;}" href="/enterprise">
+      Enterprise
+
+    
+</a></li>
+
+              <li>
+  <a class="HeaderMenu-dropdown-link lh-condensed d-block no-underline position-relative py-2 Link--secondary" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Solutions&quot;,&quot;action&quot;:&quot;click to go to Teams&quot;,&quot;label&quot;:&quot;ref_cta:Teams;&quot;}" href="/team">
+      Teams
+
+    
+</a></li>
+
+              <li>
+  <a class="HeaderMenu-dropdown-link lh-condensed d-block no-underline position-relative py-2 Link--secondary" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Solutions&quot;,&quot;action&quot;:&quot;click to go to Startups&quot;,&quot;label&quot;:&quot;ref_cta:Startups;&quot;}" href="/enterprise/startups">
+      Startups
+
+    
+</a></li>
+
+              <li>
+  <a class="HeaderMenu-dropdown-link lh-condensed d-block no-underline position-relative py-2 Link--secondary" target="_blank" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Solutions&quot;,&quot;action&quot;:&quot;click to go to Education&quot;,&quot;label&quot;:&quot;ref_cta:Education;&quot;}" href="https://education.github.com">
+      Education
+
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-link-external HeaderMenu-external-icon color-fg-subtle">
+    <path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"></path>
+</svg>
+</a></li>
+
+          </ul>
+          <ul class="list-style-none f5 border-bottom pb-3 mb-3">
+              <li class="h4 color-fg-default my-1">By Solution</li>
+
+              <li>
+  <a class="HeaderMenu-dropdown-link lh-condensed d-block no-underline position-relative py-2 Link--secondary" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Solutions&quot;,&quot;action&quot;:&quot;click to go to CI/CD &amp;amp; Automation&quot;,&quot;label&quot;:&quot;ref_cta:CI/CD &amp;amp; Automation;&quot;}" href="/solutions/ci-cd/">
+      CI/CD &amp; Automation
+
+    
+</a></li>
+
+              <li>
+  <a class="HeaderMenu-dropdown-link lh-condensed d-block no-underline position-relative py-2 Link--secondary" target="_blank" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Solutions&quot;,&quot;action&quot;:&quot;click to go to DevOps&quot;,&quot;label&quot;:&quot;ref_cta:DevOps;&quot;}" href="https://resources.github.com/devops/">
+      DevOps
+
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-link-external HeaderMenu-external-icon color-fg-subtle">
+    <path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"></path>
+</svg>
+</a></li>
+
+              <li>
+  <a class="HeaderMenu-dropdown-link lh-condensed d-block no-underline position-relative py-2 Link--secondary" target="_blank" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Solutions&quot;,&quot;action&quot;:&quot;click to go to DevSecOps&quot;,&quot;label&quot;:&quot;ref_cta:DevSecOps;&quot;}" href="https://resources.github.com/devops/fundamentals/devsecops/">
+      DevSecOps
+
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-link-external HeaderMenu-external-icon color-fg-subtle">
+    <path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"></path>
+</svg>
+</a></li>
+
+          </ul>
+          <ul class="list-style-none f5 ">
+              <li class="h4 color-fg-default my-1">Case Studies</li>
+
+              <li>
+  <a class="HeaderMenu-dropdown-link lh-condensed d-block no-underline position-relative py-2 Link--secondary" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Solutions&quot;,&quot;action&quot;:&quot;click to go to Customer Stories&quot;,&quot;label&quot;:&quot;ref_cta:Customer Stories;&quot;}" href="/customer-stories">
+      Customer Stories
+
+    
+</a></li>
+
+              <li>
+  <a class="HeaderMenu-dropdown-link lh-condensed d-block no-underline position-relative py-2 Link--secondary" target="_blank" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Solutions&quot;,&quot;action&quot;:&quot;click to go to Resources&quot;,&quot;label&quot;:&quot;ref_cta:Resources;&quot;}" href="https://resources.github.com/">
+      Resources
+
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-link-external HeaderMenu-external-icon color-fg-subtle">
+    <path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"></path>
+</svg>
+</a></li>
+
+          </ul>
+      </div>
+</li>
+
+
+                <li class="HeaderMenu-item position-relative flex-wrap flex-justify-between flex-items-center d-block d-lg-flex flex-lg-nowrap flex-lg-items-center js-details-container js-header-menu-item">
+      <button type="button" class="HeaderMenu-link border-0 width-full width-lg-auto px-0 px-lg-2 py-3 py-lg-2 no-wrap d-flex flex-items-center flex-justify-between js-details-target" aria-expanded="false">
+        Open Source
+        <svg opacity="0.5" aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-chevron-down HeaderMenu-icon ml-1">
+    <path d="M12.78 5.22a.749.749 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.06 0L3.22 6.28a.749.749 0 1 1 1.06-1.06L8 8.939l3.72-3.719a.749.749 0 0 1 1.06 0Z"></path>
+</svg>
+      </button>
+      <div class="HeaderMenu-dropdown dropdown-menu rounded m-0 p-0 py-2 py-lg-4 position-relative position-lg-absolute left-0 left-lg-n3 px-lg-4">
+          <ul class="list-style-none f5 border-bottom pb-3 mb-3">
+
+              <li>
+  <a class="HeaderMenu-dropdown-link lh-condensed d-block no-underline position-relative py-2 Link--secondary d-flex flex-items-center" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Open Source&quot;,&quot;action&quot;:&quot;click to go to GitHub Sponsors&quot;,&quot;label&quot;:&quot;ref_cta:GitHub Sponsors;&quot;}" href="/sponsors">
+      
+      <div>
+        <div class="color-fg-default h4">GitHub Sponsors</div>
+        Fund open source developers
+      </div>
+
+    
+</a></li>
+
+          </ul>
+          <ul class="list-style-none f5 border-bottom pb-3 mb-3">
+
+              <li>
+  <a class="HeaderMenu-dropdown-link lh-condensed d-block no-underline position-relative py-2 Link--secondary d-flex flex-items-center" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Open Source&quot;,&quot;action&quot;:&quot;click to go to The ReadME Project&quot;,&quot;label&quot;:&quot;ref_cta:The ReadME Project;&quot;}" href="/readme">
+      
+      <div>
+        <div class="color-fg-default h4">The ReadME Project</div>
+        GitHub community articles
+      </div>
+
+    
+</a></li>
+
+          </ul>
+          <ul class="list-style-none f5 ">
+              <li class="h4 color-fg-default my-1">Repositories</li>
+
+              <li>
+  <a class="HeaderMenu-dropdown-link lh-condensed d-block no-underline position-relative py-2 Link--secondary" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Open Source&quot;,&quot;action&quot;:&quot;click to go to Topics&quot;,&quot;label&quot;:&quot;ref_cta:Topics;&quot;}" href="/topics">
+      Topics
+
+    
+</a></li>
+
+              <li>
+  <a class="HeaderMenu-dropdown-link lh-condensed d-block no-underline position-relative py-2 Link--secondary" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Open Source&quot;,&quot;action&quot;:&quot;click to go to Trending&quot;,&quot;label&quot;:&quot;ref_cta:Trending;&quot;}" href="/trending">
+      Trending
+
+    
+</a></li>
+
+              <li>
+  <a class="HeaderMenu-dropdown-link lh-condensed d-block no-underline position-relative py-2 Link--secondary" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Open Source&quot;,&quot;action&quot;:&quot;click to go to Collections&quot;,&quot;label&quot;:&quot;ref_cta:Collections;&quot;}" href="/collections">
+      Collections
+
+    
+</a></li>
+
+          </ul>
+      </div>
+</li>
+
+
+                <li class="HeaderMenu-item position-relative flex-wrap flex-justify-between flex-items-center d-block d-lg-flex flex-lg-nowrap flex-lg-items-center js-details-container js-header-menu-item">
+    <a class="HeaderMenu-link no-underline px-0 px-lg-2 py-3 py-lg-2 d-block d-lg-inline-block" data-analytics-event="{&quot;category&quot;:&quot;Header menu top item (logged out)&quot;,&quot;action&quot;:&quot;click to go to Pricing&quot;,&quot;label&quot;:&quot;ref_cta:Pricing;&quot;}" href="/pricing">Pricing</a>
+</li>
+
+            </ul>
+          </nav>
+
+        <div class="d-lg-flex flex-items-center px-3 px-lg-0 mb-3 mb-lg-0 text-center text-lg-left">
+            <div class="d-lg-flex min-width-0 mb-2 mb-lg-0">
+              
+
+
+
+<div class="header-search flex-auto position-relative js-site-search flex-self-stretch flex-md-self-auto mb-3 mb-md-0 mr-0 mr-md-3 scoped-search site-scoped-search js-jump-to"
+>
+  <div class="position-relative">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" role="search" aria-label="Site" data-scope-type="Repository" data-scope-id="260369708" data-scoped-search-url="/lvh/regen/search" data-owner-scoped-search-url="/users/lvh/search" data-unscoped-search-url="/search" data-turbo="false" action="/lvh/regen/search" accept-charset="UTF-8" method="get">
+      <label class="form-control header-search-wrapper input-sm p-0 js-chromeless-input-container header-search-wrapper-jump-to position-relative d-flex flex-justify-between flex-items-center">
+        <input type="text"
+          class="form-control js-site-search-focus header-search-input jump-to-field js-jump-to-field js-site-search-field is-clearable"
+          data-hotkey=s,/
+          name="q"
+          
+          placeholder="Search"
+          data-unscoped-placeholder="Search GitHub"
+          data-scoped-placeholder="Search"
+          autocapitalize="off"
+          role="combobox"
+          aria-haspopup="listbox"
+          aria-expanded="false"
+          aria-autocomplete="list"
+          aria-controls="jump-to-results"
+          aria-label="Search"
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations"
+          spellcheck="false"
+          autocomplete="off"
+        >
+        <input type="hidden" value="yloNFRIKQBFrnicNcgSVFb759VVncSMZZ6Y7sVSyoGj-BUi6y5-Gr5hHTqkJCsrJGwkLC-AJDc7kgVttRFj22g" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
+        <input type="hidden" class="js-site-search-type-field" name="type" >
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" aria-hidden="true" class="mr-1 header-search-key-slash"><path fill="none" stroke="#979A9C" opacity=".4" d="M3.5.5h12c1.7 0 3 1.3 3 3v13c0 1.7-1.3 3-3 3h-12c-1.7 0-3-1.3-3-3v-13c0-1.7 1.3-3 3-3z"></path><path fill="#979A9C" d="M11.8 6L8 15.1h-.9L10.8 6h1z"></path></svg>
+
+
+          <div class="Box position-absolute overflow-hidden d-none jump-to-suggestions js-jump-to-suggestions-container">
+            
+<ul class="d-none js-jump-to-suggestions-template-container">
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-suggestion" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="" data-item-type="suggestion">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg title="Repository" aria-label="Repository" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo js-jump-to-octicon-repo d-none flex-shrink-0">
+    <path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"></path>
+</svg>
+      <svg title="Project" aria-label="Project" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-project js-jump-to-octicon-project d-none flex-shrink-0">
+    <path d="M1.75 0h12.5C15.216 0 16 .784 16 1.75v12.5A1.75 1.75 0 0 1 14.25 16H1.75A1.75 1.75 0 0 1 0 14.25V1.75C0 .784.784 0 1.75 0ZM1.5 1.75v12.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V1.75a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25ZM11.75 3a.75.75 0 0 1 .75.75v7.5a.75.75 0 0 1-1.5 0v-7.5a.75.75 0 0 1 .75-.75Zm-8.25.75a.75.75 0 0 1 1.5 0v5.5a.75.75 0 0 1-1.5 0ZM8 3a.75.75 0 0 1 .75.75v3.5a.75.75 0 0 1-1.5 0v-3.5A.75.75 0 0 1 8 3Z"></path>
+</svg>
+      <svg title="Search" aria-label="Search" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-search js-jump-to-octicon-search d-none flex-shrink-0">
+    <path d="M10.68 11.74a6 6 0 0 1-7.922-8.982 6 6 0 0 1 8.982 7.922l3.04 3.04a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215ZM11.5 7a4.499 4.499 0 1 0-8.997 0A4.499 4.499 0 0 0 11.5 7Z"></path>
+</svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-2 flex-shrink-0 color-bg-subtle px-1 color-fg-muted ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+        In this repository
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-2 flex-shrink-0 color-bg-subtle px-1 color-fg-muted ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+</ul>
+
+<ul class="d-none js-jump-to-no-results-template-container">
+  <li class="d-flex flex-justify-center flex-items-center f5 d-none js-jump-to-suggestion p-2">
+    <span class="color-fg-muted">No suggested jump to results</span>
+  </li>
+</ul>
+
+<ul id="jump-to-results" role="listbox" class="p-0 m-0 js-navigation-container jump-to-suggestions-results-container js-jump-to-suggestions-results-container">
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-scoped-search d-none" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="" data-item-type="scoped_search">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg title="Repository" aria-label="Repository" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo js-jump-to-octicon-repo d-none flex-shrink-0">
+    <path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"></path>
+</svg>
+      <svg title="Project" aria-label="Project" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-project js-jump-to-octicon-project d-none flex-shrink-0">
+    <path d="M1.75 0h12.5C15.216 0 16 .784 16 1.75v12.5A1.75 1.75 0 0 1 14.25 16H1.75A1.75 1.75 0 0 1 0 14.25V1.75C0 .784.784 0 1.75 0ZM1.5 1.75v12.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V1.75a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25ZM11.75 3a.75.75 0 0 1 .75.75v7.5a.75.75 0 0 1-1.5 0v-7.5a.75.75 0 0 1 .75-.75Zm-8.25.75a.75.75 0 0 1 1.5 0v5.5a.75.75 0 0 1-1.5 0ZM8 3a.75.75 0 0 1 .75.75v3.5a.75.75 0 0 1-1.5 0v-3.5A.75.75 0 0 1 8 3Z"></path>
+</svg>
+      <svg title="Search" aria-label="Search" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-search js-jump-to-octicon-search d-none flex-shrink-0">
+    <path d="M10.68 11.74a6 6 0 0 1-7.922-8.982 6 6 0 0 1 8.982 7.922l3.04 3.04a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215ZM11.5 7a4.499 4.499 0 1 0-8.997 0A4.499 4.499 0 0 0 11.5 7Z"></path>
+</svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-2 flex-shrink-0 color-bg-subtle px-1 color-fg-muted ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+        In this repository
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-2 flex-shrink-0 color-bg-subtle px-1 color-fg-muted ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-owner-scoped-search d-none" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="" data-item-type="owner_scoped_search">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg title="Repository" aria-label="Repository" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo js-jump-to-octicon-repo d-none flex-shrink-0">
+    <path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"></path>
+</svg>
+      <svg title="Project" aria-label="Project" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-project js-jump-to-octicon-project d-none flex-shrink-0">
+    <path d="M1.75 0h12.5C15.216 0 16 .784 16 1.75v12.5A1.75 1.75 0 0 1 14.25 16H1.75A1.75 1.75 0 0 1 0 14.25V1.75C0 .784.784 0 1.75 0ZM1.5 1.75v12.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V1.75a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25ZM11.75 3a.75.75 0 0 1 .75.75v7.5a.75.75 0 0 1-1.5 0v-7.5a.75.75 0 0 1 .75-.75Zm-8.25.75a.75.75 0 0 1 1.5 0v5.5a.75.75 0 0 1-1.5 0ZM8 3a.75.75 0 0 1 .75.75v3.5a.75.75 0 0 1-1.5 0v-3.5A.75.75 0 0 1 8 3Z"></path>
+</svg>
+      <svg title="Search" aria-label="Search" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-search js-jump-to-octicon-search d-none flex-shrink-0">
+    <path d="M10.68 11.74a6 6 0 0 1-7.922-8.982 6 6 0 0 1 8.982 7.922l3.04 3.04a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215ZM11.5 7a4.499 4.499 0 1 0-8.997 0A4.499 4.499 0 0 0 11.5 7Z"></path>
+</svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-2 flex-shrink-0 color-bg-subtle px-1 color-fg-muted ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this user">
+        In this user
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-2 flex-shrink-0 color-bg-subtle px-1 color-fg-muted ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-global-search d-none" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="" data-item-type="global_search">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg title="Repository" aria-label="Repository" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo js-jump-to-octicon-repo d-none flex-shrink-0">
+    <path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"></path>
+</svg>
+      <svg title="Project" aria-label="Project" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-project js-jump-to-octicon-project d-none flex-shrink-0">
+    <path d="M1.75 0h12.5C15.216 0 16 .784 16 1.75v12.5A1.75 1.75 0 0 1 14.25 16H1.75A1.75 1.75 0 0 1 0 14.25V1.75C0 .784.784 0 1.75 0ZM1.5 1.75v12.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V1.75a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25ZM11.75 3a.75.75 0 0 1 .75.75v7.5a.75.75 0 0 1-1.5 0v-7.5a.75.75 0 0 1 .75-.75Zm-8.25.75a.75.75 0 0 1 1.5 0v5.5a.75.75 0 0 1-1.5 0ZM8 3a.75.75 0 0 1 .75.75v3.5a.75.75 0 0 1-1.5 0v-3.5A.75.75 0 0 1 8 3Z"></path>
+</svg>
+      <svg title="Search" aria-label="Search" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-search js-jump-to-octicon-search d-none flex-shrink-0">
+    <path d="M10.68 11.74a6 6 0 0 1-7.922-8.982 6 6 0 0 1 8.982 7.922l3.04 3.04a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215ZM11.5 7a4.499 4.499 0 1 0-8.997 0A4.499 4.499 0 0 0 11.5 7Z"></path>
+</svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-2 flex-shrink-0 color-bg-subtle px-1 color-fg-muted ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+        In this repository
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-2 flex-shrink-0 color-bg-subtle px-1 color-fg-muted ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+
+</ul>
+
+          </div>
+      </label>
+</form>  </div>
+</div>
+
+            </div>
+
+          <div class="position-relative mr-lg-3 d-lg-inline-block">
+            <a href="/login?return_to=https%3A%2F%2Fgithub.com%2Flvh%2Fregen%2Fblob%2Fd41d6b9be6de450eeb3f21ca4bac0e8b1a88c645%2Fdev-resources%2Fsamples.json"
+              class="HeaderMenu-link HeaderMenu-link--sign-in flex-shrink-0 no-underline d-block d-lg-inline-block border border-lg-0 rounded rounded-lg-0 p-2 p-lg-0"
+              data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/lvh/regen/blob/d41d6b9be6de450eeb3f21ca4bac0e8b1a88c645/dev-resources/samples.json&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="16deae4dd835c81b22026f6355d58624ac42bb3cdb945889284fa212952fe240"
+              data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">
+              Sign in
+            </a>
+          </div>
+
+            <a href="/signup?ref_cta=Sign+up&amp;ref_loc=header+logged+out&amp;ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Fblob%2Fshow&amp;source=header-repo&amp;source_repo=lvh%2Fregen"
+              class="HeaderMenu-link HeaderMenu-link--sign-up flex-shrink-0 d-none d-lg-inline-block no-underline border color-border-default rounded px-2 py-1"
+              data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/lvh/regen/blob/d41d6b9be6de450eeb3f21ca4bac0e8b1a88c645/dev-resources/samples.json&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="16deae4dd835c81b22026f6355d58624ac42bb3cdb945889284fa212952fe240"
+              data-analytics-event="{&quot;category&quot;:&quot;Sign up&quot;,&quot;action&quot;:&quot;click to sign up for account&quot;,&quot;label&quot;:&quot;ref_page:/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show;ref_cta:Sign up;ref_loc:header logged out&quot;}"
+            >
+              Sign up
+            </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+    </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+
+
+
+
+
+
+    <div id="js-flash-container" data-turbo-replace>
+
+
+
+
+
+  <template class="js-flash-template">
+    
+<div class="flash flash-full   {{ className }}">
+  <div class="px-2" >
+    <button autofocus class="flash-close js-flash-close" type="button" aria-label="Dismiss this message">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+    <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
+</svg>
+    </button>
+    <div aria-atomic="true" role="alert" class="js-flash-alert">
+      
+      <div>{{ message }}</div>
+
+    </div>
+  </div>
+</div>
+  </template>
+</div>
+
+
+    
+    <include-fragment class="js-notification-shelf-include-fragment" data-base-src="https://github.com/notifications/beta/shelf"></include-fragment>
+
+
+
+
+
+
+  <div
+    class="application-main "
+    data-commit-hovercards-enabled
+    data-discussion-hovercards-enabled
+    data-issue-and-pr-hovercards-enabled
+  >
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <main id="js-repo-pjax-container" >
+      
+  
+
+
+    
+
+
+
+
+
+
+  
+  <div id="repository-container-header"  class="pt-3 hide-full-screen" style="background-color: var(--color-page-header-bg);" data-turbo-replace>
+
+      <div class="d-flex flex-wrap flex-justify-end mb-3  px-3 px-md-4 px-lg-5" style="gap: 1rem;">
+
+        <div class="flex-auto min-width-0 width-fit mr-3">
+            
+  <div class=" d-flex flex-wrap flex-items-center wb-break-word f3 text-normal">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo color-fg-muted mr-2">
+    <path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"></path>
+</svg>
+    
+    <span class="author flex-self-stretch" itemprop="author">
+      <a class="url fn" rel="author" data-hovercard-type="user" data-hovercard-url="/users/lvh/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/lvh">
+        lvh
+</a>    </span>
+    <span class="mx-1 flex-self-stretch color-fg-muted">/</span>
+    <strong itemprop="name" class="mr-2 flex-self-stretch">
+      <a data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="/lvh/regen">regen</a>
+    </strong>
+
+    <span></span><span class="Label Label--secondary v-align-middle mr-1">Public</span>
+  </div>
+
+
+        </div>
+
+        <div id="repository-details-container" data-turbo-replace>
+            <ul class="pagehead-actions flex-shrink-0 d-none d-md-inline" style="padding: 2px 0;">
+    
+      
+
+  <li>
+            <a href="/login?return_to=%2Flvh%2Fregen" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;notification subscription menu watch&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/lvh/regen/blob/d41d6b9be6de450eeb3f21ca4bac0e8b1a88c645/dev-resources/samples.json&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="2b8e4e9160bc393c7b1fc378d8ab474b0955f7baac631870364e49c5ffda963b" aria-label="You must be signed in to change notification settings" data-view-component="true" class="tooltipped tooltipped-s btn-sm btn">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-bell mr-2">
+    <path d="M8 16a2 2 0 0 0 1.985-1.75c.017-.137-.097-.25-.235-.25h-3.5c-.138 0-.252.113-.235.25A2 2 0 0 0 8 16ZM3 5a5 5 0 0 1 10 0v2.947c0 .05.015.098.042.139l1.703 2.555A1.519 1.519 0 0 1 13.482 13H2.518a1.516 1.516 0 0 1-1.263-2.36l1.703-2.554A.255.255 0 0 0 3 7.947Zm5-3.5A3.5 3.5 0 0 0 4.5 5v2.947c0 .346-.102.683-.294.97l-1.703 2.556a.017.017 0 0 0-.003.01l.001.006c0 .002.002.004.004.006l.006.004.007.001h10.964l.007-.001.006-.004.004-.006.001-.007a.017.017 0 0 0-.003-.01l-1.703-2.554a1.745 1.745 0 0 1-.294-.97V5A3.5 3.5 0 0 0 8 1.5Z"></path>
+</svg>Notifications
+</a>  </li>
+
+  <li>
+          <a icon="repo-forked" id="fork-button" href="/login?return_to=%2Flvh%2Fregen" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;repo details fork button&quot;,&quot;repository_id&quot;:260369708,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/lvh/regen/blob/d41d6b9be6de450eeb3f21ca4bac0e8b1a88c645/dev-resources/samples.json&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="bde53c37b3d97bb6caa97508d4b0730d217cc466f6bf5f989f752050f4dedf21" data-view-component="true" class="btn-sm btn">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo-forked mr-2">
+    <path d="M5 5.372v.878c0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75v-.878a2.25 2.25 0 1 1 1.5 0v.878a2.25 2.25 0 0 1-2.25 2.25h-1.5v2.128a2.251 2.251 0 1 1-1.5 0V8.5h-1.5A2.25 2.25 0 0 1 3.5 6.25v-.878a2.25 2.25 0 1 1 1.5 0ZM5 3.25a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Zm6.75.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm-3 8.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z"></path>
+</svg>Fork
+    <span id="repo-network-counter" data-pjax-replace="true" data-turbo-replace="true" title="0" data-view-component="true" class="Counter">0</span>
+</a>
+  </li>
+
+  <li>
+        <div data-view-component="true" class="BtnGroup d-flex">
+        <a href="/login?return_to=%2Flvh%2Fregen" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:260369708,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/lvh/regen/blob/d41d6b9be6de450eeb3f21ca4bac0e8b1a88c645/dev-resources/samples.json&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="83362dbf868e8f1230490c876008c46171d088b9232191fbfd7c79965208940b" aria-label="You must be signed in to star a repository" data-view-component="true" class="tooltipped tooltipped-s btn-sm btn BtnGroup-item">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star v-align-text-bottom d-inline-block mr-2">
+    <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Zm0 2.445L6.615 5.5a.75.75 0 0 1-.564.41l-3.097.45 2.24 2.184a.75.75 0 0 1 .216.664l-.528 3.084 2.769-1.456a.75.75 0 0 1 .698 0l2.77 1.456-.53-3.084a.75.75 0 0 1 .216-.664l2.24-2.183-3.096-.45a.75.75 0 0 1-.564-.41L8 2.694Z"></path>
+</svg><span data-view-component="true" class="d-inline">
+          Star
+</span>          <span id="repo-stars-counter-star" aria-label="1 user starred this repository" data-singular-suffix="user starred this repository" data-plural-suffix="users starred this repository" data-turbo-replace="true" title="1" data-view-component="true" class="Counter js-social-count">1</span>
+</a>        <button disabled="disabled" aria-label="You must be signed in to add this repository to a list" type="button" data-view-component="true" class="btn-sm btn BtnGroup-item px-2">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-triangle-down">
+    <path d="m4.427 7.427 3.396 3.396a.25.25 0 0 0 .354 0l3.396-3.396A.25.25 0 0 0 11.396 7H4.604a.25.25 0 0 0-.177.427Z"></path>
+</svg>
+</button></div>
+  </li>
+
+
+    
+
+</ul>
+
+        </div>
+      </div>
+
+        <div id="responsive-meta-container" data-turbo-replace>
+</div>
+
+
+          <nav data-pjax="#js-repo-pjax-container" aria-label="Repository" data-view-component="true" class="js-repo-nav js-sidenav-container-pjax js-responsive-underlinenav overflow-hidden UnderlineNav px-3 px-md-4 px-lg-5">
+
+  <ul data-view-component="true" class="UnderlineNav-body list-style-none">
+      <li data-view-component="true" class="d-inline-flex">
+  <a id="code-tab" href="/lvh/regen" data-tab-item="i0code-tab" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages repo_deployments /lvh/regen" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g c" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Code&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" aria-current="page" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item selected">
+    
+                <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code UnderlineNav-octicon d-none d-sm-inline">
+    <path d="m11.28 3.22 4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L13.94 8l-3.72-3.72a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215Zm-6.56 0a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042L2.06 8l3.72 3.72a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L.47 8.53a.75.75 0 0 1 0-1.06Z"></path>
+</svg>
+        <span data-content="Code">Code</span>
+          <span id="code-repo-tab-count" data-pjax-replace="" data-turbo-replace="" title="Not available" data-view-component="true" class="Counter"></span>
+
+
+    
+</a></li>
+      <li data-view-component="true" class="d-inline-flex">
+  <a id="issues-tab" href="/lvh/regen/issues" data-tab-item="i1issues-tab" data-selected-links="repo_issues repo_labels repo_milestones /lvh/regen/issues" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g i" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Issues&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
+    
+                <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-issue-opened UnderlineNav-octicon d-none d-sm-inline">
+    <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"></path><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"></path>
+</svg>
+        <span data-content="Issues">Issues</span>
+          <span id="issues-repo-tab-count" data-pjax-replace="" data-turbo-replace="" title="0" hidden="hidden" data-view-component="true" class="Counter">0</span>
+
+
+    
+</a></li>
+      <li data-view-component="true" class="d-inline-flex">
+  <a id="pull-requests-tab" href="/lvh/regen/pulls" data-tab-item="i2pull-requests-tab" data-selected-links="repo_pulls checks /lvh/regen/pulls" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g p" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Pull requests&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
+    
+                <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-git-pull-request UnderlineNav-octicon d-none d-sm-inline">
+    <path d="M1.5 3.25a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25Zm5.677-.177L9.573.677A.25.25 0 0 1 10 .854V2.5h1A2.5 2.5 0 0 1 13.5 5v5.628a2.251 2.251 0 1 1-1.5 0V5a1 1 0 0 0-1-1h-1v1.646a.25.25 0 0 1-.427.177L7.177 3.427a.25.25 0 0 1 0-.354ZM3.75 2.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm0 9.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm8.25.75a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Z"></path>
+</svg>
+        <span data-content="Pull requests">Pull requests</span>
+          <span id="pull-requests-repo-tab-count" data-pjax-replace="" data-turbo-replace="" title="0" hidden="hidden" data-view-component="true" class="Counter">0</span>
+
+
+    
+</a></li>
+      <li data-view-component="true" class="d-inline-flex">
+  <a id="actions-tab" href="/lvh/regen/actions" data-tab-item="i3actions-tab" data-selected-links="repo_actions /lvh/regen/actions" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g a" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Actions&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
+    
+                <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-play UnderlineNav-octicon d-none d-sm-inline">
+    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Zm4.879-2.773 4.264 2.559a.25.25 0 0 1 0 .428l-4.264 2.559A.25.25 0 0 1 6 10.559V5.442a.25.25 0 0 1 .379-.215Z"></path>
+</svg>
+        <span data-content="Actions">Actions</span>
+          <span id="actions-repo-tab-count" data-pjax-replace="" data-turbo-replace="" title="Not available" data-view-component="true" class="Counter"></span>
+
+
+    
+</a></li>
+      <li data-view-component="true" class="d-inline-flex">
+  <a id="projects-tab" href="/lvh/regen/projects" data-tab-item="i4projects-tab" data-selected-links="repo_projects new_repo_project repo_project /lvh/regen/projects" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g b" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Projects&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
+    
+                <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-table UnderlineNav-octicon d-none d-sm-inline">
+    <path d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v12.5A1.75 1.75 0 0 1 14.25 16H1.75A1.75 1.75 0 0 1 0 14.25ZM6.5 6.5v8h7.75a.25.25 0 0 0 .25-.25V6.5Zm8-1.5V1.75a.25.25 0 0 0-.25-.25H6.5V5Zm-13 1.5v7.75c0 .138.112.25.25.25H5v-8ZM5 5V1.5H1.75a.25.25 0 0 0-.25.25V5Z"></path>
+</svg>
+        <span data-content="Projects">Projects</span>
+          <span id="projects-repo-tab-count" data-pjax-replace="" data-turbo-replace="" title="0" hidden="hidden" data-view-component="true" class="Counter">0</span>
+
+
+    
+</a></li>
+      <li data-view-component="true" class="d-inline-flex">
+  <a id="security-tab" href="/lvh/regen/security" data-tab-item="i5security-tab" data-selected-links="security overview alerts policy token_scanning code_scanning /lvh/regen/security" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g s" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Security&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
+    
+                <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-shield UnderlineNav-octicon d-none d-sm-inline">
+    <path d="M7.467.133a1.748 1.748 0 0 1 1.066 0l5.25 1.68A1.75 1.75 0 0 1 15 3.48V7c0 1.566-.32 3.182-1.303 4.682-.983 1.498-2.585 2.813-5.032 3.855a1.697 1.697 0 0 1-1.33 0c-2.447-1.042-4.049-2.357-5.032-3.855C1.32 10.182 1 8.566 1 7V3.48a1.75 1.75 0 0 1 1.217-1.667Zm.61 1.429a.25.25 0 0 0-.153 0l-5.25 1.68a.25.25 0 0 0-.174.238V7c0 1.358.275 2.666 1.057 3.86.784 1.194 2.121 2.34 4.366 3.297a.196.196 0 0 0 .154 0c2.245-.956 3.582-2.104 4.366-3.298C13.225 9.666 13.5 8.36 13.5 7V3.48a.251.251 0 0 0-.174-.237l-5.25-1.68ZM8.75 4.75v3a.75.75 0 0 1-1.5 0v-3a.75.75 0 0 1 1.5 0ZM9 10.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
+</svg>
+        <span data-content="Security">Security</span>
+          <include-fragment src="/lvh/regen/security/overall-count" accept="text/fragment+html"></include-fragment>
+
+    
+</a></li>
+      <li data-view-component="true" class="d-inline-flex">
+  <a id="insights-tab" href="/lvh/regen/pulse" data-tab-item="i6insights-tab" data-selected-links="repo_graphs repo_contributors dependency_graph dependabot_updates pulse people community /lvh/regen/pulse" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Insights&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
+    
+                <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-graph UnderlineNav-octicon d-none d-sm-inline">
+    <path d="M1.5 1.75V13.5h13.75a.75.75 0 0 1 0 1.5H.75a.75.75 0 0 1-.75-.75V1.75a.75.75 0 0 1 1.5 0Zm14.28 2.53-5.25 5.25a.75.75 0 0 1-1.06 0L7 7.06 4.28 9.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.25-3.25a.75.75 0 0 1 1.06 0L10 7.94l4.72-4.72a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042Z"></path>
+</svg>
+        <span data-content="Insights">Insights</span>
+          <span id="insights-repo-tab-count" data-pjax-replace="" data-turbo-replace="" title="Not available" data-view-component="true" class="Counter"></span>
+
+
+    
+</a></li>
+</ul>
+    <div style="visibility:hidden;" data-view-component="true" class="UnderlineNav-actions js-responsive-underlinenav-overflow position-absolute pr-3 pr-md-4 pr-lg-5 right-0">      <details data-view-component="true" class="details-overlay details-reset position-relative">
+  <summary role="button" data-view-component="true">          <div class="UnderlineNav-item mr-0 border-0">
+            <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-kebab-horizontal">
+    <path d="M8 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3ZM1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm13 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"></path>
+</svg>
+            <span class="sr-only">More</span>
+          </div>
+</summary>
+  <details-menu role="menu" data-view-component="true" class="dropdown-menu dropdown-menu-sw">          <ul>
+              <li data-menu-item="i0code-tab" hidden>
+                <a role="menuitem" class="js-selected-navigation-item selected dropdown-item" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages repo_deployments /lvh/regen" href="/lvh/regen">
+                  Code
+</a>              </li>
+              <li data-menu-item="i1issues-tab" hidden>
+                <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="repo_issues repo_labels repo_milestones /lvh/regen/issues" href="/lvh/regen/issues">
+                  Issues
+</a>              </li>
+              <li data-menu-item="i2pull-requests-tab" hidden>
+                <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="repo_pulls checks /lvh/regen/pulls" href="/lvh/regen/pulls">
+                  Pull requests
+</a>              </li>
+              <li data-menu-item="i3actions-tab" hidden>
+                <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="repo_actions /lvh/regen/actions" href="/lvh/regen/actions">
+                  Actions
+</a>              </li>
+              <li data-menu-item="i4projects-tab" hidden>
+                <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="repo_projects new_repo_project repo_project /lvh/regen/projects" href="/lvh/regen/projects">
+                  Projects
+</a>              </li>
+              <li data-menu-item="i5security-tab" hidden>
+                <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="security overview alerts policy token_scanning code_scanning /lvh/regen/security" href="/lvh/regen/security">
+                  Security
+</a>              </li>
+              <li data-menu-item="i6insights-tab" hidden>
+                <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="repo_graphs repo_contributors dependency_graph dependabot_updates pulse people community /lvh/regen/pulse" href="/lvh/regen/pulse">
+                  Insights
+</a>              </li>
+          </ul>
+</details-menu>
+</details></div>
+</nav>
+
+  </div>
+
+  
+
+
+
+<turbo-frame id="repo-content-turbo-frame" target="_top" data-turbo-action="advance" class="">
+    <div id="repo-content-pjax-container" class="repository-content " >
+    
+
+
+    
+      
+  <div class="clearfix container-xl px-3 px-md-4 px-lg-5 mt-4">
+    
+    
+<div >
+  
+
+  
+
+
+
+    
+<a class="d-none js-permalink-shortcut" data-hotkey="y" href="/lvh/regen/blob/d41d6b9be6de450eeb3f21ca4bac0e8b1a88c645/dev-resources/samples.json">Permalink</a>
+
+<div class="d-flex flex-items-start flex-shrink-0 pb-3 flex-wrap flex-md-nowrap flex-justify-between flex-md-justify-start">
+  
+<div class="position-relative">
+  <details
+    class="js-branch-select-menu details-reset details-overlay mr-0 mb-0 "
+    id="branch-select-menu"
+    data-hydro-click-payload="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;REFS_SELECTOR_MENU&quot;,&quot;repository_id&quot;:260369708,&quot;originating_url&quot;:&quot;https://github.com/lvh/regen/blob/d41d6b9be6de450eeb3f21ca4bac0e8b1a88c645/dev-resources/samples.json&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="28a350358f2a7dc3d6c27b9b0679ec29ad8bed838c19d6a0d2093349b897909f">
+    <summary class="btn css-truncate"
+            data-hotkey="w"
+            title="Switch branches or tags">
+      <svg text="gray" aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-git-branch">
+    <path d="M9.5 3.25a2.25 2.25 0 1 1 3 2.122V6A2.5 2.5 0 0 1 10 8.5H6a1 1 0 0 0-1 1v1.128a2.251 2.251 0 1 1-1.5 0V5.372a2.25 2.25 0 1 1 1.5 0v1.836A2.493 2.493 0 0 1 6 7h4a1 1 0 0 0 1-1v-.628A2.25 2.25 0 0 1 9.5 3.25Zm-6 0a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Zm8.25-.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5ZM4.25 12a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Z"></path>
+</svg>
+      <span class="css-truncate-target" data-menu-button>d41d6b9be6</span>
+      <span class="dropdown-caret"></span>
+    </summary>
+
+    
+<div class="SelectMenu">
+  <div class="SelectMenu-modal">
+    <header class="SelectMenu-header">
+      <span class="SelectMenu-title">Switch branches/tags</span>
+      <button class="SelectMenu-closeButton" type="button" data-toggle-for="branch-select-menu"><svg aria-label="Close menu" aria-hidden="false" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+    <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
+</svg></button>
+    </header>
+
+    <input-demux data-action="tab-container-change:input-demux#storeInput tab-container-changed:input-demux#updateInput">
+      <tab-container class="d-flex flex-column js-branches-tags-tabs" style="min-height: 0;">
+        <div class="SelectMenu-filter">
+          <input data-target="input-demux.source"
+                 id="context-commitish-filter-field"
+                 class="SelectMenu-input form-control"
+                 aria-owns="ref-list-branches"
+                 data-controls-ref-menu-id="ref-list-branches"
+                 autofocus
+                 autocomplete="off"
+                 aria-label="Filter branches/tags"
+                 placeholder="Filter branches/tags"
+                 type="text"
+          >
+        </div>
+
+        <div class="SelectMenu-tabs" role="tablist" data-target="input-demux.control" >
+          <button class="SelectMenu-tab" type="button" role="tab" aria-selected="true">Branches</button>
+          <button class="SelectMenu-tab" type="button" role="tab">Tags</button>
+        </div>
+
+        <div role="tabpanel" id="ref-list-branches" data-filter-placeholder="Filter branches/tags" tabindex="" class="d-flex flex-column flex-auto overflow-auto">
+          <ref-selector
+            type="branch"
+            data-targets="input-demux.sinks"
+            data-action="
+              input-entered:ref-selector#inputEntered
+              tab-selected:ref-selector#tabSelected
+              focus-list:ref-selector#focusFirstListMember
+            "
+            query-endpoint="/lvh/regen/refs"
+            
+            cache-key="v0:1588302959.0"
+            current-committish="ZDQxZDZiOWJlNmRlNDUwZWViM2YyMWNhNGJhYzBlOGIxYTg4YzY0NQ=="
+            default-branch="bWFzdGVy"
+            name-with-owner="bHZoL3JlZ2Vu"
+            prefetch-on-mouseover
+          >
+
+            <template data-target="ref-selector.fetchFailedTemplate">
+              <div class="SelectMenu-message" data-index="{{ index }}">Could not load branches</div>
+            </template>
+
+              <template data-target="ref-selector.noMatchTemplate">
+    <div class="SelectMenu-message">Nothing to show</div>
+</template>
+
+
+            <div data-target="ref-selector.listContainer" role="menu" class="SelectMenu-list " data-turbo-frame="repo-content-turbo-frame">
+              <div class="SelectMenu-loading pt-3 pb-0 overflow-hidden" aria-label="Menu is loading">
+                <svg style="box-sizing: content-box; color: var(--color-icon-primary);" width="32" height="32" viewBox="0 0 16 16" fill="none" data-view-component="true" class="anim-rotate">
+  <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-opacity="0.25" stroke-width="2" vector-effect="non-scaling-stroke" />
+  <path d="M15 8a7.002 7.002 0 00-7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" vector-effect="non-scaling-stroke" />
+</svg>
+              </div>
+            </div>
+
+              
+
+<template data-target="ref-selector.itemTemplate">
+  <a href="https://github.com/lvh/regen/blob/{{ urlEncodedRefName }}/dev-resources/samples.json" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}" >
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    <span class="flex-1 css-truncate css-truncate-overflow {{ isFilteringClass }}">{{ refName }}</span>
+    <span hidden="{{ isNotDefault }}" class="Label Label--secondary flex-self-start">default</span>
+  </a>
+</template>
+
+
+              <footer class="SelectMenu-footer"><a href="/lvh/regen/branches">View all branches</a></footer>
+          </ref-selector>
+
+        </div>
+
+        <div role="tabpanel" id="tags-menu" data-filter-placeholder="Find a tag" tabindex="" hidden class="d-flex flex-column flex-auto overflow-auto">
+          <ref-selector
+            type="tag"
+            data-action="
+              input-entered:ref-selector#inputEntered
+              tab-selected:ref-selector#tabSelected
+              focus-list:ref-selector#focusFirstListMember
+            "
+            data-targets="input-demux.sinks"
+            query-endpoint="/lvh/regen/refs"
+            cache-key="v0:1588302959.0"
+            current-committish="ZDQxZDZiOWJlNmRlNDUwZWViM2YyMWNhNGJhYzBlOGIxYTg4YzY0NQ=="
+            default-branch="bWFzdGVy"
+            name-with-owner="bHZoL3JlZ2Vu"
+          >
+
+            <template data-target="ref-selector.fetchFailedTemplate">
+              <div class="SelectMenu-message" data-index="{{ index }}">Could not load tags</div>
+            </template>
+
+            <template data-target="ref-selector.noMatchTemplate">
+              <div class="SelectMenu-message" data-index="{{ index }}">Nothing to show</div>
+            </template>
+
+              
+
+<template data-target="ref-selector.itemTemplate">
+  <a href="https://github.com/lvh/regen/blob/{{ urlEncodedRefName }}/dev-resources/samples.json" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}" >
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    <span class="flex-1 css-truncate css-truncate-overflow {{ isFilteringClass }}">{{ refName }}</span>
+    <span hidden="{{ isNotDefault }}" class="Label Label--secondary flex-self-start">default</span>
+  </a>
+</template>
+
+
+            <div data-target="ref-selector.listContainer" role="menu" class="SelectMenu-list" data-turbo-frame="repo-content-turbo-frame">
+              <div class="SelectMenu-loading pt-3 pb-0 overflow-hidden" aria-label="Menu is loading">
+                <svg style="box-sizing: content-box; color: var(--color-icon-primary);" width="32" height="32" viewBox="0 0 16 16" fill="none" data-view-component="true" class="anim-rotate">
+  <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-opacity="0.25" stroke-width="2" vector-effect="non-scaling-stroke" />
+  <path d="M15 8a7.002 7.002 0 00-7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" vector-effect="non-scaling-stroke" />
+</svg>
+              </div>
+            </div>
+              <footer class="SelectMenu-footer"><a href="/lvh/regen/tags">View all tags</a></footer>
+          </ref-selector>
+        </div>
+      </tab-container>
+    </input-demux>
+  </div>
+</div>
+
+  </details>
+
+</div>
+
+
+<div class="Overlay--hidden Overlay-backdrop--center" data-modal-dialog-overlay>
+  <modal-dialog role="dialog" id="warn-tag-match-create-branch-dialog" aria-modal="true" aria-labelledby="warn-tag-match-create-branch-dialog-header" data-view-component="true" class="Overlay Overlay--width-large Overlay--height-auto Overlay--motion-scaleFade">
+      <header class="Overlay-header Overlay-header--large Overlay-header--divided">
+        <div class="Overlay-headerContentWrap">
+          <div class="Overlay-titleWrap">
+            <h1 id="warn-tag-match-create-branch-dialog-header" class="Overlay-title">Name already in use</h1>
+          </div>
+          <div class="Overlay-actionWrap">
+            <button data-close-dialog-id="warn-tag-match-create-branch-dialog" aria-label="Close" type="button" data-view-component="true" class="close-button Overlay-closeButton"><svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+    <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
+</svg></button>
+          </div>
+        </div>
+      </header>
+    <div class="Overlay-body ">
+      
+          <div data-view-component="true">      A tag already exists with the provided branch name. Many Git commands accept both tag and branch names, so creating this branch may cause unexpected behavior. Are you sure you want to create this branch?
+</div>
+
+    </div>
+      <footer class="Overlay-footer Overlay-footer--alignEnd">
+            <button data-close-dialog-id="warn-tag-match-create-branch-dialog" type="button" data-view-component="true" class="btn">    Cancel
+</button>
+            <button data-submit-dialog-id="warn-tag-match-create-branch-dialog" type="button" data-view-component="true" class="btn-danger btn">    Create
+</button>
+      </footer>
+</modal-dialog></div>
+
+
+  <h2 id="blob-path" class="breadcrumb flex-auto flex-self-center min-width-0 text-normal mx-2 width-full width-md-auto flex-order-1 flex-md-order-none mt-3 mt-md-0">
+    <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-turbo-frame="repo-content-turbo-frame" rel="nofollow" href="/lvh/regen/tree/d41d6b9be6de450eeb3f21ca4bac0e8b1a88c645"><span>regen</span></a></span></span><span class="separator">/</span><span class="js-path-segment d-inline-block wb-break-all"><a data-turbo-frame="repo-content-turbo-frame" rel="nofollow" href="/lvh/regen/tree/d41d6b9be6de450eeb3f21ca4bac0e8b1a88c645/dev-resources"><span>dev-resources</span></a></span><span class="separator">/</span><strong class="final-path">samples.json</strong>
+  </h2>
+    <a href="/lvh/regen/find/d41d6b9be6de450eeb3f21ca4bac0e8b1a88c645" data-pjax="" data-hotkey="t" data-view-component="true" class="btn mr-2 d-none d-md-block">    Go to file
+</a>
+  <details id="blob-more-options-details" data-view-component="true" class="details-overlay details-reset position-relative">
+    <summary role="button" data-view-component="true" class="btn">    <svg aria-label="More options" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-kebab-horizontal">
+    <path d="M8 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3ZM1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm13 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"></path>
+</svg>
+</summary>
+  <div data-view-component="true">      <ul class="dropdown-menu dropdown-menu-sw">
+        <li class="d-block d-md-none">
+          <a class="dropdown-item d-flex flex-items-baseline" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:260369708,&quot;originating_url&quot;:&quot;https://github.com/lvh/regen/blob/d41d6b9be6de450eeb3f21ca4bac0e8b1a88c645/dev-resources/samples.json&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="2091e2047ec29ddd1ed1275ff36840261cf6789789963170c1131616fd548efe" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" href="/lvh/regen/find/d41d6b9be6de450eeb3f21ca4bac0e8b1a88c645">
+            <span class="flex-auto">Go to file</span>
+            <span class="text-small color-fg-muted" aria-hidden="true">T</span>
+</a>        </li>
+        <li data-toggle-for="blob-more-options-details">
+            <button data-toggle-for="jumpto-line-details-dialog" type="button" data-view-component="true" class="dropdown-item btn-link">    <span class="d-flex flex-items-baseline">
+              <span class="flex-auto">Go to line</span>
+              <span class="text-small color-fg-muted" aria-hidden="true">L</span>
+            </span>
+</button>        </li>
+        <li class="dropdown-divider" role="none"></li>
+        <li>
+          <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy path" value="dev-resources/samples.json" data-view-component="true" class="dropdown-item cursor-pointer">
+    
+            Copy path
+
+</clipboard-copy>        </li>
+        <li>
+          <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy permalink" value="https://github.com/lvh/regen/blob/d41d6b9be6de450eeb3f21ca4bac0e8b1a88c645/dev-resources/samples.json" data-view-component="true" class="dropdown-item cursor-pointer">
+    
+            <span class="d-flex flex-items-baseline">
+              <span class="flex-auto">Copy permalink</span>
+            </span>
+
+</clipboard-copy>        </li>
+      </ul>
+</div>
+</details></div>
+
+
+
+
+
+    <div id="spoof-warning" class="mt-0 pb-3" hidden aria-hidden>
+  <div data-view-component="true" class="flash flash-warn mt-0 clearfix">
+  
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert float-left mt-1">
+    <path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
+</svg>
+
+      <div class="overflow-hidden">This commit does not belong to any branch on this repository, and may belong to a fork outside of the repository.</div>
+
+
+  
+</div></div>
+
+    <include-fragment src="/lvh/regen/spoofed_commit_check/d41d6b9be6de450eeb3f21ca4bac0e8b1a88c645" data-test-selector="spoofed-commit-check"></include-fragment>
+
+    <div class="Box d-flex flex-column flex-shrink-0 mb-3">
+  <include-fragment src="/lvh/regen/contributors/d41d6b9be6de450eeb3f21ca4bac0e8b1a88c645/dev-resources/samples.json" class="commit-loader">
+    <div class="Box-header d-flex flex-items-center">
+      <div class="Skeleton avatar avatar-user flex-shrink-0 ml-n1 mr-n1 mt-n1 mb-n1" style="width:24px;height:24px;"></div>
+      <div class="Skeleton Skeleton--text col-5 ml-2">&nbsp;</div>
+    </div>
+
+    <div class="Box-body d-flex flex-items-center" >
+      <div class="Skeleton Skeleton--text col-1">&nbsp;</div>
+      <span class="color-fg-danger h6 loader-error">Cannot retrieve contributors at this time</span>
+    </div>
+</include-fragment></div>
+
+
+
+
+
+
+
+
+  
+    <div data-target="readme-toc.content" class="Box mt-3 position-relative">
+      
+  <div
+    class="Box-header js-blob-header py-2 pr-2 d-flex flex-shrink-0 flex-md-row flex-items-center"
+    
+  >
+
+
+  <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1">
+
+      1 lines (1 sloc)
+      <span class="file-info-divider"></span>
+    39.3 KB
+  </div>
+
+  <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between hide-sm hide-md">
+      
+
+    <div class="BtnGroup">
+        <a href="/lvh/regen/raw/d41d6b9be6de450eeb3f21ca4bac0e8b1a88c645/dev-resources/samples.json" id="raw-url" group_item="true" data-view-component="true" class="Button--secondary Button--small Button">    <span class="Button-content">
+      <span class="Button-label">Raw</span>
+    </span>
+</a>  
+          <a href="/lvh/regen/blame/d41d6b9be6de450eeb3f21ca4bac0e8b1a88c645/dev-resources/samples.json" group_item="true" data-hotkey="b" data-view-component="true" class="js-update-url-with-hash Button--secondary Button--small Button">    <span class="Button-content">
+      <span class="Button-label">Blame</span>
+    </span>
+</a>  
+    </div>
+
+    <div class="d-flex">
+        
+<div class="ml-1" >
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="BtnGroup-parent js-update-url-with-hash " data-turbo="false" action="/lvh/regen/edit/d41d6b9be6de450eeb3f21ca4bac0e8b1a88c645/dev-resources/samples.json" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="UWFbghHCFYVBt92nyk6RzAA4M8pqCARFcZbWTxmwg1jMyOuY1uPhDoLuuZoIOr0WWJaEPAsgDu3hjrdnQQjDGg" autocomplete="off" />
+      <button disabled="disabled" title="You must be signed in to make or propose changes" data-hotkey="e" data-disable-with="" type="submit" data-view-component="true" class="btn-sm BtnGroup-item btn">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-pencil">
+    <path d="M11.013 1.427a1.75 1.75 0 0 1 2.474 0l1.086 1.086a1.75 1.75 0 0 1 0 2.474l-8.61 8.61c-.21.21-.47.364-.756.445l-3.251.93a.75.75 0 0 1-.927-.928l.929-3.25c.081-.286.235-.547.445-.758l8.61-8.61Zm.176 4.823L9.75 4.81l-6.286 6.287a.253.253 0 0 0-.064.108l-.558 1.953 1.953-.558a.253.253 0 0 0 .108-.064Zm1.238-3.763a.25.25 0 0 0-.354 0L10.811 3.75l1.439 1.44 1.263-1.263a.25.25 0 0 0 0-.354Z"></path>
+</svg>
+</button></form>
+  <details class="details-reset details-overlay select-menu BtnGroup-parent d-inline-block position-relative">
+      <summary data-disable-invalid="" data-disable-with="" data-dropdown-tracking="{&quot;type&quot;:&quot;blob_edit_dropdown.more_options_click&quot;,&quot;context&quot;:{&quot;repository_id&quot;:260369708,&quot;actor_id&quot;:null,&quot;github_dev_enabled&quot;:false,&quot;edit_enabled&quot;:false,&quot;small_screen&quot;:false}}" aria-label="Select additional options" data-view-component="true" class="js-blob-dropdown-click select-menu-button btn-sm btn BtnGroup-item float-none px-2">
+</summary>    <div class="SelectMenu right-0">
+      <div class="SelectMenu-modal width-full">
+        <div class="SelectMenu-list SelectMenu-list--borderless py-2">
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="SelectMenu-item js-update-url-with-hash " data-turbo="false" action="/lvh/regen/edit/d41d6b9be6de450eeb3f21ca4bac0e8b1a88c645/dev-resources/samples.json" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="v5N8B-psUnAJpmNB5kGidncYrq7Hj5WNDZ_50eROojQiOswdLU2m-8r_B3wkNY6sL7YZWKannyWdh5j5vPbidg" autocomplete="off" />
+              <button disabled="disabled" title="You must be signed in to make or propose changes" type="submit" data-view-component="true" class="btn-invisible btn width-full d-flex flex-justify-between color-fg-muted text-normal p-0">    <div class="mr-5">Edit this file</div>
+              <div class="color-fg-muted">E</div>
+</button></form>
+
+              <button aria-label="You must be on a branch to open this file in GitHub Desktop" data-platforms="windows,mac" disabled="disabled" type="submit" data-view-component="true" class="SelectMenu-item no-wrap js-remove-unless-platform btn-invisible btn text-normal">    Open in GitHub Desktop
+</button>        </div>
+      </div>
+    </div>
+  </details>
+</div>
+
+
+        
+<div >
+  <remote-clipboard-copy class="d-inline-block btn-octicon" style="height: 26px" data-src="/lvh/regen/raw/d41d6b9be6de450eeb3f21ca4bac0e8b1a88c645/dev-resources/samples.json" data-action="click:remote-clipboard-copy#remoteCopy">
+  
+
+  <span data-target="remote-clipboard-copy.idle">      <span class="tooltipped tooltipped-nw cursor-pointer" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;COPY_RAW_CONTENTS_BUTTON&quot;,&quot;repository_id&quot;:260369708,&quot;originating_url&quot;:&quot;https://github.com/lvh/regen/blob/d41d6b9be6de450eeb3f21ca4bac0e8b1a88c645/dev-resources/samples.json&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="1ca210c7d23abadefe896121dec0029433f899f87b6f4a478622d17917557bb6" aria-label="Copy raw contents">
+        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+</span></span>
+  <span data-target="remote-clipboard-copy.fetching" hidden="hidden">      <svg style="box-sizing: content-box; color: var(--color-icon-primary);" width="16" height="16" viewBox="0 0 16 16" fill="none" data-view-component="true" class="anim-rotate">
+  <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-opacity="0.25" stroke-width="2" vector-effect="non-scaling-stroke" />
+  <path d="M15 8a7.002 7.002 0 00-7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" vector-effect="non-scaling-stroke" />
+</svg>
+</span>
+  <span data-target="remote-clipboard-copy.success" hidden="hidden">      <span class="tooltipped tooltipped-nw" aria-label="Copied!">
+        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check color-fg-success">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+      </span>
+</span>
+  <span data-target="remote-clipboard-copy.error" hidden="hidden">      <span class="tooltipped tooltipped-nw" aria-label="Something went wrong. Try again.">
+        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert color-fg-attention">
+    <path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
+</svg>
+      </span>
+</span>
+</remote-clipboard-copy></div>
+
+
+          <button class="btn-octicon btn-octicon-danger disabled tooltipped tooltipped-nw" disabled
+            aria-label="You must be signed in to make or propose changes" type="button">
+            <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-trash">
+    <path d="M11 1.75V3h2.25a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1 0-1.5H5V1.75C5 .784 5.784 0 6.75 0h2.5C10.216 0 11 .784 11 1.75ZM4.496 6.675l.66 6.6a.25.25 0 0 0 .249.225h5.19a.25.25 0 0 0 .249-.225l.66-6.6a.75.75 0 0 1 1.492.149l-.66 6.6A1.748 1.748 0 0 1 10.595 15h-5.19a1.75 1.75 0 0 1-1.741-1.575l-.66-6.6a.75.75 0 1 1 1.492-.15ZM6.5 1.75V3h3V1.75a.25.25 0 0 0-.25-.25h-2.5a.25.25 0 0 0-.25.25Z"></path>
+</svg>
+          </button>
+    </div>
+  </div>
+
+    <div class="d-flex hide-lg hide-xl flex-order-2 flex-grow-0">
+      <details class="dropdown details-reset details-overlay d-inline-block">
+        <summary
+          class="js-blob-dropdown-click btn-octicon"
+          aria-haspopup="true"
+          aria-label="possible actions"
+          
+          data-dropdown-tracking="{&quot;type&quot;:&quot;blob_edit_dropdown.more_options_click&quot;,&quot;context&quot;:{&quot;repository_id&quot;:260369708,&quot;actor_id&quot;:null,&quot;github_dev_enabled&quot;:false,&quot;edit_enabled&quot;:false,&quot;small_screen&quot;:true}}"
+        >
+          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-kebab-horizontal">
+    <path d="M8 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3ZM1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm13 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"></path>
+</svg>
+        </summary>
+
+        <ul class="dropdown-menu dropdown-menu-sw" style="width: 175px">
+            <li>
+            </li>
+          <li>
+            <a class="dropdown-item" href="/lvh/regen/raw/d41d6b9be6de450eeb3f21ca4bac0e8b1a88c645/dev-resources/samples.json">
+              View raw
+            </a>
+          </li>
+            <li>
+              <remote-clipboard-copy class="dropdown-item" data-src="/lvh/regen/raw/d41d6b9be6de450eeb3f21ca4bac0e8b1a88c645/dev-resources/samples.json" data-action="click:remote-clipboard-copy#remoteCopy">
+  
+
+  <span data-target="remote-clipboard-copy.idle">                  <span class="cursor-pointer" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;COPY_RAW_CONTENTS_BUTTON&quot;,&quot;repository_id&quot;:260369708,&quot;originating_url&quot;:&quot;https://github.com/lvh/regen/blob/d41d6b9be6de450eeb3f21ca4bac0e8b1a88c645/dev-resources/samples.json&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="1ca210c7d23abadefe896121dec0029433f899f87b6f4a478622d17917557bb6">
+                    Copy raw contents
+</span></span>
+  <span data-target="remote-clipboard-copy.fetching" hidden="hidden">                  Copy raw contents
+                  <span class="d-inline-block position-relative" style="top: 3px">
+                    <svg aria-label="fetching contents…" style="box-sizing: content-box; color: var(--color-icon-primary);" width="16" height="16" viewBox="0 0 16 16" fill="none" data-view-component="true" class="anim-rotate">
+  <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-opacity="0.25" stroke-width="2" vector-effect="non-scaling-stroke" />
+  <path d="M15 8a7.002 7.002 0 00-7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" vector-effect="non-scaling-stroke" />
+</svg>
+                  </span>
+</span>
+  <span data-target="remote-clipboard-copy.success" hidden="hidden">                  Copy raw contents
+                  <svg aria-label="Copied!" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check color-fg-success">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+</span>
+  <span data-target="remote-clipboard-copy.error" hidden="hidden">                  Copy raw contents
+                  <svg aria-label="Something went wrong. Try again." role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert color-fg-attention">
+    <path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
+</svg>
+</span>
+</remote-clipboard-copy>            </li>
+            <li>
+              <a class="dropdown-item" href="/lvh/regen/blame/d41d6b9be6de450eeb3f21ca4bac0e8b1a88c645/dev-resources/samples.json">
+                View blame
+              </a>
+            </li>
+
+        </ul>
+      </details>
+    </div>
+</div>
+
+
+      
+    <div itemprop="text" class="Box-body p-0 blob-wrapper data type-json  gist-border-0">
+
+        
+<div class="js-check-bidi js-blob-code-container blob-code-content">
+
+  <template class="js-file-alert-template">
+  <div data-view-component="true" class="flash flash-warn flash-full d-flex flex-items-center">
+  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
+    <path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
+</svg>
+    <span>
+      This file contains bidirectional Unicode text that may be interpreted or compiled differently than what appears below. To review, open the file in an editor that reveals hidden Unicode characters.
+      <a href="https://github.co/hiddenchars" target="_blank">Learn more about bidirectional Unicode characters</a>
+    </span>
+
+
+  <div data-view-component="true" class="flash-action">        <a href="{{ revealButtonHref }}" data-view-component="true" class="btn-sm btn">    Show hidden characters
+</a>
+</div>
+</div></template>
+<template class="js-line-alert-template">
+  <span aria-label="This line has hidden Unicode characters" data-view-component="true" class="line-alert tooltipped tooltipped-e">
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
+    <path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
+</svg>
+</span></template>
+
+  <table data-hpc class="highlight tab-size js-file-line-container js-code-nav-container js-tagsearch-file" data-tab-size="8" data-paste-markdown-skip data-tagsearch-lang="JSON" data-tagsearch-path="dev-resources/samples.json">
+        <tr>
+          <td id="L1" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="1"></td>
+          <td id="LC1" class="blob-code blob-code-inner js-file-line">{&quot;Google Gmail OAuth&quot;:[&quot;70-weRJnV4RwzGhYZX3SucQ9mVVFC6iBqpJ.apps.googleusercontent.com&quot;,&quot;2-Aa4kEcYHym6e_Vh4WIRg6FjyzxNvjSM_.apps.googleusercontent.com&quot;,&quot;78-SCYhjkWd3HA08lEgJLurxqWa7tpRmsCa.apps.googleusercontent.com&quot;,&quot;20-0KxCq9_K7Pu8pu9Ck50WeND8ps6qKHpi.apps.googleusercontent.com&quot;,&quot;042797-qSbG3d2t5LTpoaz0sUkLKHoar0SREIRM.apps.googleusercontent.com&quot;,&quot;6-Q1COaE63wbCx4R0uLWyCL3KfDTJZPoce.apps.googleusercontent.com&quot;,&quot;3229-W7DI69V6qbmOrWUcPKnyNzcSvsxYPpRB.apps.googleusercontent.com&quot;,&quot;1278016521-VMKtDGzRP04MxMvK20iHaDhA8ayUFncP.apps.googleusercontent.com&quot;,&quot;50-gLAY3HSZ1HCPa5LsJIT4lsB85CgyELZo.apps.googleusercontent.com&quot;,&quot;506110619148590-gfA00vkhs65Rj2lptngk92NFB_ReWQiN.apps.googleusercontent.com&quot;,&quot;7-gbGrFBenATR56jHsv12HHW8NXKCmxigE.apps.googleusercontent.com&quot;,&quot;368004-exBN8c7O9LaT0vEVZuuIJbIezBnjmNjw.apps.googleusercontent.com&quot;,&quot;627-FNKDd08laiMRx49GC6bZYqYloBT7JoMh.apps.googleusercontent.com&quot;,&quot;8824086-Cvtt_uYL2vVh13WYnizLIDpI0d9f6Ceh.apps.googleusercontent.com&quot;,&quot;439701938-5Yn1qF5MKPjfVQ99GcXe0Pt6vD2e3an5.apps.googleusercontent.com&quot;,&quot;2960-tc2hcCZO1e3yAn1DEeo0SSKaYtbVeTQo.apps.googleusercontent.com&quot;,&quot;0-aUFn6Pf3EfiQbGJWPNri_XZHXE64V9XM.apps.googleusercontent.com&quot;,&quot;662404905-zCcruAM8cGPd5DklsnGS3TpFao3WkS_2.apps.googleusercontent.com&quot;,&quot;599-TN3qo3YJJnzxTlWwb6BR3PK8WyRiyhdQ.apps.googleusercontent.com&quot;,&quot;14123046-YHZN71u77qw6i6I1IwInfyEiV2OfDgf9.apps.googleusercontent.com&quot;],&quot;AWS API Key&quot;:[&quot;AKIAXYLHKKLYOW7XFRB0&quot;,&quot;AKIARQ9D1GDTSDUH47UA&quot;,&quot;AKIA691D59Q8F3ZE9IIV&quot;,&quot;AKIAGOE0F5R6IDY55QV9&quot;,&quot;AKIA2UECWLJOYCQ3TTIU&quot;,&quot;AKIA7JJT0Q3MUFTB8YVW&quot;,&quot;AKIA05GOKGL55LD5HNWS&quot;,&quot;AKIAXIGGJOYOCFJ8G5WH&quot;,&quot;AKIAPBOJGP15MKQYAXGO&quot;,&quot;AKIAGACD30SZ3DA3S7ZB&quot;,&quot;AKIAFCQSIAVFNCQUK06E&quot;,&quot;AKIAIX40M78KA5K07410&quot;,&quot;AKIANCJIB7ERWDWOF9N3&quot;,&quot;AKIA65H3R72F2N74NZB8&quot;,&quot;AKIAXQZSEHIO7ZLK1SFJ&quot;,&quot;AKIARPI97FC2FEPBZ0A9&quot;,&quot;AKIA1XNZJS9CET9JA5X1&quot;,&quot;AKIAG0WFWR8M3631BSDQ&quot;,&quot;AKIAX4WXGG29UZM9FBCR&quot;,&quot;AKIA1JR57M1X1HJPFBKI&quot;],&quot;RSA private key&quot;:[&quot;-----BEGIN RSA PRIVATE KEY-----&quot;],&quot;Google Drive OAuth&quot;:[&quot;719028181106-LoFGRYRtLtrl5JvBnLyeKBPxfSLaxhP2.apps.googleusercontent.com&quot;,&quot;412043205-WWIiotJslUMz_FmioqiRmV00uS3fzmc9.apps.googleusercontent.com&quot;,&quot;701830-ADB4gj0aLGMUgKjR1rbPk4jR_gYRuHFk.apps.googleusercontent.com&quot;,&quot;578946345-f3ovFaEi58kSpKjyLyyM3YXXqH_eMohe.apps.googleusercontent.com&quot;,&quot;534880-Ag1GDRY8sG7iXyfWqT4F3fmj7Q6o9wo5.apps.googleusercontent.com&quot;,&quot;3610014-1BGCNwSsLvS7szYLWzbwUg6xv4ADp2Gs.apps.googleusercontent.com&quot;,&quot;9-qlOlyb32nvpbW2rccqnDxKP7OHv9upwH.apps.googleusercontent.com&quot;,&quot;8-LRqnZF7BI8yYoKcl4SOqUFgLrzLaqQjN.apps.googleusercontent.com&quot;,&quot;5-80wRyMmBrrOMehahcTLcshuAkqd_ypsx.apps.googleusercontent.com&quot;,&quot;61-gTcylaWAb4baK0CVybkmFd1qm2BG8tm_.apps.googleusercontent.com&quot;,&quot;70-0IepkCyvTiyF_tTuJqrTWPILmX8Ap7Yn.apps.googleusercontent.com&quot;,&quot;26475671848675935-SfN5yJoubenlxp2ouJCvlDi9qUDaJ7qk.apps.googleusercontent.com&quot;,&quot;8283251982109-ZptT1RFu0p4BwrZAommmzsyWsKGbIdFu.apps.googleusercontent.com&quot;,&quot;0-30tRQd0BFECjT2ryW3PuaEBa0PAVR4B3.apps.googleusercontent.com&quot;,&quot;3-nSZcIQnvEDaPVdDnyo5wsN5tTqg_whDK.apps.googleusercontent.com&quot;,&quot;15792-yrOMO32_JNtuCGn5i5qJb51GuADvKetF.apps.googleusercontent.com&quot;,&quot;66361363-sb9O0sPi2_ej1kNB64BoRmVjT87pK0Cd.apps.googleusercontent.com&quot;,&quot;00312-VQTAO44j25sJEYrb9s7rX6ASXfOZp0QF.apps.googleusercontent.com&quot;,&quot;1562779-UlV7JheAOQQraowygOfiY_FirnmVAAlS.apps.googleusercontent.com&quot;,&quot;28578660574-IO3dUDUX1P00r8iKsq9pDjYThci5J4ds.apps.googleusercontent.com&quot;],&quot;SSH (EC) private key&quot;:[&quot;-----BEGIN EC PRIVATE KEY-----&quot;],&quot;Picatic API Key&quot;:[&quot;sk_live_9zq94g1koplwiyunfvvfiieq2pmieev2&quot;,&quot;sk_live_7yuy3y1ui81ppy6kjkpuykd2kkr9oahn&quot;,&quot;sk_live_q2zekdcwqjef5vbtipm3rzxjw3dtv9ej&quot;,&quot;sk_live_6lj75agppskj5k5jpm5qnr3cbxf1zrfv&quot;,&quot;sk_live_3l2cc4ubzb6e5f7c2kfuivdxvrdopubf&quot;,&quot;sk_live_6y08zsmfx8fx2agsfo40etnze52mhhiw&quot;,&quot;sk_live_0wrb1742673dn3jnk8y9j2r4r2ykhdg5&quot;,&quot;sk_live_3sx5c895nexq07t9osxy088gcequ68n1&quot;,&quot;sk_live_mxvx4j08465e98fig3stors04ts1e01e&quot;,&quot;sk_live_02gpy53g4zze7jluy7lxy2dwxfweblu5&quot;,&quot;sk_live_1gmpdnn2o8s0vdnd27qnqh4xw790djir&quot;,&quot;sk_live_r52eeh3shai8uyysr2gqsj30jcimj0fk&quot;,&quot;sk_live_blzi21d7o910o1qkneepjnmw4fz5l2oh&quot;,&quot;sk_live_of4kv9zio93yvfdb512af3z0w71i6ugu&quot;,&quot;sk_live_cu9kmbezf64cwfoabddrmjemwcgmidkb&quot;,&quot;sk_live_bsg06hp6l86golqju37u5sbymcg71e4r&quot;,&quot;sk_live_bwhmxfkao6rxmqjlghygdsscy3extolg&quot;,&quot;sk_live_mt17wj9jyoyde58j30038bfnp6adxlyy&quot;,&quot;sk_live_xdmn92m9li9si7dsedwfd8zyix8c53lr&quot;,&quot;sk_live_edpo4s9ijf97du9m3wluto6zvu08vlh0&quot;],&quot;Facebook OAuth&quot;:[&quot;F|c|BO|k\&quot;fbc61383ca040e9d3c5db7c77a57c6e9&#39;&quot;,&quot;FA|E|Ook򺕙󉑈򏖊\&quot;65cd7ce757f767f0029339748c6afc7c&#39;&quot;,&quot;|ACeb|o|򖈣󰅪񿣋򗦙󏗖󅬙𮨛𗦓󝆦𙄃𾝻􄊛|803e3928b02ab76e9abe0c0f5c277acc\&quot;&quot;,&quot;F|cEbo||񀪘񏓦𨾡𫭞񻷢򍍞򪡖񈤷&#39;1ec74fab79a8b34aa2c22cf4625f6f36&#39;&quot;,&quot;f|cEB||k򹥄&#39;aeabeabad3ea722c5751a6deb53f5e3f\&quot;&quot;,&quot;Fa||bO|K񵙼񰀛𗋼|6d6a5dadfe96fa84bce150f24e1259d1&#39;&quot;,&quot;||cEbOok캢|cf54bd5c7bde6a23cf712ecd109c9c1d&#39;&quot;,&quot;|||eboo|𡍆򔐫𑫣𴨺񕷱􉬠\&quot;49436ff750a1c4157cb332e9bfcc1264&#39;&quot;,&quot;f|ceB|OK񬨋񋌪&#39;d558aec8c754667b6f58cc12a4503750|&quot;,&quot;f|C|boo|񥟭􇵼󘱧𵭄&#39;1838491740424b6fbee584d8ed252c3b&#39;&quot;,&quot;fA|E||OK񵹤򮌌󛈅𢷫𠧎|b7a7e0e83e229796ea40f6e66ee96d97\&quot;&quot;,&quot;fa|EbOok|e07c08d5cea9bc51a48de976d64484c0|&quot;,&quot;||c|||o|𖉽񨳾󵻺򵜐򺙆񍞌񂡓𛊍􏉄󯭸𾏣򽉔󶆩\&quot;ef3537c74c5909f0e2bd4568a5b1812f|&quot;,&quot;fACE|O||򍉚&#39;8cabc29284659a6611f85e09886c1bd9\&quot;&quot;,&quot;|AcE||O|&#39;85b1db3997eab326733e244a512e0fa5&#39;&quot;,&quot;fAC|||oK򅲥􎿼򷐦󬞳򻠪󜁁񽥜󅏣񚬼&#39;12ceee10be2197b18c151b5846054a0f\&quot;&quot;,&quot;fa|E|ooK񸣲𳐓񶦵􏝹㨹󿂀斕𯼳󰋼󤣮񝓓&#39;e289acf69a07918fd77f04f510270824|&quot;,&quot;facEB|oK𯁀񓐳𖟝񀾒񦼂𻄪|d1ce4803dda9677ee7b8f22f2e0d7874|&quot;,&quot;|ACeB|OK𠭰󰶹񨻘򂜎򈏱󍔈󋠨񓳼񨑋󋂯𜣓򸡳􌦥|ed3fd12992675672346eb1d3c5d6e75d\&quot;&quot;,&quot;fACEBOO|򝻀񺛿򰅽󡐃􂱟𳼇򥂧󂁟뻭򰷗|075a706853fd53754edc049587660020|&quot;],&quot;Twitter Access Token&quot;:[&quot;||i|tER񓊬󠠱𸸟𮇂񾳇򲰣󴼡򔖷􏭏񵰗藙򸉹265137699948203-g6Ug7kKaPYXEpVzPFeSae1xKv6tNZxFI5xRJLrxP&quot;,&quot;T||Tte|3539-XtvXIczadXifLT2cooJxhxxC8D67m21g7iriXeQ0&quot;,&quot;t|i|||r󑜠𰟵19177-eGdeVKXJQ7sESyvj6iQaSOy1o9rWdWqEQC57sPlR&quot;,&quot;twITtER񋸾텒򠉨𲂶𲴣𵬢73-bnvHeStkCsOz7GNlOdm886IQyzRYykfFCBwYGh8g&quot;,&quot;||Itt|R򥚎򒗹󏅱󯔉򑠫󌥔񳯛𲮞􄞬򅱚𥊵􂡬𹕸񌍻5581366667-ED3mkSWHTpjSMsn19MBIQ5XaCBN1HKpaY78hYemQ&quot;,&quot;|WITtEr󹏽🣇񤅃薔񕏎Ö񥧳46509872114843-Fszvz0PcJiw7JXdAJOFIX7Y79UNrJZ8GrultzS1w&quot;,&quot;|W|TTE|𰌸88-9ITBQ6kHCqBeGbhLRNodzVDlr4xbWDCkKz3JihcA&quot;,&quot;tWIttER󄭗꽴򛥋񼼯񨡽񪄹򜮏򣁱34205429437-BzGZIhZRNczo1DPA9f39xV3RYiKdpWeyCI3sV5kS&quot;,&quot;t|||T||󹔮󂖰򘊉􍄎789-MdH7HCkDDa5flgTZOUE7ZJ4W4AtKJF4s1bXcRyUm&quot;,&quot;||i|tE|⣠򶂉񚓬𚳐󡽜󮕉񂣷񎘐󝒅𓴅񴘃𒰥󧂂󁤢񠥩84341777-h1iMBVeYQnz9cZH1vtYnMc7m4a3J989b9IMlsFP2&quot;,&quot;||||TeR𤌍򅉼𫣨򈜒򻇕𒰵򴉧񴚞󬘿򗫄25393900301-t3Qxt2VKHd9nutMbGlEoMnJ7xD3u7jPoX5ZwWKPL&quot;,&quot;|W|t|Er󔊌򤐫󰼞󊭒򦞿𤤩3084820930-rfPhysUoSS4iqKi5zc5ETBAUefVOtgZQsebAVrh5&quot;,&quot;||iTtER򄴁󇫓񝚴956314-Qe8qdqJwiDfyWCC0JNDGq61o0jxhtlFvqv5KtmnY&quot;,&quot;twI||||822824-7O7BKaP2015vLxKFbR6Wo8PZt4ZBcYJZWtBQyIuK&quot;,&quot;||I||||񱖼595-ac6WkV4k8Bshiie4yXMO3vXHKhU3B6C7M3MXjJF3&quot;,&quot;|w|tT|R𲝯󉠰𴨎񂉷332-lmh2WrOwKhv7w3EchtWmlxtNkskKUOsmvYtVSAd7&quot;,&quot;||itTer𢓋19-JntULkazNQx84njK8GX0mwqfJTrFHe4NCHfcT9YO&quot;,&quot;|WIT|E|꣈𚜊1902959-RgyBIPAoZKOAabxDY6mmWsD9ASg19gT6rZK04cCZ&quot;,&quot;t|i||e|67-OZiisjD9QFt5ZYilVEqYh5ShXLELyNNSqSF18rnG&quot;,&quot;tWItTe|1711-uZYbyREy3zi4wXDxD5RbTPF7tx4NC9DT4bKGCm3A&quot;],&quot;PGP private key block&quot;:[&quot;-----BEGIN PGP PRIVATE KEY BLOCK-----&quot;],&quot;Mailgun API Key&quot;:[&quot;key-cMKL9wOWFGIaWCM6uYQhfC34uvW4v9W7&quot;,&quot;key-hFc3XjTzB3sIyKwCTVgQvnWPC7pojLOJ&quot;,&quot;key-3p6wlVAYaTRL9vqSHrgkLGT8OYNOqx5Z&quot;,&quot;key-T9VnRTrGYqD7ywkrtys5vVhTb8Au1qy0&quot;,&quot;key-RBSGvUn9Qo2Md7ijAxc6R0joCnWQ6wZD&quot;,&quot;key-o5cv53y1cqBPOONqm5bQ9hpxYm2Yi1sW&quot;,&quot;key-CTuT3H9CZ7qMusggc5w1iWlViu4XePqD&quot;,&quot;key-4iaHkdCdKJeL8N2s1SS1BDjD2W6Lefec&quot;,&quot;key-5cZLfc7HURK7lOdvY3tVquuKNB0oLqTh&quot;,&quot;key-wsu8LR4mxQTnwykxEDwhXLEmHxBGiuMf&quot;,&quot;key-WMEqKcyNiONZV1AUYlAjqtRUyER9xBfW&quot;,&quot;key-m6YPiPfNZk2PT9WlcoUtxKiFRxsQHqCv&quot;,&quot;key-xyo1ITDDdsv50OhS459G2kgJC9JifT4i&quot;,&quot;key-2TK7UHwVYXj4HFbZ6fQiaKts5wO7yXZd&quot;,&quot;key-ZKSez3Ks9ZIfHSZsnRs6lDrigNH5beIN&quot;,&quot;key-9Rly4fbNUpwRyZjBdrWycLAm8DLmo5wd&quot;,&quot;key-7fVFRfN6yfqM9ILCxTI2oZ422VaxurE9&quot;,&quot;key-qVtAz8P7ZdEM8zwYxitPSgjvLzYA9g55&quot;,&quot;key-cRgVHHo26FIQAnC8GxfN8osRMKzepNJt&quot;,&quot;key-AKao6unHF2yrEWt8ucAHHMujhbBopxiN&quot;],&quot;Google API Key&quot;:[&quot;AIza5mLXz1ruPdbftxI_vtcv49YnVMD0uFfhazs&quot;,&quot;AIzarWkduOIXzKrfR2G0E5bvJ8QRBdwwMe9GTRV&quot;,&quot;AIzaOStvn5A7UmhcYlNteW-FV2A2CgD0v4GOqSz&quot;,&quot;AIzaa8qoI6_5zwVljjd5yfVZZJxQbxzWJGhZCxt&quot;,&quot;AIzapzXOynbYVX5GcIeRqH9AIHl9HflFdet2j6i&quot;,&quot;AIzaIK66m8UPUTEfQ6PicvCusbfjz3kwibMfjNT&quot;,&quot;AIzaMNk20YUl5lVnvuO6K-uw18uRd1bmyOu3DwM&quot;,&quot;AIzaXhMVFZaLkdqh02pdc78LD1bm0mhVTBICIgi&quot;,&quot;AIzafD082C8tJa37YwUejjQ5hKZegnZIAWXn_i1&quot;,&quot;AIzaFO6dRNj2K4e75y6iKBF5BpBrxf8LmtSwaA0&quot;,&quot;AIzaU36rbigesFwBgYjb1q0lD2H1h5tYKU5wGhv&quot;,&quot;AIzaIqtowVP-l0HnZabTAYcacBlUKZDEkA8i5k8&quot;,&quot;AIzapDWG0RVl2tyeHKCLPFubZljdkv1Zvfimvnl&quot;,&quot;AIzaMPcPWUDQjesX1uz9McDQTI0VkzoKbco6OH4&quot;,&quot;AIzaklOqZxcIDP0u6ufrmF1qq7MoEXJSFJ_9Eng&quot;,&quot;AIzaljBzOCUpg18aNdZsvL7dgtZDweyhKIqOhuW&quot;,&quot;AIzaTDgf-RL-clR5Kjz4OviTLDoAzpIdCWGQTuA&quot;,&quot;AIzaGuI7OUAnoKpcMHEhHmfP5wiGUih9sCJQrSY&quot;,&quot;AIzaQR-mzMzC437L9ovCy3JwFU89U48WKQh_TcT&quot;,&quot;AIzaxvrRqUmmW_IbZLuhAYS0aI9NA1v1Onf5K8t&quot;],&quot;Amazon AWS Access Key ID&quot;:[&quot;AKIAFUPO3GFHSAUGCXM0&quot;,&quot;AKIAQ0I97S8KTNHO5EJL&quot;,&quot;AKIACFYBY905ESBKT765&quot;,&quot;AKIAUSSJTL05F3CALDLP&quot;,&quot;AKIAGUBX1DKPID8IHNSD&quot;,&quot;AKIABLECQ6AYDLC03P8D&quot;,&quot;AKIA6JCHKX6MGE995Q2G&quot;,&quot;AKIAS05QU3NCDDFYUH7K&quot;,&quot;AKIAEG1M368PS6FEQH0L&quot;,&quot;AKIAOPGJOJ0KPHPHJ236&quot;,&quot;AKIAIBGBS2SWEJQVT73Q&quot;,&quot;AKIASCGTRFD20SRIBV85&quot;,&quot;AKIAPP6T4NG9E28Y212P&quot;,&quot;AKIASGOY5D5S94IRLYXO&quot;,&quot;AKIAO6PE2NTUO8SYK4YX&quot;,&quot;AKIAB5RXX08LM70OMHJK&quot;,&quot;AKIAXXBHGG59AE87RMBD&quot;,&quot;AKIAJUQHO96MDIBWTSAP&quot;,&quot;AKIA74EHSEYIBNJ93D6W&quot;,&quot;AKIAP5U2183PJNIBDV8N&quot;],&quot;MailChimp API Key&quot;:[&quot;bfcf8fc95337302997ba414beb96e851-us88&quot;,&quot;873c01e6649814af0ecad08cdef9f143-us5&quot;,&quot;692be177598bfd5605f03cb81bb3848c-us39&quot;,&quot;f6f65da52fc1fbbaaf2b39b35dc5880a-us26&quot;,&quot;4d3350280584f2fd69928399fb7b61ec-us8&quot;,&quot;1c2d62f5c203576bf38c262786b52adc-us7&quot;,&quot;4f64fb28e57f6ba228290a7cb4b20296-us51&quot;,&quot;f4f12607307497fa8c1ef33ea45dc917-us9&quot;,&quot;c269c06e1e58ed15ea5849c9abf49e64-us43&quot;,&quot;4213bf242d08cae1a02ec31041ff84fe-us6&quot;,&quot;ff633c5ca893e1230d47d09260cb9eca-us63&quot;,&quot;9a7b3993c3993937b0ee5bab6565d280-us5&quot;,&quot;45d84e15ba06dcdf4c55da137194ad0c-us3&quot;,&quot;11ee50b36d750bb1a8642eeeb8d8bf75-us0&quot;,&quot;71dad39925502ac39fb86fbf76cbb404-us93&quot;,&quot;f462360986f6788b5cf72d7c6852e967-us24&quot;,&quot;ca1613f12203f603735dff46c3f377a0-us84&quot;,&quot;8d5184733530854b4225cb07d4cf636f-us12&quot;,&quot;beab792188c4922dde338ce63465eed4-us4&quot;,&quot;8bfccc2a9affccc196589a8485f5d9fc-us82&quot;],&quot;Generic API Key&quot;:[&quot;|P|Ke|𨦷􁤿񦩯󣀂𣘙񦇛򇌑񢰃&#39;JxCQ1QyKDRUGawBIFwoEDLvl4gc4EgnWBNK0x2TY\&quot;&quot;,&quot;A|I_key𜗰񋉊򣓤򺩃\&quot;RpWCTLTqFtz37L9UShPKRe34Jv4WHqdrsrwlH&#39;&quot;,&quot;APike|\&quot;k7yg5hdxDtm3WNEcwmZRrZaZcNyWrhW0&#39;&quot;,&quot;aPi_k||񳉩񶾝󭐗|kPjfYdC8kZyZfzQs0jJ728PdjQtyKeA9yyrPAlVJr2J4\&quot;&quot;,&quot;|PIKE|𔂞񊠎򫛵|VbdzUncMG3TD4O6xfyVgCyF7vdvleO1ujouJc|&quot;,&quot;Ap|_K|y𴅛|p2wATSGCZhqYrLHRWSqAoucTrUK5eyJ0oBdc&#39;&quot;,&quot;|Pi_||y|TSpSKpi6eE40t2x8BoqdvGINGzr3CAqN\&quot;&quot;,&quot;|p|KE|񊴡􉺏񣅂𛽯򥌐𕇒𰵴𸊎󩅠󜌗󽉦񝞨󸌔&#39;lt1CSRJ80LvmgtMKxWgPINl8w9hy0727aOjc\&quot;&quot;,&quot;||IK|y𥨚𴹂򰍵𣝗󒤞󈌂򺭪󼰚񪻑򔢪򶅊򦱩򟏜񒼖􅴆񍮳𷍲\&quot;SoyHZX2uNWO68yt91UBdZoWjZxkQR7ul3SrJK\&quot;&quot;,&quot;a|||e|򁖤𩡇񘧠𒯗|HdKv7SCvCwhUJV3McM1RahX47Su92qFH&#39;&quot;,&quot;a|I_kE|񗄵󵷏񀥯񦎓󇴧񦛨󆷨󕈑򛜜񒃔&#39;KsaCZTmZkjPISRmv8gyoy4HvCMWDu5aZHlOSYFceu&#39;&quot;,&quot;A|I|Ey\&quot;G4c3MmUZPBp9jCd1vm4SlrOJd4zFZq8xgr84m2ATh|&quot;,&quot;api_kEy\&quot;B2mqbiD1PnVXrUndTrWeUlJRGsxWww8pKyds&#39;&quot;,&quot;|P|KEY񎽙񿛩𶃉󙦈𐆺񣠢𳎟󛒇|XXrEm0g2npkRIzNM1sj9CvidcYQLQrJA5QUM&#39;&quot;,&quot;aP|key\&quot;Cm0Kt4xFq9ax8PTL0Zty69M82OW4ohIEBe\&quot;&quot;,&quot;A|Ik||𱯈𐆝򱜺𑠙񢻈𴴘򐷁𑝽򌠵􅭞𠿮􊄿񺙫𓓢፼񈦘񜥃􉲟&#39;S9INQc7tBjc0yK6YBRUzKsb5P8OrxsopUiHl6|&quot;,&quot;|pIkE|𦞡򚰷\&quot;wl8zWomO1zSY1f6vdqguMN5HEqa0ekclRKqiLKf4UvK8Q&#39;&quot;,&quot;|Pi|ey󉕉􍎐񌢼󊗓򥉍&#39;lBt17SDZg88Z5BADGEMF88G0spzLU4BKTEz2tYDzDKBj|&quot;,&quot;aP|kEy򅻸􎢋퐼󉂹􋢏𗨥󎂂󬄁򅁤񤿛񻆺򋂁铙𘏩|tAVH2cGOyGrPLRM4FqBMYQnDLjylcL4sTxFu6FmZi\&quot;&quot;,&quot;a|Ikey\&quot;vlaRwvP9h1EPAEOPBbZoPoH7ljPWQyFw32A|&quot;],&quot;Amazon MWS Auth Token&quot;:[&quot;amzn.mws.e06fdfd1-0e44-7ce4-541d-0a21f2270d3c&quot;,&quot;amzn.mws.141fbb76-6739-782f-fbc5-7b4bee36ce99&quot;,&quot;amzn.mws.10bbafe0-800e-d7d3-b6ab-9db4f8806900&quot;,&quot;amzn.mws.33a5e5e1-668e-fbcf-f7ad-33f3bd69328a&quot;,&quot;amzn.mws.a72b068e-904e-33e1-4927-9066a31efd8b&quot;,&quot;amzn.mws.cd013dda-8ef8-f3d5-85a8-a47ebbf985f1&quot;,&quot;amzn.mws.6869b2c8-f635-e28a-8d02-262fc513ab01&quot;,&quot;amzn.mws.e5ff4e52-1c87-0216-e7fa-26f57045a669&quot;,&quot;amzn.mws.c6ca1ada-facc-2415-ea22-5bd62d26744f&quot;,&quot;amzn.mws.6ccbad50-badb-152f-9a44-f697f954d683&quot;,&quot;amzn.mws.f5307c34-f5e0-d4b5-7bae-e09a89e50254&quot;,&quot;amzn.mws.d1addcfd-3fcc-9aee-6c75-c7590ecf64b9&quot;,&quot;amzn.mws.f95b7ac1-ee10-32df-748e-13f717f0c008&quot;,&quot;amzn.mws.9c6e799c-ef11-2f0f-97ca-8be16b97d63a&quot;,&quot;amzn.mws.c56fad02-1cf4-013e-6e41-1a8079e899c8&quot;,&quot;amzn.mws.3632ea35-1346-fbdf-43c4-76529fc2bb9a&quot;,&quot;amzn.mws.e28eda13-3583-1ec1-8e5d-4940c1dce274&quot;,&quot;amzn.mws.da276aa0-4447-b90e-2930-914100839aec&quot;,&quot;amzn.mws.b2b09e33-caf8-5c07-fe2f-ac6bcbfd7ffb&quot;,&quot;amzn.mws.36c91997-81d8-d7ce-0f24-5e94a0368eac&quot;],&quot;Google Cloud Platform API Key&quot;:[&quot;AIzaX1NoATXVTr35_Dz1z7_ReJrQn6xQTBo2dyc&quot;,&quot;AIzaYGXtV3eY5erdYUeonJQHBcm2WthMDN89dhv&quot;,&quot;AIzaHeMig8py23_vOiDz6fBpMyXhtqkBAiZvofr&quot;,&quot;AIza_68KuKiFoHs3uBhzXNlBMTN0XOsxEHsstG5&quot;,&quot;AIzaMkOrhrsYBeYRjpvlsnptGVBdsOIs0JxIzIT&quot;,&quot;AIzavobRXBdPxBABh8CESXLAwmuh-AQ7vu9md2o&quot;,&quot;AIza_hxMtM7z7P1sORFyqorkqyfwYvfWCNkN5NW&quot;,&quot;AIzarrR1eQApKMwcdTOI5O5IVlaXURDAnkJyWCh&quot;,&quot;AIzaAdhZzbgS7uybQt97AKUXdPr-IKP4q0O1LQC&quot;,&quot;AIzakp2d_dY4z90XV9RpChfcLrhPrCfycQLGNzR&quot;,&quot;AIzae38YCgcbkeofEsjG6h2kTfw4vKQ7dGWlKuQ&quot;,&quot;AIzagQOBuKMjzGzP3tcMDs7canRPE-4Jss2eDw1&quot;,&quot;AIzaRNkFLzK3-DM0TTZ0cYowpuGBYIKF_gxPMpu&quot;,&quot;AIzarnpfSsZJb2m5ad9glMOvhxjxCSbKQnfdBQy&quot;,&quot;AIzaEURn1uoxUlhrt7AiEHmSPg4Jdxzlv63tkTf&quot;,&quot;AIzarlyWHn7DHhawtVzntLzj5rHxPj3jLCXOhM6&quot;,&quot;AIzamY9cYgCToZ4tj-wVvQGtHTWRdfV0Gm09F2q&quot;,&quot;AIzaAbx6rKPSrLVeMyvXYeS-b6agW4Bc7_ts8ir&quot;,&quot;AIzaI2x3qllZfJgLZ40CPgLbM5AE7go5V2vVEjx&quot;,&quot;AIzar-ROhIJa9-pOiEMYhgqpgWnEislowehzQFj&quot;],&quot;Google Drive API Key&quot;:[&quot;AIzaKJQQlEGqzKwIATcuJkuC7RGawhAvYjQehcH&quot;,&quot;AIzahPJnH6mX4sO_m11mTQV0I5Sg-VHR6MiOotB&quot;,&quot;AIza5LlbrVLaP47LWObPsH5XU5ZxkT2G1bUxu8k&quot;,&quot;AIzaWpxzWbCYwbgS_VXk8BxjumX04Qk1hLQBbfT&quot;,&quot;AIzaWhy1BNpbPFhaSHIqEpY3-3vp84QXdgAZwTn&quot;,&quot;AIza2Ebae6VUAJiAicGMyp6VlrLmDLv4FQhCYzw&quot;,&quot;AIzaAzROdVOnbrYtDdSGdm5O1AzzeVZ_9W3Oudt&quot;,&quot;AIzaKmwm4Yr8t0xf7ClxRx2k9HkS3WAel3BDar8&quot;,&quot;AIzaYZs55mgJ1-_CpinCdJyIZ-vOWptnHA1AzxT&quot;,&quot;AIzanw1lxZ6YocObloxCw_9YRfTvFKXLCsuID3s&quot;,&quot;AIzamxrS3pM_U6kQb2KtgXP96RvmlRzIqcJmmZ5&quot;,&quot;AIzal6X57tk3OCLWQBbIyDFm0arMxfYzhrfb7yj&quot;,&quot;AIzaL0CMc5EpJaFKAFlrUsQeiYIhodw1C64icO0&quot;,&quot;AIzakrrH6xydiLNzWCoeJbqAHuhMQceyzJ0iRZm&quot;,&quot;AIzaS_eM7aVnYx5dLKF_WUNzI104fuk6ZH-aFw9&quot;,&quot;AIzava4McpkToI2IZfiuYRJLJVZHFvAwULvxdP_&quot;,&quot;AIzavrxvOsfuQhh_h2JoQxulSZV8vFmH-UA4sTf&quot;,&quot;AIza87h1c-4nzz_kQlP4guvB66rgxjl1SINPMyi&quot;,&quot;AIzacWI4cTz0IWlA0aiFhbtET9xWZylxhYlwUjR&quot;,&quot;AIza1DIcMJfSZ3DXVN3QsvzYF0lXg0VuYsd1wVn&quot;],&quot;Google (GCP) Service-account&quot;:[&quot;\&quot;type\&quot;: \&quot;service_account\&quot;&quot;],&quot;Slack Webhook&quot;:[&quot;https://hooks񡖔slack񠳶com/services/TY7EROWTy/BuKHvDpfg/aHRqiuuFcTh_DzA4_DlWp5MP&quot;,&quot;https://hooks󄮁slack󠔧com/services/TjGZIwxmW/BKnJHwRgd/MMhhJgMFa5EleYpCABWtXoFv&quot;,&quot;https://hooks򘼓slack󫏔com/services/T3DPjgouo/BzYW_lvxs/2N3ge34_6WtwmGZhEYXugoYh&quot;,&quot;https://hooks󉜵slack󳈄com/services/TeMuNvktU/BSqYbMUxd/n0wM6g8SAvVRvK5c3WnjwWa6&quot;,&quot;https://hooks􂬊slack򒯤com/services/TgRWHCejq/BJhlPjxLf/7V5Id5kopf8P6GQxbqiwIp1s&quot;,&quot;https://hooks𷽳slack𙧍com/services/T_uUkBVod/BGuVNC3Xo/1jxKsdA9C410ypaXJTw0jgY5&quot;,&quot;https://hooks󔻭slack񆣰com/services/TtsQ1DrTA/BKY8DTRbb/xqyTov4Q0mp_af20Jmfalefn&quot;,&quot;https://hooks򐌠slack๵com/services/TtbWw1_a9/BIwOru7vC/CxhJ3bjw2VhJQrJ7m_zZCUV0&quot;,&quot;https://hooks񏾼slack󅸪com/services/TAzdAmD_8/Bc6iSBvsL/RLPieTXq5vinNe6qaSF4EuUZ&quot;,&quot;https://hooks󸯅slack卮com/services/TOKG6I_C9/Bxxg2474n/OCGS_sO3q8iP2iTwL3YiAIXu&quot;,&quot;https://hooks𰽴slack󎄩com/services/TRqaAiH6X/BUPlRTkxO/LEOVXCg2E_3Gez6bP7S2Q0Pm&quot;,&quot;https://hooks񔆸slack𸋆com/services/Tg3lvHWhx/BZDkzEnul/M27RduNjaMZcsh65lHqOF9uQ&quot;,&quot;https://hooks󒃞slack󤢕com/services/TmNr_3wj8/BUhBMMXwX/vJk1aoIRgImZIHFSkaHi8gh8&quot;,&quot;https://hooks򏟗slack򇳗com/services/TnZ1QGEnC/BAM0ecHmp/uMLwQHsvDWlA_yoClgQdbujD&quot;,&quot;https://hooks󓮫slack䯚com/services/TFvpro2sL/BEEoWhi79/rcIjddGex5rXESyZczokQymZ&quot;,&quot;https://hooks򓿧slack񎑞com/services/TDbcnxAyM/BKiMpbNlN/eRObGDVsA8EJiIX1cUUdxLhV&quot;,&quot;https://hooks􈇥slack񝶴com/services/THMb_MoyY/Btvgcqh2E/M_YNWMWQqJkY4zlzKW0V7HKg&quot;,&quot;https://hooks󜝤slack򧭎com/services/TKZ7WNLZ4/BCRhtuTL0/uOl4DREezODtNIfpLLcVDHFw&quot;,&quot;https://hooks󞁆slack󃉊com/services/TqvndtZgs/B3f8XbHzF/YC94uATUOpqrY7ZCUx19Ryd8&quot;,&quot;https://hooks񳢿slack򍫇com/services/TFbfYaYR6/BkgPb9UCl/nNHau1dLvV3EEReSpnvouNpi&quot;],&quot;SSH (DSA) private key&quot;:[&quot;-----BEGIN DSA PRIVATE KEY-----&quot;],&quot;Google YouTube OAuth&quot;:[&quot;3579-3u1oodhFsiKDZePb3jw6DnUHfhnpRFyR.apps.googleusercontent.com&quot;,&quot;86-cjr8monoxHfOZw2ZX12tCDFF9YatA3Jm.apps.googleusercontent.com&quot;,&quot;194-9ytXRE29Z1FyKH2zdSli8E0v9omxRtBH.apps.googleusercontent.com&quot;,&quot;4-cu2fc57Q7YIlLn5WG0Bz2QAmrhfuYOOH.apps.googleusercontent.com&quot;,&quot;91411-LaI4O0hhS4ummdDD5nGsl2VeAVNIOs8A.apps.googleusercontent.com&quot;,&quot;348777171-Dg2o8sNDauaLHihmq_rhcRFENhjkWmcA.apps.googleusercontent.com&quot;,&quot;522800-BgI6Cxa9_DQSA66kYQpraALZo7Tb5HF2.apps.googleusercontent.com&quot;,&quot;1-nVZ3EvVMkLH4K0herIA__49b6hX_0HCR.apps.googleusercontent.com&quot;,&quot;4016143831-3zMIurhVL24YF6ee62eK8utD_LtqaHER.apps.googleusercontent.com&quot;,&quot;813-mFq0A4GTxIZHASpRWKGUlLT3K_sYJ4if.apps.googleusercontent.com&quot;,&quot;2-E53gnHKk9iVFXMTUjdrVcKjrY5KMKwSb.apps.googleusercontent.com&quot;,&quot;481688789015-emgG5NcF8S9PRNKw9TsUAnlXk14r3_zF.apps.googleusercontent.com&quot;,&quot;402150343807997-zIlQae4SHnsAJzBJaBUmNI27MFPgH32m.apps.googleusercontent.com&quot;,&quot;29-1fpsPUIZuE5OjPGZjmYrrxuannLLmzZi.apps.googleusercontent.com&quot;,&quot;77-_6v_tFMKIVuD_Hw_jLcfJMLMn4wnOZnd.apps.googleusercontent.com&quot;,&quot;9-clj6Y0ZNp01NtHcTE7HCU2flZJqCrjwX.apps.googleusercontent.com&quot;,&quot;198-kbizIrPYDj19FGSORYLXgj_rmPmkUGxT.apps.googleusercontent.com&quot;,&quot;5865597273291-PjRGIERHAyIbcutewW_n2ZLpXOmfu4z9.apps.googleusercontent.com&quot;,&quot;760745104-_5WMUYF5uiSnkJYiI5XoYpWhLnTi1qOy.apps.googleusercontent.com&quot;,&quot;28-8FbdueuZNcAlphGZmXwmdQ0lrB5GNx4O.apps.googleusercontent.com&quot;],&quot;Generic Secret&quot;:[&quot;SEcr||򠨮\&quot;gKBe1DC79cci3H6T6lHHoKts9a0naXkK4mQgSdL5\&quot;&quot;,&quot;|ECREt򖛯󠤬󭏺&#39;JC6wNJl7fmKqw4ujG23CUKbU65xz6UQjcQKjanJB0Q&#39;&quot;,&quot;|eCr|T󩮑􀤼󠭵񛇱&#39;RRqsajllVrpmrbw0SAYcX9B0NuqubosCgPlQa1aMeerP3\&quot;&quot;,&quot;|Ec||t욽🥵򼼅瓌򜼞򴒝򲠙񬃿񘱱䂔񎅨򴹵巤󡬒𙴬󧰇哀𴕈\&quot;qyOiuc58h7R14txoFY1cGfGv8IrZDIcK|&quot;,&quot;SeCrET򋲢򪮒&#39;MU0FYoOPZAH41657NAn1yekinb0PEZVWgrZ4DHTOB|&quot;,&quot;||CR|t𥾀󔢍Œ񪸱&#39;TcTYOTceTqLI7Hh4hZTjilRKB0N91gczCnWe|&quot;,&quot;s||re|񓒏\&quot;KA19x4qV8JiyQeRgfevOgQRT5fJZF8mBKpshE7aEFFv&#39;&quot;,&quot;S|cRet񭒑󸨑􍌟񃓺|YXB9uMiMlb3ztil4NIZTgctZnPrPEX5EgNxkIj|&quot;,&quot;sEC|eT\&quot;kb0by4paWs0NVnfEvP7kkxUdjNFFLrx4ry\&quot;&quot;,&quot;||c|e|񨚅􇘠󿅱􅔹򅏋񽍁󩼎󬂍󌎿🱘򷀆󊊵񳕚󓢣|C1dYIWWWpkXWrxWKVepn7aPlrFqQgvjPMgkh&#39;&quot;,&quot;S|crET🅙񪷜򫻀󻱮񌮒򫌮񗪸󤚂|QRreeuA4U9hxpc7BKVIfBU6wwIjec3U7&#39;&quot;,&quot;|Ecr|T󪈣\&quot;ukCs5dz3QsMmkFG9sgEDwWotkl3Otmi67q85XIUGXlUw|&quot;,&quot;s||RET򁼩񘨱\&quot;aPIwgvBTylalx3Z0SKPDCo9LnWAkYgCeQf5GXqd6P|&quot;,&quot;sEcr||򡂘𭭰񚥥𛃤󝭁򉥾󶛈񾇢񒳀񣿪򓰪紋𠤁|Ffg4NjVtmTNtaRpcduv06CbpYYBSiDPS3nul8QqaKu|&quot;,&quot;se|rET󷲐𐲳𼬼򢣡|DFgS7PUH7JYAIjEi6dQHk00ogjoMWZR38itG|&quot;,&quot;sEcR|T𜙅󶢐驪󦳯񂿟􄶲&#39;KeVyGCdmPCuq4KFL89jCgEWlX3mfSwcFOg3pUcrM6Wxke&#39;&quot;,&quot;Sec|et񂏈|DmhwbcKFzNJzZCeFaI79hCRnorfsNW7UWL2wz7|&quot;,&quot;SecrE|\&quot;UFA8EbxtAGi3YXCD8DSdskv8wmqVzFKpDV9NTnsuUNvyH&#39;&quot;,&quot;||||Et񑘐&#39;xg0OByMulZcVZ0n9BiMZXIUGp4yZ9GSKd2&#39;&quot;,&quot;SECR||𣭫|lYiSGhaGtkyxURjTkq5j1yTWosN1vhSkbjbGsAhz2Tlz&#39;&quot;],&quot;Stripe Restricted API Key&quot;:[&quot;rk_live_htqTPUifHOfCV9I7LSmD6NbQ&quot;,&quot;rk_live_3mXouzAt3tO1NehfrEaSfFft&quot;,&quot;rk_live_Mj6Scw6WMaOegkDt5T6YnFAS&quot;,&quot;rk_live_2W4kUzjOTN90RCD0mhNhkgxZ&quot;,&quot;rk_live_Nf7yzFZKv4sZpHyuATYigyHU&quot;,&quot;rk_live_RcJlMYQgvzOPxv1RtsUEuhLw&quot;,&quot;rk_live_xGiC3eqdt7H8X87dKl33R5i1&quot;,&quot;rk_live_FyTMqo1wEHliU0ZzZrRTKYc5&quot;,&quot;rk_live_9QhdjyTQfQaWpWCxM0CAHqzC&quot;,&quot;rk_live_wFdH3MCFwjKVaRz65UU6QOyA&quot;,&quot;rk_live_c6NSR1ikHHSiXeT0PwrunzqQ&quot;,&quot;rk_live_HRCm0AxrH2fXh6TP3n6j3DOT&quot;,&quot;rk_live_yJ21mGE7KI8k5IOhczEGQtJo&quot;,&quot;rk_live_lIcIrmASXY1fOYSwnXTCCTWn&quot;,&quot;rk_live_pl1lftJcGd9TfJ24LYOQFbhC&quot;,&quot;rk_live_EBbHrohh5IoHNPNysMhKxTKy&quot;,&quot;rk_live_EpHGbZzKaWxL7u9GfQTLlK8k&quot;,&quot;rk_live_bhALylvKBr7qLfGfoP7Xd2WX&quot;,&quot;rk_live_nOs7lRkGFKVOn9JBzFEFS0I7&quot;,&quot;rk_live_qtuV9U9oIHxPAXwVxQuC4c4A&quot;],&quot;Square Access Token&quot;:[&quot;sq0atp-NxyCqopGirBcM44UoNuaXy&quot;,&quot;sq0atp-1yuT2kOkYRcBVfRutqzA8s&quot;,&quot;sq0atp-lowBSAZRM7fLX1bqGiPcGj&quot;,&quot;sq0atp-gHH-EJqirI2g4PSC5cB_Ns&quot;,&quot;sq0atp-umGvZLRQKhLa7Y7usMulI-&quot;,&quot;sq0atp-xt6G6yxIT0QUojT6nuJdkU&quot;,&quot;sq0atp-NS81BSjI9q0ABDOJumpwek&quot;,&quot;sq0atp-qUQJifUBoRYMtqGqGqQLeQ&quot;,&quot;sq0atp-X5WsLWt2aAHkEdWixsjdFv&quot;,&quot;sq0atp-loFw1aBmXlEzCXKkd3c67e&quot;,&quot;sq0atp-f7mrX9T5I0iB0_TzPP6T-F&quot;,&quot;sq0atp-xHj81Bd-DHOGkqQFYYbZiH&quot;,&quot;sq0atp-WgWJpfG4PXkIF-VRbLLOxZ&quot;,&quot;sq0atp-VO4AWYVZy52glKLNjveMjB&quot;,&quot;sq0atp-GU_u7KMAVf4mOA9BvcspZz&quot;,&quot;sq0atp-ys820-gZwXPyEtmUEu1mlE&quot;,&quot;sq0atp-JEFCuaycgQRaR4sfZyHV4H&quot;,&quot;sq0atp-EbhNaAcJwMdGQz-vpOEh28&quot;,&quot;sq0atp-o3ImDauFzXUFhmg2_lwdZo&quot;,&quot;sq0atp-NWgJySGOXxl3aIV-gUWPBP&quot;],&quot;GitHub&quot;:[&quot;|I|HUB򇌻𫱣諢񅞿𮊦􁊸|EF9JxYpa04TpQapy0opkbLxYrDLKvSntb0fEim1e\&quot;&quot;,&quot;GIT||b|VWAeON7mXRLkrkypF7Rwnop2bqyvGdAkgHJ\&quot;&quot;,&quot;gi|hUB񢅢򠢅񺮶🥂󹐾\&quot;MqeQ4Hwyb9D3qwp4VasAS3ekDWcncrF87KL19\&quot;&quot;,&quot;||t||b馛􀅳򕷷􄭒򍴢򰲮󛉎󜐾􄩕󈵟|zbufItW6ztTLebbHGmpVSqNf11gWdOVak1OBR|&quot;,&quot;||ThuB򾒖|8M086tHvfi9y766mOJZ2xLrWWcWOTkryNbSrclD&#39;&quot;,&quot;gi|H|B󢯨񽉛&#39;XSnZOGTlNSPSHpKtNJtpEfvqtbhGbd9pHOvZ\&quot;&quot;,&quot;Gith|B󉍭򤈍𳄑󃉬󎲽\&quot;8yGH7o1gdg7QI30v2yNSSuf6Ijd5hEB0vmg9&#39;&quot;,&quot;|IT|u|&#39;91nULQqoEyp9LxOdojnOBcPKZD8x3h1RjUS2\&quot;&quot;,&quot;|iT|Ub󝍫󅄱館򡠡|KpCZMM6yudpeE8QFMPCpH1VmZUzhpkmB3GyJQKkb\&quot;&quot;,&quot;G|tH||𷸢Ｉ򾿄󰩎\&quot;Z36ikvDXdaLmzqL1IdLEeCLCO61EMAeVoLoAJcVp\&quot;&quot;,&quot;gITh||󘶫|JZf1aeXr4IjG2s1Ay0pIIIVQSzsXZHYjK6nc|&quot;,&quot;G|thuB\&quot;Rj39Wt4zViKuYAAZOXBgrG16y8WhRNHUP7YY&#39;&quot;,&quot;gIT||B񧩈􁉂󡡠𬇥炩\&quot;pX5CYshG7eaI6pI6R98Shgvw0uAwMyjpP8Ac\&quot;&quot;,&quot;gIThU|󅛹𭖗򣢇&#39;1lBF6GMZW9p2tjiyp7uY7dPnFmhbrcPNa0Oi&#39;&quot;,&quot;githuB򏜁􈣭𛜄&#39;v9yt3d65Cx0wH9RIX34grTAr9aIfEALljQvYC8x|&quot;,&quot;|IThUB&#39;ff65GEV7WqrTEj5k49oDnpchpRVcYEXq3gEQckJ|&quot;,&quot;|iTH||𢂰𼧮῜󜿐񜤒󸧒񸔛񲍵𠟈𼩋𨡂򽅆񊴚񏱘񠤨̘񂾓񄪓󴢕&#39;ZH2JxtPuoq1Xt8l2YT8GxFfUGyNBBDtulUdTV|&quot;,&quot;GiTh|B|viEvQV6O6pzrArngUxyflVEPT8vpbvPn3Zr\&quot;&quot;,&quot;gITH|b&#39;LjDVYmMs6RWjT1rjxa6y93Y1UC52CmunsbLTd|&quot;,&quot;GI||ub𹂢񭇌򂋈𘚕􀽁\&quot;mysaMeGXAfb3P7brJfeOK1NVbfrJNpev6oCvM1Ok|&quot;],&quot;Stripe API Key&quot;:[&quot;sk_live_qnPWZjDVAHXI8Lutn3IDtu6l&quot;,&quot;sk_live_t7uetClRBoT82aMRftL1BKps&quot;,&quot;sk_live_HwuT13jfazQ0CjB1uhBsaTyS&quot;,&quot;sk_live_7E3pOSY9J7cQfGsgomDuhPWg&quot;,&quot;sk_live_9kzz1DVARWfzpvFRt0oibK4f&quot;,&quot;sk_live_12I32BlJhuokRlQOiXYhLX7H&quot;,&quot;sk_live_1ZpYcOFTwzFvhp2RkrlcXTZ5&quot;,&quot;sk_live_Xp9Zi5CEBOLRdqmmS0yDUqbA&quot;,&quot;sk_live_B4dmvfTfbm5YePriybe51aGn&quot;,&quot;sk_live_LVNGnHmCMgvtfun3h76VlCzF&quot;,&quot;sk_live_KHiEZAcnDDUXK2v547bFCANW&quot;,&quot;sk_live_xtYRskWTWkjVOcuVXXpsbE5A&quot;,&quot;sk_live_S0G1pzSEzvYiIOVOuLzWIJnu&quot;,&quot;sk_live_hWfa9GGjBlwMtePW2MzTwOfN&quot;,&quot;sk_live_Hxu232f7OZaprq3yVhmugfdQ&quot;,&quot;sk_live_Fe6mo53KAoWhMYSwuvVW8kyY&quot;,&quot;sk_live_dJTjlvZmp0mRd0pYVL8NKDdX&quot;,&quot;sk_live_K84JAIZA0jjUVHjarGwPAiIK&quot;,&quot;sk_live_HKRT9D8zyy5GlwrfcbCzbGDW&quot;,&quot;sk_live_ysTrDHggiseqDGkXV1fRIhL4&quot;],&quot;Google YouTube API Key&quot;:[&quot;AIzasHTCkN8aJ7JKuK-DDZfotmgX9qP9KM3mrku&quot;,&quot;AIzaZ-P0Pnmrzftsgaz-1dON86axM-eQN1U9ysF&quot;,&quot;AIza-bq_RHsMqmbKKxW4sz1ScAoIn1bfKldwx7D&quot;,&quot;AIzaiQFqrLTmSJ1COinIx7zsF6Jnvmh3zRX5ZEJ&quot;,&quot;AIzaDdAIWbZ8JeiHdDYv6yoaTS-Yl98qI0JL9i5&quot;,&quot;AIzaUZUliuFeGlmzMTSc4H2KikqHphvm-1bspL3&quot;,&quot;AIzaPXR6MC7yFYst7KEZ8JjPvciaWJmqaQReU-w&quot;,&quot;AIzaI8QQG8tftMM2t4f60nwJkN2TDJWJ3FlGHbw&quot;,&quot;AIzabLYPCr4AQ18ZZRgM1aR8d9JwKPd5CyfrC2A&quot;,&quot;AIzan3Cl1cig-G35E-1t-kXPb9gI4vLSrvZSLCW&quot;,&quot;AIzamuiwcoeUxannIXiyHNTdXOVvWvCiNFOdAtr&quot;,&quot;AIzaF_bYUIw6DOAe2bwWL-C__TGqtnFOqOolEj_&quot;,&quot;AIzavkuV2c2rXp-1rRGfQc5WMxOaKFVKSVe2YOd&quot;,&quot;AIzaFGQfzTQanKX353QcMxpcBm_F7pbmeZEnBRn&quot;,&quot;AIzaVO8NQekPEO1ZwWroJqsSHOja2LLENqfbnhK&quot;,&quot;AIzafIHrYCssg-q9cubJJzYHg2ydHymOtWg-QUh&quot;,&quot;AIza_3IdCqZGCZcZVEQq5iAr7N3-0Qut3ARnZy4&quot;,&quot;AIzafpNTQScedkVa6YdWygJdu_Jg_bWOLVnnUhY&quot;,&quot;AIzaXzGxQyo6rIgivH2cl7D6udvb69DjjC5_5kd&quot;,&quot;AIzadaU5dlw487nyUgLW0tqD708LqkG3B7WxZCu&quot;],&quot;Twitter OAuth&quot;:[&quot;|||TT|R&#39;QMRKlSn9w4NAw1tAoHYNgK6Lgyv5H0r53Kn3gi9JQRr\&quot;&quot;,&quot;|W|ttEr|p2QhfyahSioDJW2i2W99AfaA4PuVX3QRdPnv|&quot;,&quot;|wI|TER񛳺\&quot;K1aqUUebuqSvaMfxQteAqgu1o99oEyB3E88obn0BRF&#39;&quot;,&quot;TwitTER񜤬񾧶󑥈􅄪|vbboQOPT1PLHYnzUk4rjBZ0q2kFbOSzX9QqLlp&#39;&quot;,&quot;t|it|ER𭕙􆖁񕼺𤞙󾭛犂񅺏򃢏𐎬􌝢\&quot;sbYWctyd4dryegBxj9SR8pM1yWhBCKmpFGN&#39;&quot;,&quot;T|It|ER󈰵𗠳𱀸󽡁􄛑🐀󏭦\&quot;ikW7s73hJKue1b4uVQFRobLhbP2xVhcKREk8&#39;&quot;,&quot;||itt|r񗟫񀨓򲙗򤦢󺐚򤍆󓆏󳅹|R9oucxJt08Wpb2pzu88IJBirLdL0ofYT23fSivm3TJ|&quot;,&quot;tWiTT|r󚕨񘃂|cBAE5O0gvGMJgU2kBCBGNc7BvL5jqpZpVht0liUSl4&#39;&quot;,&quot;Tw||t||񘼰򃆕񀏝􅎍򾀥𒕳𕡲𘔑󾁡򹺒򺷳󣬙󑝚|Du8HA0DLsJJAlzlJoY2hIpjxRRt6wsRUHSG\&quot;&quot;,&quot;t|Itter𶼺挔򉗛򗐺𺈎󅠓󾍒񷡱鰷񘄄񋸢|PrKmRw3Y9IaHG83KumzPyg8fIg2rsFN7ZUER6&#39;&quot;,&quot;tW|TTE|􅣂񡯚󤎡򴔭𧱲󲉷\&quot;DtCQYCi2xKEsvdmRbN3eGvDzMqjRFg1AYGy5HDyTRb\&quot;&quot;,&quot;T||TTE|񷚞|4Qhde8uhnQCbHarQEHr2y3j1pnwijyYxOfyfRyA7Mv&#39;&quot;,&quot;|wIt|e|𞌟󗜢񊩶򘾅󞱤󷏟礭󮒃󾥞𑲎󹍈威𓕸\&quot;kg65ajUOLU3eIRe7EDb129mgR3h3kkXbY1ISMOJOpnZ6\&quot;&quot;,&quot;twiTTE|񴚤𱐼𢕯򸚐򁺶󵔅񧱻􇞐񩏢񨲰󀨫򁝵\&quot;s0tCWG3laorl0kaNxzdSq9IyTIPuXPzgsIN2U|&quot;,&quot;TwItt|r\&quot;7PT1CZj5giDEa16Vk6XhORtnCxhSyhTm8tgZp\&quot;&quot;,&quot;twItTe|񄩃󻐶󇶎&#39;flOXKWpFWyaYyeDgXbnUPcj6WQ7k6VGt1NNrWL1Cyg\&quot;&quot;,&quot;TwITtER񷄽򸃨񥴛|xhxPTLn7g7Qus117UHDIYdV8SuiyqtKXzgRRMlk&#39;&quot;,&quot;tw|t|eR􋫀񹮛󷎏񍠬񋒁򩝠򪄊񞥼\&quot;ILj4xkhtCeqYhCuSgoN8jQIRtFs2ruzfthLUd3fZ22&#39;&quot;,&quot;TWITt||&#39;u7kQKYPEaPds1moluPXWLh6DToDGwiDPHAl2W9|&quot;,&quot;T|i|T||񃛱񅿵𠼘󓈼|0Iy5HCgMGW1z24ZbccotN21LovPQAP1SuO4YN73k0ynd|&quot;],&quot;Google Gmail API Key&quot;:[&quot;AIza9GTGoDAI3sp15hwnLRqjRfYLhTbDtkbj6wH&quot;,&quot;AIzaYV6HNMg8mLHcLDC0L2_0NMvZ1NwzKocgcfb&quot;,&quot;AIzaZLg23l0rpTJ_KdiG_xyvu4rYLUkZHfp3V3a&quot;,&quot;AIza284YTGPFxKOacJKoejeOX1UbfZZUZ4kJ9j6&quot;,&quot;AIzaaUNKf5iALrsL0TYxpqbpI9Mw7w2sGaRldsh&quot;,&quot;AIzab2DQ_XoMSey464MXJczRCRlSSzJNKDNhIjZ&quot;,&quot;AIza09pr2y-ts_5ndA0yZiTuiQLp1HscBuRtt7U&quot;,&quot;AIzaWbRh003bf1wo03BR2zXqKHauAAdZQdPRPKh&quot;,&quot;AIza6hzFZoWSq_xlgrpOSL72hg7bajXj--O6kQ6&quot;,&quot;AIzayaTuA8zPjyHSd7VQrixTD0a1ErL1DxTylO5&quot;,&quot;AIza66Rvn4obdc2fUWwQavmSfK99hG07-62EM4u&quot;,&quot;AIzaCzKsOV0bQ5Kklf-8B61zyE8I8pdNCtIp9bX&quot;,&quot;AIzafb6sEM3ldALS0mRhrLRIAtbEOrrbnRu-ylO&quot;,&quot;AIzaNC0Z7DMfMthnjc0JXbjyZ7xBNwFN2IzbT1P&quot;,&quot;AIzaiyJLqiO6dQ9W36yQWzSZdonsORItmeK0iFp&quot;,&quot;AIzaUBjeKxJVp41zeZxNdJgNVrpYUMDufHBZSS9&quot;,&quot;AIzaMyZoCNofwVErS36cn207bp8VVJKXLU9iAQx&quot;,&quot;AIzaBwxfW9EfoCODm2puGCcQT0EBwZlJlOxwWLp&quot;,&quot;AIzaV_qkFSAWfsCiX-2JC8y4ceL4T1KB_0jAGyw&quot;,&quot;AIza7UWYK9mlH-W6fIO-LfX9Q_9f2EGsXthUScR&quot;],&quot;Slack Token&quot;:[&quot;xoxb-241194822375-387672601523-836193867064-ml578m06n4z23qjhzmybinmpeyrtz4kl&quot;,&quot;xoxa-229715127816-070558078419-057376252340-kcto6pqyoxwttadrxh7yov0fnvbcoe3k&quot;,&quot;xoxb-663661912666-555508983142-657686116691-9z3omefp9gq42coyyp7nwbjxou458phd&quot;,&quot;xoxo-723948797294-400915331139-813287172331-y0pyh8j3v1ux4muj6g3lnux0xf0p9286&quot;,&quot;xoxp-969743559964-009069442808-529070043235-h07q64q504yy9st2v61oln1xr30b8c1q&quot;,&quot;xoxo-367520613789-390327577148-173195524423-3n7ky0ag9lq94d98j50cl7mgqgg1fpw5&quot;,&quot;xox|-532539648462-500506530156-768116587188-ase265f63czt38gwjxf412k7uofhfy2v&quot;,&quot;xoxa-355659620835-516540332165-488807757506-xdeleuqg5hedp2oxxyy6adt8nws31if2&quot;,&quot;xoxo-885003334953-912803656227-053168776287-jqpo8fbb0wcavfvab9rm4qb6ckpqnbag&quot;,&quot;xoxo-503038322368-355760750065-633996679906-00zsx218sti8gdl25domz979kj5526v2&quot;,&quot;xox|-931421851109-174451019521-689053587177-ezzyb0zosafl29apw8za03tl9507x3t6&quot;,&quot;xoxo-058937315492-032804788711-761910675211-ailqclmfc9n80izu1b6d9ykhn7ycidrf&quot;,&quot;xoxb-935255108063-851717403687-331047957242-z8v6ilfsnutgu0ghnrpno5ytpzstvgpr&quot;,&quot;xoxa-990582033804-106500515056-658958227187-pxmmxwmtiz9jl09oayefd6ffegbbcczx&quot;,&quot;xox|-840370330808-171770042446-905208079529-ukvhptuos73cze8ex3ad5ir5nsbram54&quot;,&quot;xoxa-132356930822-531615263850-384192667292-xbxshpf4nmxmomimmynzsq8oc6l0snum&quot;,&quot;xoxo-686799852148-991015846949-505246160774-i8ybxaek90x5pujz8vgm3rqkfofi80b4&quot;,&quot;xoxo-427609063079-350102007983-501686800345-b3w3dllba8sx3yeh477wk1fzmffycybd&quot;,&quot;xoxo-565094974481-940220402852-715795881845-87pzjhdoi4g29yecco33n7aw3p55bx2a&quot;,&quot;xoxb-064379186352-012007169816-498519309381-0lja8v298s349568jeh2xby830lj2vu0&quot;],&quot;Square OAuth Secret&quot;:[&quot;sq0csp-_YqYQUVurhIjjjh3N_0Xwlxos-9I4-yxvz9ikHj5j91&quot;,&quot;sq0csp-nT_7q0ya3t-m1Yb-7BGrZbv6mT4113BuMNZbucsQ3TO&quot;,&quot;sq0csp-azjxEtqm8WdElEEtpCZKKP4HDmgv_RNC4azfwjtKQYD&quot;,&quot;sq0csp--Oh76d6upXBKqikYPv3bnz2EZ8XEOgbzY7PT34burYF&quot;,&quot;sq0csp-NJ128hXN2SBEL2C57HuHwaZQIyrsSV6WzpTQoG8yrX5&quot;,&quot;sq0csp-CU6p2fgf8YdX9QF4M6TCt0Y16UdC6zWm-AOlAUbQ1q6&quot;,&quot;sq0csp-Vjdbe9NNHDTCACBqWiPgdoQP7jno33le1qTjo2xYznI&quot;,&quot;sq0csp-9zFQoFbFvRFeAs0MTDXs1DwOb-7pZx_0BBW9-rcgc7t&quot;,&quot;sq0csp-RwbYsgzr1PQSX9Re5Q3XoDuf1XnRw01BrGOL4mucenI&quot;,&quot;sq0csp-DGwhy7ISwgwa6Ur8A3eIbJN05CH7NmbS57nAtQGD01s&quot;,&quot;sq0csp-4J8Tpvw_4lOxgnXcKhKWQQK2gdXvx_YP3SFg-dRzPp8&quot;,&quot;sq0csp-MxvpP87wUbOl-yXOEK03tFx5FsDchyES1KQQf_rYUaD&quot;,&quot;sq0csp-EbIl82IVf5OXlzxe-L5GEjDMcWcFkpb6V2ovvFQGLDl&quot;,&quot;sq0csp-nJVpFVrJcP-EKUAWk70c10_0ytwedD9sCwbrvokNPa6&quot;,&quot;sq0csp-Uvu7vvF7vPNSk9zQ7Dt-jHtCsFVVdUJcbEDmm6sxnpU&quot;,&quot;sq0csp-1yoCoasWm3fE_HHNG9oidLJ7IlAu8yoFyfjiaaOkmIw&quot;,&quot;sq0csp-kHDOp8Ms3Qie9paGN6vB5XTYVoMBwqHUFI5wwhWK45j&quot;,&quot;sq0csp-T4p6pRczU8ZHGQ8GUS5iSxzQR8u7d50sc8eGOOP3brN&quot;,&quot;sq0csp-sMWP-G8Osk-RgDgtv7bpAOGE-gD7Kxu3qzJbjNw8l7I&quot;,&quot;sq0csp-CovLBjdFhazH0x4QYisdPx_RtvDRxNMfScd3HBp6gnm&quot;],&quot;Google Cloud Platform OAuth&quot;:[&quot;7-s6Rcx0QIAKg3NsUAY9kYtsl9zUKcUjPp.apps.googleusercontent.com&quot;,&quot;13-73NX_BmR477BtGWRTz3r0GY1t3rsWBH0.apps.googleusercontent.com&quot;,&quot;26549585756-HWfi_wGdqhjJ0wrVwcxy5FMIA8fXoXq5.apps.googleusercontent.com&quot;,&quot;90481040243-WlWtSlHGbj_lIUtDkZVJgcdYKxe6suz_.apps.googleusercontent.com&quot;,&quot;9-ydnL6AJUZqV3HS0DZGWYWS6lSIELjf9i.apps.googleusercontent.com&quot;,&quot;048-lBVQ_aV9kT0V08nYaW65sLzGcGUlZvzc.apps.googleusercontent.com&quot;,&quot;786-Ruok0WaaOEUa9U8X1lEhYogVu9X5Nu4E.apps.googleusercontent.com&quot;,&quot;35759037-5DSGlPOOi1F6RB9HgK1fsuMfc55cY0uC.apps.googleusercontent.com&quot;,&quot;49-SoYHFgwtUvNDv6Ujc8gjbkmv6Lh_g1hW.apps.googleusercontent.com&quot;,&quot;93-yPkuzyF5wbXa_tZrLYTfgpt_m3KEfuD4.apps.googleusercontent.com&quot;,&quot;2049298476-hE8Z8rDGX_h716WHjpPD4dVlDIiT_iP6.apps.googleusercontent.com&quot;,&quot;2834-JnFrCraoTLGCfllHzreZW9DJN9K1vz3h.apps.googleusercontent.com&quot;,&quot;796381-sG5tKfBdRXs85wa23YXV63eaSG9iVzLa.apps.googleusercontent.com&quot;,&quot;049828171340-Ey2FzDB9ox9ZWeaY1BoEVwi_eRRv2f8V.apps.googleusercontent.com&quot;,&quot;25-W1BlLXwomwPLHbOZGL4UkTJ_8nAN0QJ5.apps.googleusercontent.com&quot;,&quot;9-fyTwQiYYkIsvHgASjvC8sIWzvIP3xx_o.apps.googleusercontent.com&quot;,&quot;2581781-HrWMnBhxix67lhABy3xGDr2eRK3ewK6m.apps.googleusercontent.com&quot;,&quot;38019-qPY4ThEN2PsHyXJWuDp7CRsYtWm2bnY2.apps.googleusercontent.com&quot;,&quot;18-3ncUNbtMo_WSQwzj2IBUYH4KQqwYz4J8.apps.googleusercontent.com&quot;,&quot;45809-8cvCbZPtyauVOayjEa83Zzg3jkdww5gd.apps.googleusercontent.com&quot;],&quot;Twilio API Key&quot;:[&quot;SK99cD8dCd36433a1F9647b5e4Fd2a28e1&quot;,&quot;SK1B7011F9FFbAe2E7C30cc11fF2c8edEC&quot;,&quot;SK32787Fe9c5F7CbA08cC10BE9ea19a3F6&quot;,&quot;SK0a9DDf68dEd0dbbf0aA018E6F23Dbebf&quot;,&quot;SK8B5FdCbbFE3f6494C5FF42be151407fa&quot;,&quot;SKEFE289EF7eD769b9E5f076CCCEBb2E9f&quot;,&quot;SKA282363dd041eAbb31b1a5eff01C76Ab&quot;,&quot;SKBDE78e93696C0DDFDaAA04fb4E99eBc3&quot;,&quot;SK2bceA903Fc37551d235FbaBC404bB90A&quot;,&quot;SKb5Bfa76e7f1DC0FEdFe48805cFCaf0Aa&quot;,&quot;SK13DFeDeDD489E640BC3310ac5c866Fd6&quot;,&quot;SKe9eA1F6C2fB76eddbf23facb5A2D8957&quot;,&quot;SK4fbbAc9afFDb22b703Bfb2E77F8Ca7c5&quot;,&quot;SKeBeBa7c2DFDDDEBa45E1CDD4B865F6dE&quot;,&quot;SKFBBBdFCeCcB2c4dfCD8F9D8fDbFdc4Ea&quot;,&quot;SK257A96DD99Fc2a8bE0dFBCcbDBdF6E93&quot;,&quot;SK30547E315fF6dBf646344aB56EA050a4&quot;,&quot;SKeCAe9cb7eB1FAbE0B7B0CDa20f11D650&quot;,&quot;SK4ed62b2B8Dd4634F6CBCDb7E8286f4fd&quot;,&quot;SKc52c2DE8beAbEEca919c04816D4BD1A2&quot;],&quot;Heroku API Key&quot;:[&quot;hEro|u򲄍𶎌񅛝򐄏򡂭􉞀𬫆򣼃󸎡61FC06FC-9061-EE41-42FA-18B3B55D6AF3&quot;,&quot;|ero|u85FA0FBC-CA83-ED17-B3CF-DA9CDED59FC3&quot;,&quot;Her|K|𘇵򈘬“󩹩򶙣򕶐A75C40C5-7912-A1E9-0CDB-FD3BE3B25A57&quot;,&quot;hE|O|u􁬞򌔣㬔􃖡𐫒󣝊𴀡񻯙񻰘񻇵򏘎𥁛2D13DDF7-FA54-A8E4-018E-D91F68ECECB2&quot;,&quot;HeRO|u񨺺420C66FE-F1A0-075B-9D7E-B2FAA05E8C55&quot;,&quot;H|ROku󠖃򺤌𙻅󊆕򆍎󹷵𐾓򀗄򴻅󼨸CA2BE5F3-F25C-29D2-3CC2-7A15BBC8AE40&quot;,&quot;|EROKU򨻏򾲍򽉀𖾜󖪾99720371-511D-0C6E-DA50-AB99E0429BAF&quot;,&quot;H||Oku򛈦򝸈񽭭򗼺񦯚𷹹C15BC68F-C3B7-1B42-BEAC-5FF0FF206E65&quot;,&quot;HE||Ku񽛖󁆘𜋶򌼝󰳩𡞉󏲔򣟼񇣨졈󐽛7FF15DB8-49D7-0040-61FC-05EE9A6464CB&quot;,&quot;hE|oKu󅬪򍛟􈉏𱢲𝌊񕈳📉𵍮񭹍򆰿퐓󗪱򹿗񿙒񳤉𡺚82E829DE-B575-387C-C0A9-C5F88D4CCFD7&quot;,&quot;hEroK|􊴅D9B30BB9-A205-28D9-E11A-2702F0014172&quot;,&quot;h|r|KU7F4F67AA-841A-AE82-9EE8-1057FC9B8B9A&quot;,&quot;||rOk|򧢨󮕥42894A9E-36EA-914E-FAC9-873218402352&quot;,&quot;heRo|U𥉔񣪆⻖󭖀28137A67-1ACC-E108-6F11-6EEE16AD0823&quot;,&quot;H|rokU􀩊󫖭򈾈򽜬򔡲AD11962B-66FE-3135-BF99-29224F820B90&quot;,&quot;hERo|U𶱍󻔢ᤷ򢡙񔭢򢡸㶎񨛃񧱒򂼍聅񥽗񘢕809C1B38-B9EF-0517-5EB8-824A25D30ADE&quot;,&quot;HErokU𙉜򭝪򂍞󟴗ɠ𽬦񵠉𢢃򂊇𴂌񫣣𑷗D8F3709F-227F-C1F6-A777-502AA31A066C&quot;,&quot;he||KU􈄤󏫢0E7C62C5-DA23-E27C-634F-62607A1E5F98&quot;,&quot;H|R|||CF294E1F-AAB2-2CAC-283A-BAE2646630CF&quot;,&quot;H|||k|4177CD34-1BB2-A569-9AAF-93E7F3E828CA&quot;],&quot;Facebook Access Token&quot;:[&quot;EAACEdEose0cBAR07&quot;,&quot;EAACEdEose0cBAPw&quot;,&quot;EAACEdEose0cBAv&quot;,&quot;EAACEdEose0cBA2OBzpfexA&quot;,&quot;EAACEdEose0cBAXwe05&quot;,&quot;EAACEdEose0cBAl4l93&quot;,&quot;EAACEdEose0cBAKqf9lcJsP79mwPJDdD&quot;,&quot;EAACEdEose0cBAs6JUVSpWm&quot;,&quot;EAACEdEose0cBAMh0KNxH&quot;,&quot;EAACEdEose0cBAI&quot;,&quot;EAACEdEose0cBAf&quot;,&quot;EAACEdEose0cBAqhorJhfv4ZYQmjrqOpj8&quot;,&quot;EAACEdEose0cBA2&quot;,&quot;EAACEdEose0cBAL&quot;,&quot;EAACEdEose0cBAJNFX6yKOWTvF&quot;,&quot;EAACEdEose0cBAvD6q5yVMwQ&quot;,&quot;EAACEdEose0cBARSM1&quot;,&quot;EAACEdEose0cBAAT7LIV&quot;,&quot;EAACEdEose0cBAS&quot;,&quot;EAACEdEose0cBAXwwVHsfAIFw&quot;],&quot;PayPal Braintree Access Token&quot;:[&quot;access_token$production$9qoecgmiee3rkwwi$36368bbee71cc992059cac53baf32eb2&quot;,&quot;access_token$production$1egxowg32kxm8c9q$4440b6876127c43d53b5e5cf87a4579e&quot;,&quot;access_token$production$ctvwwssnljk9fks8$4c947d9bda83943547ace4fa2cc9857a&quot;,&quot;access_token$production$h92pqtasv5gasky7$43e73480b7e521f92a92e9968332d3e2&quot;,&quot;access_token$production$sepaqno42pdb2uyb$c71d8959b073c67ffaee11b137f21e1d&quot;,&quot;access_token$production$2r446wwm63uxhn0j$0e4a68130659e3dab3940b13096319e6&quot;,&quot;access_token$production$suj7ymxh7hqoityb$658fd822b0edd2d502a441edc200c1ca&quot;,&quot;access_token$production$viu2wipl1jrrif6w$805a12c7d3db95901e9c14387cd0d08e&quot;,&quot;access_token$production$8mnu2b4cihjef30h$4262fbbcb41cccab3b9b77458e2b9ae2&quot;,&quot;access_token$production$8t4a0vtl6drrqdfh$1ec2895ef4eba937731752cb73f7a8ae&quot;,&quot;access_token$production$0sko41v4wm88kork$7589ff0d7163e8d3112bb160d87eacaf&quot;,&quot;access_token$production$t8su1klry1jgdkr7$c50f05ae485b03fa8ee621b091db417d&quot;,&quot;access_token$production$lfyhja0qjb1qo14i$d062ed353bb93c5016c2ab166095fc1f&quot;,&quot;access_token$production$9piuzl6bhbkzospj$d337ec7b6eb02b663bda32c4e25b8faa&quot;,&quot;access_token$production$f6a6mhaezzk1smfp$6b1e109aa9d20e1e3e5bcefbfbc856b2&quot;,&quot;access_token$production$h3l4jtbxp9tmyz28$9ce109e6b1cb9073f1e2b79bfdb9d438&quot;,&quot;access_token$production$xmkpauoklful2akc$bc985269cb7fe5f92eb90c724935af5e&quot;,&quot;access_token$production$tx8ssbiksc2pfvxc$a8c2ddbb992833ff20ac87e1333d50dd&quot;,&quot;access_token$production$x6mx1bp08j5v4uml$38d51c044afe868d73c2dcd15d1e7649&quot;,&quot;access_token$production$lnc7jbz388fqeh3j$6e90071d2ec287b736d5b991de0816d9&quot;],&quot;Password in URL&quot;:[&quot;lMI://񯤕󽳖񪁄񩞠񥾞𰟈񒌀󱫱񔢝:𒏴󑹄񏬈𳇔乺񢤍󄑰󸽨򏹨􉜁򢑛󑬀𞄐򑄾򸧈򘻻@􈿔񚺣񠽒𔆹∳􂥤򛈪񧜏򵾚񹽖􂡼겼򎾓򁼎􌸂񧳹񓾘򐲎򑒒󸤰󟌴􌵎􋏣񃊔򠚸񏣑񃭯󞁦𬶠􋻺󎚒񞌜򉽦𣢖񻟕򻦖􏑳󌝧𳐅󰯏󿣣󿞤򐧈񧃋񀓟򰁵𢒅񢬜󩀋򨤮𫅵񡿩򒉆𷛬𚇁񀕤󏫩񺃣򟩞ᥙ򺢛󪹟񚆟񍒍򄲮򱭕󈮶􈗶򢧱򯃀𫛇򤐌󗴀􄉮󯩽󎶫򐿩򏬇􏷕𧼒󒯩򯖺񗚂񅞦򚃲󛍳󣑥򚌞󯽶񗝗􏑼򬢎򡅺򨔣񏘌&#39;&quot;,&quot;RHjXS://򙹐旮񇒵񕂀򰼈𤲋󿝽򼬰􋷷:􃺿򙘂򔄢򏺌󄠃󤕖𬞘򴝞𚩙␱𐒈@񑷙񂪘󧔀𘎯𢆟񟊢􀜋򜄃󯜲򫋭󀆩񞦆𑠔󍒆󃀹𳅮򃘐򇎱򬓺󵸻􆓆𣍺𪀨翭򫘲򊭬񢱍񔍸󱻘񕠓􊬕򴍹㻃񯶼𙨣񖄅㯂󫍻󟈜𧲖򨊝򶇀󍗿򓘎󀲋𓝓񝺴򢮜􆖢𷶶𤴺𐅐򳄋򣕐򴕷򃠹󾆉씷񂆖󣫫򟠆򑜶󮰺򀮣򕗛򵧭󹳅\u000B&quot;,&quot;eQKvd://򱉒򣐆䑍𹲔񹧽󰕠󡛔򴲰󪤟񠑲𮗆󒨱:㕏􀤸񰞇򘶳󴾹􊏚򑶖􄱒@񦷼񐍨􇒃𔦔🞣򏡼󆇳񓗡󎋩󕌾񻬩𳲍񐔉𥌺󮙫􉎏򝕢񮑾񳚔\u000B&quot;,&quot;FWdoo://󯍮󶃿򭠱󼐋񫏪򑢫󍺡񯶣𞽊􄍓􇙽򮑴󁩺񰍘񲝁:󬖬񪈃𢤅򑏅񶽷򦏋󗫻𵁂򊑁㈱󗽏󷅜󲧮򕍵@⍹󾹦󕒥󱣄򧒶𝷼򷵚򧖚򜓺񰪪򰛗𔹟򉦙󨏂񶿁𼾑񘵺𾝴񒮓񦧁𕾈􈚛򱻹󉳲񛏣񯤒򳇐𾀷򵬔𤍏񀮉񟋠򬇹𢑓񘆌󱀹򪚙򱱜񰥉񨺇󬏒󅭱򔶰󻹅󫕅􄄟򅨗􃁑񏓰\t&quot;,&quot;BCYPcqKLs://􅹨󱮛󫺟򟰟󺉴񗱇󰤯򩇩󢼹򋀖򭢒񯓍񻔺󉐀񁊌:𥱋𖜁𷞋񘭔􈝜򀜿񀷞񽂵򔇫𭪄@򑩒󆕒𑦘򂢛񅕤𹂍󷩖񈘨𝾣󔬭𜆳􋲶􌧍剅􎖒񳔷򩼈򹭪𒿉񘠮󏶼󔆩󚎦𜦴򍇔񩳢􉌑񴈁퇝🯉󶉇񢡙􄄓򒊫󇺫򪮲񃑑􁬪𓾴󟨺򚳅𾳪􄾑󓱕󺭀񪩉񭑩񭬔𫸁󊶦񉽢󳥂󛉚󭞭񑱦򛼑򂥘󽧱𹙥򅕅󷔇𫃳򷋌󙑃򒺛򴡻񭉤󃉲񀄨󉢾󓇰󖈰󋴢􇤴󶲳𛻨񊹶󳢕񁳖󨢿򉶲򖆰𠸔핻𑝋񂷷𒴬󲐀􎀘􎉝\r&quot;,&quot;OFgItPxkov://𢍅򅆆ⱙ񓎸󧶚:򭫋򇙲񸖶㭰񲲔񺑓񍖄𲀓􍡶􈅒@򿀖񊫆򬇳񧹯𥇛󹦯󡭽󌠟򉑶񗩼𮁙󴽇򠚷唚𘰈𑶖𺟿񨭍򝡣񺥣󅦈񊐧𝈸񼘶󧰪􌅲􀹄񝹽󲯫􀹢󧕑򲷷󜆴󫨑򺂲񰮠𨽺𜽂񋢴񍄅􎶕񑟔򏀄󮓺򮍥􅼐󩪜񽯗𺈡󚫝񄽎򵦒򟉿򈲍񩻑񥬄򼇎򷪵󝩠𥿶袓񃵒􍆚􌃯򳅆򟍡񪠸򠱶򅱗򮽄󠇦𗌃󩋵󌨾񎡴򩀮񣅌􌗕󛌮􃺁𼾇Ⲧ򠛸񂠞󩶡򏋨󅇧󪈥􌘖񍾀򺹧񐽸󆪦󍬂󬆭󁱱̧󟘄𿾩\t&quot;,&quot;qNEjOttNl://򧢥𑆎􍩗򵃨񱡽򤘞𕺠񝋸嵥𭨪򻾋򯟔򃰞򜦽:򽬆񷽕𛖫񂄱󤿥@𢗓󋴿򡭠񆭧攳𾜨𑨘󽪰󧥦􊛅󞐈󞞆򄗴򑽼򟇏󁉪着񻟛𾣝󏛙􆕪񆳚򶟓𧆽񒭪񫩜 &quot;,&quot;OfJuQgv://𦏊񜃘񽖑񺆃񖻝󏝯񥩐𣺩󖤚󖃛𡔨򢉅󮭮򔑞񸩰􀱜򍝫󩹞𪛀򚣷:򜴬񖨇񎹸󸭬񇙒𗜰󋋖𯅜򠡌󲴌񫦳󉜫􏆩񙅴񏲽񇲂@󭅫񱙒𿵹񭖼󐚲󇏲𽢵񜠉񟐋񶍐򤫶󕣿񀗰򨠢𣙭򀋦𾝬򈢚򎠜􅢞򗶟拣񈍦󱊖򛒔殕󢎴𿆃󈌜󗖆󻊦󵸁𒥣򘊌\&quot;&quot;,&quot;EAq://𳄾󉜧񴵁󲘏󑳳򸃧󝌩򓹌𞿭􎂞򼠻:𰽛񉃽򔌼@𲌄򼤤𤨐𾞶񔆢󟡖𯪀􇲙񿅒񰻕񇫮𪩪񪂛𠁔򃿉񝝵򮢌􁅰񏾑򰵳񮣤򉄿🲽򙍧󀯼𨂬󃈌匓􌈠󥄾򛇘󏳓񨟫𜷪𰠘󩬹򹹺\&quot;&quot;,&quot;jbSl://⒀񚥺񻴇򠒐򸓽񔾹:󨪓𴀘󣩚𘏺򏖓@􊘗𼠖 &quot;,&quot;vJNRZdj://򿓲󷦃򣊉:󞑤􏭵񡝳񠶜󥅍򃟦򱉵􅊅󑮣𛢖@򤋅𗙯󊾗󊸐򺸺򦭪򎋟㶐󐾜🤡񏭝񜳾򲄀􎆠񥂈򹠃󴡾𦨥񽡛񚝵𐌐񸾍񙏚񺂃򻺸񅢦𸎬󩯔𔮟𰑺𮺷𧪛񾲗󜤳ᒣ񅞃򙱾򶰢򟸨𞣧󕦱񂭘𨕟򥡐󔖨򧡳􅙷󊡐&#39;&quot;,&quot;MasqRa://񇯳򖙡񰬥񒕽򑋓󴼧𲽔󍟮񷿺𒵙򹊐𣐙򱽜񝌯𾧨󉫈𸊣󩮖쭕򝊄:󊔄󃽋򩚉򱿸񌸢򗫪󪱐󙛟򷏶좗𯾙𺨈򊩿򸖴񚑗󅩺@񈘆󻄑񣹉􃦥讘򡶢ၐ􆱡񔺵򟸽񡀒𕕇󞖳𰖡񖾹󒑆񹰻񶀆񊐌󏑠񟚺񬪞񝃾𔏘𲿴򑩉󨌚󈪻𹈱񑅄󘄿򹈊򖏨󘜨避򾤳򦂑󭑕\u000B&quot;,&quot;upH://񌜩𹹐􏽪:𛟟󓩉􊢂𿞣񸉘󧳿𺔁򾹿𼐢󯧰𹇻@𒽾񾀋𠸹𷢿󐧘󱦚𭥐󏂶󛓏􏵴󛨠򨙠󽒗񫈭򥜇񵵻񃣮𴰧󱉜𷩅񬓛󾉥蛊ᠱ𓣥𪺝񂏳󰦰𳀉񭻵󜗄񚍪𼹵󜴑󑕀ᯁ󧥓􃄜􌑶嶷񭈟񶾗򅾺붏𽕕񝽀𤋶󋢾⠫󗭍󥪾󨴄󝚂􈜕񒨰\n&quot;,&quot;SfngCuD://񟺥򾁸򣱂󯽗:󩳉󼿹򨮻񢂔􌘀􆅀򛖺􄻸𼧒񃊚񮻛𽂔􀖃򚹿񌮾񙑃𵦌򒸯𑉲𔔃@蕬򌇴𼎣󝗖󡩛𿄒󌍩򺠉񪞸򑺼󍰁󂓈鏨񔜰 &quot;,&quot;MCbpzEc://󵍙𐶓񛉖򭾠𒒁󹖃𳯎󹪓񻯕𣰆:𫟷ᗡ񸓎򲁤򇗞𽡈򂉍򀖼򨙛𫚃􊀽@򛑏񭍒󡰤󖈷񀽟򙶖󭄙񨓀񅶦鶣򣂏􀌀񙞓󱼾􌊭󄸹󝐎򠋑񙡧ⳡ􌏲󬶛􅇾񼩓𧯆󶵼񔮇򪩕󐖎񈁄󻸑󲕐򩿷򙽹񬙉\u000B&quot;,&quot;KHTLetJE://𳥾񺞶򬂊𙚏𞴴򨰊񂏽󡁐:𶸊𱉳􅆕򹸜򺥦󛏸𿕼󄮙򮅁򦮗􌥻@򮸆𴮹󟯸󶒃򈔲󖋘򥃽𩈱𱰾򰗂󰺠𛩞򭈍󕲑鐰񰼓񪮺󕤐򀤸񓹩𮢬󵜑󭪺􆱔􂑒񜟵󠲸󊝆𜐓􂕤셫󃱴򢯚𾋲񆼤󢢭󉂽򶜏𮃚򇠈󻍔󲿣􄞎񬭼󯔾𰅘񿼛󡭻󽠽񩗌𶂜򽮴򐮛𷒨򸵪𾼎𭇳񼸡\f&quot;,&quot;jZxg://󵳽񂗶򧨦򞝁򣜠􇧨񏠓񁀽􇱫𔅺򟛛:򉾏񕵄򑬍򬊶񬁏񤇕䖅򈵲񄋲񾩷𜆶󫇡꼚󎤤򚧑𖓭𱙻򼇭򰴛򈍱@񋐼򦴍󦣻🀛𔙽􅾈򿆕􀗤򿱅񃥘𪂿򕂩􈁹򽀢᏷𨏀ᆢ󆽷󎱹􄪚񇝴򭳼񿍕񜸷򵊢𘡦󔠹򅀊񊺎󮇆􉟁񝦙񋣑󣓕񛚔񟃭򽗗𚆵򜝢󽳠𮒨񇘅򅌑󘳃񖭜򉈾󕖅񓗊𐃙󕎰ㆩ幂򈢳񀪱񞰧󰩖񾶎󯋣𨐃𝁈먪󐞞🋴򬻩񁎶󫛹󼀍򅗿𫄺񅑮𴼯􍙜򉴖򓥲񼄡𐰡󱋔\&quot;&quot;,&quot;FCCbbdTm://򢎗񌞺򘎁󑲩񰈨𩇯𩤍򲛸􄎥:󮏞򷞟񒺤򸇀񽕀򇧳@⟍񀥵񚀾󁅘򏳱󹃵󲆎򫭠󻉲󯝳򟹋񨩃򿀾򅫏𬗜񢘙򜄤􉰖뷛􇗼𭟫񥹵񉓊󠼖􅤎廫𒕯񲯩񏻯񈣦􍒬񦗑僒⡼𢢯񘕺򹣅񿲡򦍥񧛿􉜡򼍑󅦓򾰖񒒡񜪇򅯜𴧹𴦷\u000B&quot;,&quot;jLxF://􃧋񎯿򨚾󝫝:򟽟򗒗􊯗􍏱񝕟񧯤񔐝􁮊򍄠񄃮𛶸󾄘𧓦@𹱏򽫅􈟻򞚛󍂣􈗙򳳜𗰤򸿎𕣤􎻍򋦒𶔦􆚬򛽚򠕬򺿤𼯌𕠛𑓒𙍄򊉚򕖓򄎱􈝃󰴽񭲉𾶿𩼪󈰯𓣮񿝮񍈨񃔁𪃀󦖳򲰧񭙭󸟳󭫍𬷫򆼫堃𣻢򸥃򰔟򧂈𻲰𽔬񲼻񋸘󜖑󏔺&#39;&quot;,&quot;tVLHV://񫵗񰶩𸽠󆑮񪳛ⷕ𼯍򆌂򿘥򖅔󚡱񿞝񏿃񍆫񬜱𴨕򠉣򉍺釵:񽏈򢻉񹻩򿅡󂡔𩡨񺢥񳞤򓴿󋭚򜗛􅀦򁂡蜾􋁕񨉕󿆰𓖝󏩙󂚝@򴒡񰙝񌳩񳗮񓪋򿀓󧾎򒙧񕢟򕛀򔕪񝮄򣡫񫾞񐇒񉛆𫂯󄩼􏏢𙩺񉕊񤫩񸺭󇪢򚶇񪲀񧲖󂨳𞂸󗖿⎖𞵞􃎿񗮜񷛤񐠼󴢂򷗎颜𱥖麃򣼚􊝉񄏳ꈩ񎸄򿒜𑠿󫿒󁾘񠈵񌪶𪏋󅬾򨟲󭻠𒷨񮃅󜥳\n&quot;],&quot;Google OAuth Access Token&quot;:[&quot;ya29.31&quot;,&quot;ya29.UewwaouQ9pOeHC&quot;,&quot;ya29.O7&quot;,&quot;ya29.Els5T57-3&quot;,&quot;ya29.cU_&quot;,&quot;ya29.EhD9YdF&quot;,&quot;ya29.i9&quot;,&quot;ya29.k5G0f-YaZ&quot;,&quot;ya29.KEa_C&quot;,&quot;ya29.yDMcW2LTV&quot;,&quot;ya29.cR-zqnFWe7IkxojZ&quot;,&quot;ya29.g&quot;,&quot;ya29.BA&quot;,&quot;ya29.yrxqXw0CzG&quot;,&quot;ya29.8ElKM&quot;,&quot;ya29.4hE3Ly9F&quot;,&quot;ya29.u&quot;,&quot;ya29.xoU&quot;,&quot;ya29.yffq&quot;,&quot;ya29.3xghzzc3u&quot;]}</td>
+        </tr>
+  </table>
+</div>
+
+  <details class="details-reset details-overlay BlobToolbar position-absolute js-file-line-actions dropdown d-none" aria-hidden="true">
+    <summary class="btn-octicon ml-0 px-2 p-0 color-bg-default border color-border-default rounded-2" aria-label="Inline file action toolbar">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-kebab-horizontal">
+    <path d="M8 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3ZM1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm13 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"></path>
+</svg>
+    </summary>
+    <details-menu>
+
+      <ul class="BlobToolbar-dropdown dropdown-menu dropdown-menu-se ml-2 mt-2"
+      style="width:185px"
+      >
+        <li>
+          <clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-lines" style="cursor:pointer;" aria-label="Copy lines">
+            Copy lines
+          </clipboard-copy>
+        </li>
+        <li>
+          <clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-permalink" style="cursor:pointer;" aria-label="Copy permalink">
+            Copy permalink
+          </clipboard-copy>
+        </li>
+        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/lvh/regen/blame/d41d6b9be6de450eeb3f21ca4bac0e8b1a88c645/dev-resources/samples.json">View git blame</a></li>
+          <li><a class="dropdown-item" id="js-new-issue" role="menuitem" href="/lvh/regen/issues/new">Reference in new issue</a></li>
+      </ul>
+    </details-menu>
+  </details>
+
+    </div>
+
+    </div>
+
+
+  
+
+  <details class="details-reset details-overlay details-overlay-dark" id="jumpto-line-details-dialog">
+    <summary data-hotkey="l" aria-label="Jump to line"></summary>
+    <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast linejump overflow-hidden" aria-label="Jump to line">
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-jump-to-line-form Box-body d-flex" data-turbo="false" action="" accept-charset="UTF-8" method="get">
+        <input class="form-control flex-auto mr-3 linejump-input js-jump-to-line-field" type="text" placeholder="Jump to line&hellip;" aria-label="Jump to line" autofocus>
+          <button data-close-dialog="" type="submit" data-view-component="true" class="btn">    Go
+</button>
+</form>    </details-dialog>
+  </details>
+
+
+
+</div>
+
+  </div>
+
+
+  </div>
+
+</turbo-frame>
+
+
+    </main>
+  </div>
+
+  </div>
+
+          <footer class="footer width-full container-xl p-responsive" role="contentinfo">
+  <h2 class='sr-only'>Footer</h2>
+
+  <div class="position-relative d-flex flex-items-center pb-2 f6 color-fg-muted border-top color-border-muted flex-column-reverse flex-lg-row flex-wrap flex-lg-nowrap mt-6 pt-6">
+    <div class="list-style-none d-flex flex-wrap col-0 col-lg-2 flex-justify-start flex-lg-justify-between mb-2 mb-lg-0">
+      <div class="mt-2 mt-lg-0 d-flex flex-items-center">
+        <a aria-label="Homepage" title="GitHub" class="footer-octicon mr-2" href="https://github.com">
+          <svg aria-hidden="true" height="24" viewBox="0 0 16 16" version="1.1" width="24" data-view-component="true" class="octicon octicon-mark-github">
+    <path d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"></path>
+</svg>
+</a>        <span>
+        &copy; 2023 GitHub, Inc.
+        </span>
+      </div>
+    </div>
+
+    <nav aria-label='footer' class="col-12 col-lg-8">
+      <h3 class='sr-only' id='sr-footer-heading'>Footer navigation</h3>
+      <ul class="list-style-none d-flex flex-wrap col-12 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0" aria-labelledby='sr-footer-heading'>
+          <li class="mr-3 mr-lg-0"><a href="https://docs.github.com/site-policy/github-terms/github-terms-of-service" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to terms&quot;,&quot;label&quot;:&quot;text:terms&quot;}">Terms</a></li>
+          <li class="mr-3 mr-lg-0"><a href="https://docs.github.com/site-policy/privacy-policies/github-privacy-statement" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to privacy&quot;,&quot;label&quot;:&quot;text:privacy&quot;}">Privacy</a></li>
+          <li class="mr-3 mr-lg-0"><a data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to security&quot;,&quot;label&quot;:&quot;text:security&quot;}" href="https://github.com/security">Security</a></li>
+          <li class="mr-3 mr-lg-0"><a href="https://www.githubstatus.com/" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to status&quot;,&quot;label&quot;:&quot;text:status&quot;}">Status</a></li>
+          <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to help, text:Docs" href="https://docs.github.com">Docs</a></li>
+          <li class="mr-3 mr-lg-0"><a href="https://support.github.com?tags=dotcom-footer" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to contact&quot;,&quot;label&quot;:&quot;text:contact&quot;}">Contact GitHub</a></li>
+          <li class="mr-3 mr-lg-0"><a href="https://github.com/pricing" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to Pricing&quot;,&quot;label&quot;:&quot;text:Pricing&quot;}">Pricing</a></li>
+        <li class="mr-3 mr-lg-0"><a href="https://docs.github.com" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to api&quot;,&quot;label&quot;:&quot;text:api&quot;}">API</a></li>
+        <li class="mr-3 mr-lg-0"><a href="https://services.github.com" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to training&quot;,&quot;label&quot;:&quot;text:training&quot;}">Training</a></li>
+          <li class="mr-3 mr-lg-0"><a href="https://github.blog" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to blog&quot;,&quot;label&quot;:&quot;text:blog&quot;}">Blog</a></li>
+          <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 color-fg-muted"></span>
+  </div>
+</footer>
+
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error" hidden>
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
+    <path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
+</svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+    <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
+</svg>
+    </button>
+    You can’t perform that action at this time.
+  </div>
+
+  <div class="js-stale-session-flash flash flash-warn flash-banner" hidden
+    >
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
+    <path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
+</svg>
+    <span class="js-stale-session-flash-signed-in" hidden>You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="js-stale-session-flash-signed-out" hidden>You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+    <template id="site-details-dialog">
+  <details class="details-reset details-overlay details-overlay-dark lh-default color-fg-default hx_rsm" open>
+    <summary role="button" aria-label="Close dialog"></summary>
+    <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast hx_rsm-dialog hx_rsm-modal">
+      <button class="Box-btn-octicon m-0 btn-octicon position-absolute right-0 top-0" type="button" aria-label="Close dialog" data-close-dialog>
+        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+    <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
+</svg>
+      </button>
+      <div class="octocat-spinner my-6 js-details-dialog-spinner"></div>
+    </details-dialog>
+  </details>
+</template>
+
+    <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box color-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+    <template id="snippet-clipboard-copy-button">
+  <div class="zeroclipboard-container position-absolute right-0 top-0">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn js-clipboard-copy m-2 p-0 tooltipped-no-delay" data-copy-feedback="Copied!" data-tooltip-direction="w">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon m-2">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none m-2">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div>
+</template>
+
+
+
+
+    </div>
+
+    <div id="js-global-screen-reader-notice" class="sr-only" aria-live="polite" ></div>
+  </body>
+</html>
+
